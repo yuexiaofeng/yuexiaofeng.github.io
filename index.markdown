@@ -5,5 +5,4 @@
 layout: home
 ---
 
-
-Test home
+My Random Rambles
