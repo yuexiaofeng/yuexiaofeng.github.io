@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Greed... Is Good - A Tale of Github Pages Migration"
+title: "Greed... Is Good - A Tale of GitHub Pages Migration"
 author: "Xiaofeng"
 tags: [Tech]
 ---
@@ -15,7 +15,7 @@ I jotted down some basic steps for this migration, and I have to say, it's prett
 
 ## Create Your GitHub Pages Site 
 
-It's pretty well [documented](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on Github. Very painless setup, make sure that your name matches your username. 
+It's pretty well [documented](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on GitHub. Very painless setup, make sure that your name matches your username. 
 
 After your repo is set up, clone to your local computer for further devs. 
 
@@ -39,11 +39,11 @@ I was very pleased with the rich markdown support by Jekyll. You can edit the po
 
 GitHub Pages has continuous integration (CI) and delopyment (CD) now. All your have to do is configuring which branch triggers it. Deployment, aka publishing, is as simple as a `git push`. But be a pro, set up a local `dev` branch for drafts and experimental features. Maybe even a `hotfix` branch to hotfix things if you want to be hardcore! 
 
-## Add Custom Domain on Github Pages 
+## Add Custom Domain on GitHub Pages 
 
 This is the final piece of the puzzle, and it can be a bit tricky. 
 
-There's a great read by GitHub [docs](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages), but alternatively, you can just get away with adding a `CNAME` file in your aforementioned site repo, with nothing but your domain, e.g. example.com, in the file. Push it to Github and wait for it to take effect. 
+There's a great read by GitHub [docs](https://docs.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages), but alternatively, you can just get away with adding a `CNAME` file in your aforementioned site repo, with nothing but your domain, e.g. example.com, in the file. Push it to GitHub and wait for it to take effect. 
 
 Now, you want to go to your domain provider's admin page, and play with the DNS settings as specified in same doc link in last paragraph. For me, since I used GoDaddy, it doesn't seem `CNAME @` addition was allowed, so I ping'ed github.io and added the IP to `A @` record. Let's hope that IP won't be changed by GitHub soon. 
 
@@ -54,7 +54,7 @@ It's hard to get around without HTTPS nowadays. But worry not, GitHub has our ba
 
 ## Conclusion 
 
-Back in the good old days, all these fancy HTTPS, hosting and site management, aint that intuitive, or.. free for that matter. So I'm truly impressed with this smooth Github Pages migration exprience, and of course, their generosity. I can maybe splurge the $$$ saved on hosting on some other things. :D 
+Back in the good old days, all these fancy HTTPS, hosting and site management, aint that intuitive, or.. free for that matter. So I'm truly impressed with this smooth GitHub Pages migration exprience, and of course, their generosity. I can maybe splurge the $$$ saved on hosting on some other things. :D 
 
 When it comes to build a site, I'd agree with Mr. Gekko here: there's nothing to be ashamed to be a greedy cheapskate - go nuts with the free resources. Big thanks to the hardwork of open source community contributors; they're truly the lynchpin of our modern society! 
 
