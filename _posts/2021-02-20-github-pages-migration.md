@@ -5,17 +5,17 @@ author: "Xiaofeng"
 tags: [Tech]
 ---
 
-In the great movie [Wall Street (1987)](https://www.imdb.com/title/tt0094291/), Mr. Gekko said the famous quote: 
+In the great movie [Wall Street (1987)](https://www.imdb.com/title/tt0094291/), Mr. Gekko said the following famous quote: 
 
 > Greed, for lack of a better word, is good.
 
-Since I went with GoDaddy instead of Namecheap to get this domain, it'd be a crime to pay another dime for hosting eh? Luckily, nowadays there're free hosting services available, from vendors like GitHub and GitLab. Out of complete 100% objectivity (has nothing to do with me currently working for Microsoft), I decided to try on GitHub Pages. :)  
+Since I went with GoDaddy instead of Namecheap to get this domain, it'd be a crime to pay another dime for hosting eh? Luckily, nowadays there're free and decent hosting services available, from vendors like GitHub and GitLab. Out of complete 100% objectivity (has nothing to do with me currently working for Microsoft), I decided to try on GitHub Pages. :)  
 
 I jotted down some basic steps for this migration, and I have to say, it's pretty neat. 
 
 ## Create Your GitHub Pages Site 
 
-It's pretty well [documented](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on GitHub. Very painless setup, make sure that your name matches your username. 
+It's pretty well [documented](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site) on GitHub. Very painless setup, make sure that your site repo name matches your username. 
 
 After your repo is set up, clone to your local computer for further devs. 
 
