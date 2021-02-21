@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Well, there is a first time for everything"
+title: "Well, There Is A First Time for Everything"
 author: "Xiaofeng"
 tags: [Random, Tech]
 ---
