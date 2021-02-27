@@ -7,11 +7,11 @@ tags: [Random, Book]
 
 > It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
 
-Couldn’t find a more fitting quote than what Dickens put in A Tale of Two Cities, to describe what had gone down in the past 12 months. As the day of ~~WTF~~ WFH one year anniversary approaches, I felt compelled to write down something. I think I’ll ramble more than just work though.
+Couldn’t find a more fitting quote than what Dickens put in A Tale of Two Cities, to describe what had gone down in the past 12 months. As the day of one year ~~WTF~~ WFH anniversary approaches, I felt compelled to write down something. I think I’ll ramble more than just work though.
 
 ## So It Begins
 
-It was a Friday in early to mid-March, 2020. I specifically remember that I wasn’t feeling well that day and was sent home early to rest (not covid though, according to the good doctors at St. Paul’s). Shortly after I got home, Teams notifications went off and my friends asked me to check my inbox. There I found CEO’s email asking everyone to work from home (WFH) until further notice, starting the following Monday. In retrospect, there were probably some other announcements from provincial authorities too, emergency declaration or something. But I can’t recall exactly.
+It was a Friday in early to mid-March, 2020. I specifically remember that I wasn’t feeling well that day and was sent home early to rest (not covid though, according to the good doctors at St. Paul’s). Shortly after I got home, Teams notifications went off and my friends asked me to check my inbox. There I found CEO’s email asking everyone to work from home (WFH) until further notice, starting the following Monday. In retrospect, around the same time there were probably some other announcements from provincial authorities too, emergency declaration or something - but I can’t recall exactly.
 
 `Until further notice`, that phrase had immediately struck me with a tiny bit of panic. I called my brother and we decided to go buy some necessities. Evidently a lot of other people thought the same too. The Costco lines snaked all the way down to the parking lot; people were raiding shelves. No pastas at Safeway - in fact, the entire aisles were empty. I went panic shopping at different stores, and bought perhaps weeks' worth of groceries. Never had 600+ dollar grocery bills before, especially since I was living by myself. Oddly, the most coveted goods was.. TP! I guess personal hygiene is kinda important here then. 
 
