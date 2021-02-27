@@ -29,7 +29,7 @@ I had WFH’ed before, but never “until further notice”.
 
 It was little difference to begin with though. The nature of our line of work makes our jobs remote friendly. VPN was set up successfully, so were all the other needful toolings. 
 
-At home, I have an IKEA electric standing desk, big screen**s**, all the bells and whistles, and even got a mighty Filco wireless mechanic keyboard recently. My home office, is pretty state of the art I’d say. At least on the hardware side. 
+At home, I have an IKEA electric standing desk, big screen**s**, all the bells and whistles, and even got a mighty Filco wireless mechanical keyboard recently. My home office, is pretty state of the art I’d say. At least on the hardware side. 
 
 ![home_office](../assets/images/20210226/home_office.jpg)
 
