@@ -58,6 +58,6 @@ Back in the good old days, all these fancy HTTPS, hosting and site management, a
 
 When it comes to build a site, I'd agree with Mr. Gekko here: there's nothing to be ashamed to be a greedy cheapskate - go nuts with the free resources. Big thanks to the hardwork of open source community contributors; they're truly the lynchpin of our modern society! 
 
-And.., a little patience goes a long way too. When you're tweaking stuff, you're bound to be frustrated with minor hiccups here and there. But Google is your friend. :) 
+And.., a little patience goes a long way too. When you're tweaking stuff, you're bound to be frustrated with minor hiccups here and there. But ~~Google~~ Bing is your friend. :) 
 
 
