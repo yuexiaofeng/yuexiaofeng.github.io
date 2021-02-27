@@ -45,7 +45,7 @@ As for my work at Microsoft, it’s quite different, as we all know it’s a ver
 
 The most impactful event to me, however, wasn’t the pandemic. It was late June, when my wife joined me from China. We had been planning on a landing date of early 2020 but then the pandemic happened. We had the choice to extend her visa indefinitely but she felt it might be better to get here sooner given the uncertainties on so many things. It was incredibly brave of her to travel in such times and I’m deeply grateful and happy that she did so. Otherwise I was one time seriously considering going back to China for a while. 
 
-We did the 14-day isolation at home despite neither of us had any symptoms. It aint half bad actually. I had the fridge fully stocked before her arrival. My managers Harman and Frank sent a heart-warming welcome basket, full of "sweets" - it was very kind of them. There were also grocery delivery services available - I think it was T&T who delivered the seasonal spot prawns just in time. 
+We did the 14-day isolation at home despite neither of us had any symptoms. It aint half bad actually. I had the fridge fully stocked before her arrival. My managers Harman and Frank sent us a heart-warming welcome basket, full of "sweets" - it was very kind of them. There were also grocery delivery services available - I think it was T&T who delivered the seasonal spot prawns just in time. 
 
 It was the beginning of summer, not too hot, not too cold, just about right. We enjoyed wines, books and home theatres in the evenings. Good times. 
 ![wine](../assets/images/20210226/wine.jpg) 
@@ -85,9 +85,9 @@ Aside from those, I watched lots of good movies and documentaries. Recently, as 
 
 I am happy to say that I've finished three whole books already in January and February:
 
-* Atomic Habits by James Clear 
-* Olive Kitteridge by Elizabeth Strout. It was so good that HBO also made a namesake [miniseries](https://www.imdb.com/title/tt3012698/) starred by the renowned Frances McDormand
-* Olive Again, the sequel of Olive Kitteridge by the same author 
+* *Atomic Habits*, by James Clear 
+* *Olive Kitteridge*, by Elizabeth Strout. It was so good that HBO also made a namesake [miniseries](https://www.imdb.com/title/tt3012698/) starred by the renowned Frances McDormand
+* *Olive Again*, the sequel of *Olive Kitteridge* by the same author 
 
 Reading more books had forced me to cut down screen time too. I think this would be a really good habit, and I shall carry on to the next items on my to_read list.
 
