@@ -70,9 +70,11 @@ Despite the occasional losses of “freedom”, I’m over the moon that she joi
 
 Since the commuting between office and home had never been faster, I actually had more after hours, than ever.
 
-Unfortunately traveling or other outdoor activities weren’t always available, neither were the social gatherings in general.
+Unfortunately traveling or other outdoor activities weren’t always available, neither were the social gatherings in general. But we were still able to e-hang out with family, friends and coworkers - Jackbox, Among Us, and online poker were fun! 
 
-But we managed to sneak out every once in a while, socially distanced of course. My buddy Alex even drove a small group of us with his 4wd to hike the Mt Cheam. It was **not** an easy hike but the views totes justified! 
+We also managed to sneak out every once in a while, socially distanced of course. In addition to the walkable attractions, we also visited nearby ones like Lighthouse, Deer Lake, Cypress, and Cleveland Dam, etc.
+
+My buddy Alex even drove a small group of us with his 4wd to hike the Mt Cheam. It was **not** an easy hike but the views totes justified! 
 
 ![cheam1](../assets/images/20210226/cheam1.jpg)
 ![cheam2](../assets/images/20210226/cheam2.jpg)
