@@ -7,7 +7,7 @@ tags: [Random, Book]
 
 > It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
 
-Couldn’t find a more fitting quote than what Dickens put in A Tale of Two Cities, to describe what had gone down in the past 12 months. As the day of one year ~~WTF~~ WFH anniversary approaches, I felt compelled to write down something. I think I’ll ramble more than just work though.
+Couldn’t find a more fitting quote than what Dickens put in A Tale of Two Cities, to describe what had gone down in the past 12 months. As the day of one year ~~WTF~~ WFH[^fn1] anniversary approaches, I felt compelled to write down something. I think I’ll ramble more than just work though.
 
 ## So It Begins
 
@@ -15,7 +15,7 @@ It was a Friday in early to mid-March, 2020. I specifically remember that I wasn
 
 `Until further notice`, that phrase had immediately struck me with a tiny bit of panic. I called my brother and we decided to go buy some necessities. Evidently a lot of other people thought the same too. The Costco lines snaked all the way down to the parking lot; people were raiding shelves. No pastas at Safeway - in fact, the entire aisles were empty. I went panic shopping at different stores, and bought perhaps weeks' worth of groceries. Never had 600+ dollar grocery bills before, especially since I was living by myself. Oddly, the most coveted goods was.. TP! I guess personal hygiene is kinda important here then. 
 
-![safeway_pasta](../assets/images/20210226/safeway_pasta.jpg)
+![safeway_pasta](../assets/images/20210228/safeway_pasta.jpg)
 
 ## The Mask Situation 
 
@@ -31,7 +31,7 @@ It was little difference to begin with though. The nature of our line of work ma
 
 At home, I have an IKEA electric standing desk, big screen**s**, all the bells and whistles, and even got a mighty Filco wireless mechanical keyboard recently. My home office, is pretty state of the art I’d say. At least on the hardware side. 
 
-![home_office](../assets/images/20210226/home_office.jpg)
+![home_office](../assets/images/20210228/home_office.jpg)
 
 Can still work and produce same as working in the office. But I did notice the number of online meetings grew significantly - back when we were in the office, what used to be a quick 5-min conversation in the conference room now easily became a 15 to 30 long meeting. Moreover, sometimes Teams would drive my computer fans crazy, so much so that I had to turn the camera off. There were a lot classic catchphrases like “oh sorry you go first”, “I think you’re muted”, and “can everyone hear me?”, etc etc. Our PM Frank was quite the GIF guru who would constantly send witty gifs and emotions to our chat group. It was hilarious.
 
@@ -48,19 +48,19 @@ The most impactful event to me, however, wasn’t the pandemic. It was late June
 We did the two-week isolation at home despite neither of us had any symptoms. It aint half bad actually. I had the fridge fully stocked before her arrival. My managers Harman and Frank sent us a heart-warming welcome basket, full of "sweets" - it was very kind of them. There were also grocery delivery services available - I think it was T&T who delivered the seasonal spot prawns just in time. 
 
 It was the beginning of summer, not too hot, not too cold, just about right. We enjoyed wines, books and home theatres in the evenings. Good times. 
-![wine](../assets/images/20210226/wine.jpg) 
+![wine](../assets/images/20210228/wine.jpg) 
 
 As soon as the isolation was over, we did some socially-distanced and mask-wearing downtown sightseeing, such as Steam Clock (why is that even an attraction?!), Canada Place, Stanley, Sunset Beach, all by foot since we live in Kits. I remember one day we walked 17km straight! That gal sure can walk! 
-![canada_place](../assets/images/20210226/canada_place.jpg)
+![canada_place](../assets/images/20210228/canada_place.jpg)
 
 As promised, I also took her to the one and only Steveston Pizza Company. It burnt a hole in my wallet but the pizza was actually pretty tasty. 
-![pizza](../assets/images/20210226/pizza.jpg)
+![pizza](../assets/images/20210228/pizza.jpg)
 
 Her arrival really brought life to the house. She’s a fantastic chef. Not to draw any conclusions, but I gained quite a few pounds recently - not exactly something I’m proud of and it has taken a toll on my BP and general health. :(  
 
-![bbq](../assets/images/20210226/bbq.jpg)
-![chicken](../assets/images/20210226/chicken.jpg)
-![bun](../assets/images/20210226/bun.jpg)
+![bbq](../assets/images/20210228/bbq.jpg)
+![chicken](../assets/images/20210228/chicken.jpg)
+![bun](../assets/images/20210228/bun.jpg)
 
 At the House of Yue, we govern by democracy - everyone’s voice must be heard. When it comes to decision making, the process is straightforward: if we share the same opinion, then great, we’ll go with mine; otherwise most likely hers prevails. That said, there’re lots of conversations going on like: “no, we don’t need a drone”, “yes, the dishes have to be done pronto”, “eat your breakfast!”. :D 
 
@@ -70,19 +70,19 @@ Despite the occasional losses of “freedom”, I’m over the moon that she joi
 
 Since the commuting between office and home had never been faster, I actually had more after hours, than ever.
 
-Unfortunately traveling or other outdoor activities weren’t always available, neither were the social gatherings in general. But we were still able to e-hang out with family, friends and coworkers - Jackbox, Among Us, and online poker were fun! 
+Unfortunately traveling or other outdoor activities weren’t always available, neither were the social gatherings in general. But we were still able to e-hang out with family, friends and coworkers - Jackbox, Among Us, and online poker[^fn2] were fun! 
 
 We also managed to sneak out every once in a while, socially distanced of course. In addition to the walkable attractions, we also visited nearby ones like Lighthouse, Deer Lake, Cypress, and Cleveland Dam, etc.
 
 My buddy Alex even drove a small group of us with his 4wd to hike the Mt Cheam. It was **not** an easy hike but the views totes justified! 
 
-![cheam1](../assets/images/20210226/cheam1.jpg)
-![cheam2](../assets/images/20210226/cheam2.jpg)
-![cheam3](../assets/images/20210226/cheam3.jpg)
+![cheam1](../assets/images/20210228/cheam1.jpg)
+![cheam2](../assets/images/20210228/cheam2.jpg)
+![cheam3](../assets/images/20210228/cheam3.jpg)
 
 Oh, on the way up, we also found an upside down abandoned truck on the bumpy logging road's curb. There's a chance it might still be there today!
 
-![truck](../assets/images/20210226/truck.jpg)
+![truck](../assets/images/20210228/truck.jpg)
 Aside from those, I watched lots of good movies and documentaries. Recently, as part of my New Year’s resolution, I pledged to become a reader and read more books and so I did! 
 
 I am happy to say that I've finished three whole books already in January and February:
@@ -117,4 +117,10 @@ beauty and terror.
 Just keep going. 
 No feeling is final.
 ``` 
+![mtwugong](../assets/images/20210228/mtwugong.jpg)
 
+---
+
+
+[^fn1]: WFH = **W**ork **F**rom **H**ome. Also, in case you don't know, I think WTF means **W**elcome **T**o **F**acebook, which I don't really use. :D 
+[^fn2]: The Chinese social platform WeChat, now a super app capable of way beyond its original chatting functionalities, has these so-called mini-programs that serves as addons. That is, with zero setup, you can do a lot other things via these mini-programs, such as playing games online with your existing WeChat contacts, be it Mahjong or Poker. 
