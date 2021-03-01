@@ -122,5 +122,5 @@ No feeling is final.
 ---
 
 
-[^fn1]: WFH = **W**ork **F**rom **H**ome. Also, in case you did't know, I think WTF probably means **W**elcome **T**o **F**acebook. :D 
+[^fn1]: WFH = **W**ork **F**rom **H**ome. Also, in case you didn't know, I think WTF probably means **W**elcome **T**o **F**acebook. :D 
 [^fn2]: The Chinese social platform WeChat, now a super app capable of way beyond its original chatting functionalities, has these so-called mini-programs that serves as addons. That is, with zero setup, you can do a lot other things via these mini-programs, such as playing games online with your existing WeChat contacts, be it Mahjong or Poker. 
