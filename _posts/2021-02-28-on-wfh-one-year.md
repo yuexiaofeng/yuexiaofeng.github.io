@@ -56,7 +56,7 @@ As soon as the isolation was over, we did some socially-distanced and mask-weari
 As promised, I also took her to the one and only Steveston Pizza Company. It burnt a hole in my wallet but the pizza was actually pretty tasty. 
 ![pizza](../assets/images/20210228/pizza.jpg)
 
-Her arrival really brought life to the house. She’s a fantastic chef. Not to draw any conclusions, but I gained quite a few pounds recently - not exactly something I’m proud of and it has taken a toll on my BP and general health. :(  
+Her arrival really brought life to the house. She’s a fantastic chef: steak, ribs (lots of them), lamb, wings, dumplings, seafood, you name it.. She also enjoys experimenting the video recipes from social medias like TikTok and Weibo. Not to draw any conclusions, but I gained quite a few pounds recently - not exactly something I’m proud of and it has taken a toll on my BP and general health. :(  
 
 ![bbq](../assets/images/20210228/bbq.jpg)
 ![chicken](../assets/images/20210228/chicken.jpg)
