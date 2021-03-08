@@ -59,7 +59,7 @@ Always go after the biggest bully in your todo list. Sometimes it helps if you h
 
 ## The Power of Deadline and Flow State 
 
-I recently read a funny [article](https://www.abc.net.au/radionational/programs/archived/booksandarts/melbourne-jail/4322338) (probably not news any more). It's called ‘Cells for Writers’ project, which was designed to assist the Melbourne writing community by offering spaces to writers to work uninterrupted on their manuscripts. I laughed out aloud - writers who fight with deadlines could really use such a quiet place with no distractions! 
+I recently read a funny [article](https://www.abc.net.au/radionational/programs/archived/booksandarts/melbourne-jail/4322338) (probably not news any more). It's called ‘Cells for Writers’ project, which was designed to assist the Melbourne writing community by offering spaces to writers to work uninterrupted on their manuscripts. I laughed out aloud - procrastinating writers who fight with deadlines could really use such a quiet place with no distractions! 
 
 That's the power of deadline right there. When people are given hard deadlines, they tend to be extremely efficient. 
 
