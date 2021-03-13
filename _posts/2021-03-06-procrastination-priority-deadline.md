@@ -34,7 +34,7 @@ I recently learnt this too. In his book *Essentialism*, Greg McKeown mentioned:
 
 > The word priority came into the English language in the 1400s. It was singular. It meant the very first or prior thing. It stayed singular for the next five hundred years. Only in the 1900s did we pluralize the term and start talking about priorities. Illogically, we reasoned that by changing the word we could bend reality. Somehow we would now be able to have multiple “first” things.
 
-I can't agree with Greg more on this. Whenever asked about multi-tasking, I always reference a programmer inside joke: "I can multi-task for sure, just like CPython!" (Cuz CPython has a Global Interpreter Lock that essentially limited threading to one at a time). Context switching is hard. I always think juggling between different matters at the same time is an urban myth. It's good enough if we can get one things done well at a time! 
+I can't agree with Greg more on this. Whenever asked about multi-tasking, I always reference a programmer inside joke: "I can multi-task for sure, just like CPython!" (Cuz CPython has a Global Interpreter Lock that essentially limited threading to one at a time). Context switching is hard. I always think juggling between different matters at the same time is an urban myth. It's good enough if we can get one thing done well at a time! 
 
 There're many ways of prioritizing work. I have learnt The Eisenhower Matrix, since my very first job. It categorizes your todo things into four quadrants:  
 
