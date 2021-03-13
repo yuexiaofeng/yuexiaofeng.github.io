@@ -37,7 +37,7 @@ Can still work and produce same as working in the office. But I did notice the n
 
 But I do miss badly the water cooler chitchats, the unofficial foosball tournaments, coffee runs, bubble teas and lunches with coworkers, and.. more importantly, talking to people in real life! 
 
-A side note, I joined Microsoft in October. It’s my second job in Canada, and was an incredibly hard decision to make. The 100% virtual offboarding and onboarding was one-of-a-kind experience as well. I thank my wonderful colleagues at airG and I miss them every day. :( I still talk to them every once in a while to catch up.
+A side note, I joined Microsoft during the year. It’s my second job in Canada, and was an incredibly hard decision to make. The 100% virtual offboarding and onboarding was one-of-a-kind experience as well. I thank my wonderful colleagues at airG and I miss them every day. :( I still talk to them every once in a while to catch up.
 
 As for my work at Microsoft, it’s quite different, as we all know it’s a very, very big organization with lots of services and acronyms (tsk tsk!). I’m still learning a lot of new stuff and I’m afraid I might need a corporate lawyer’s clearance to write more. All in all, I am glad to be working on some potentially impactful projects and I hope I can grow with the company and contribute more. 
 
