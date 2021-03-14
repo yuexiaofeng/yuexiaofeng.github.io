@@ -63,11 +63,11 @@ You can also even perform SQL-like filtering with the resources, like returning 
 
 OData does far more than standardizing the REST endpoints as a protocol. With its rich client/server libraries, you don't have to start everything from the scratch. 
 
-Since it's has "Open" in the title, OData certainly works with other ecosystems like Java and Python as well. There're quite a few [libraries](https://www.odata.org/libraries/) on the official website.
+Since it has "Open" in the title, OData certainly works with other ecosystems like Java and Python as well. There're quite a few [libraries](https://www.odata.org/libraries/) on the official website.
 
 I've also listed below a few [resources](#helpfullinks) that might be helpful for new learners on OData, as this write-up was meant for an introduction only.
 
-Obviously, perhaps the most rivaling competitor nowadays is [GraphQL](https://graphql.org/), but hey I don't think it can fight OData in our .Net realm!
+Obviously, perhaps OData's most rivaling competitor nowadays is [GraphQL](https://graphql.org/), but hey I don't think it can fight OData in our .Net realm!
 
 ## Json2Csharp 
 
@@ -92,7 +92,7 @@ Of course, you might want to sanitize the Json values first before pasting into 
 
 ## Drinking The Kool-Aid
 
-Using wheels, when they work, certainly is a joy, but I'd like to caution that it might also create a reliance that can prevent you from understanding the bigger picture, much like in the timeless classic movie [The Good, the Bad and the Ugly (1966)](https://www.imdb.com/title/tt0060196/), Tuco “The Ugly” did get the job done and got his cut of the gold, but his hands were tied.. If you're only dotting the I's, and crossing the T's, it might block you from critical thinking of why it has to be like this cuz it just works and solves the problem, and more importantly, every one else seems to be using it!
+Using wheels, when they work, certainly is a joy, but I'd like to caution that it might also create a reliance that can prevent you from understanding the bigger picture, much like in the timeless classic movie [The Good, the Bad and the Ugly (1966)](https://www.imdb.com/title/tt0060196/), Tuco “The Ugly” did get the job done and got his cut of the gold, but his hands were tied.. If you're only dotting the I's, and crossing the T's with the wheels, it might block you from critical thinking of why it has to be like this cuz it seems like it just works and solves the problem, and more importantly, every one else seems to be using it!
 
 But for now, I say drink the Kool-Aid! Maybe some day in future, we'd have the resources to reinvent the wheels whenever we feel like it - why do you think there're so many programming languages and frameworks?
 
@@ -107,4 +107,4 @@ But for now, I say drink the Kool-Aid! Maybe some day in future, we'd have the r
 
 [^fn1]: IMO (That's **I**n **M**y **O**pinion), my line of business has way more acronyms than what's needed. So I strive to understand what every one of them stands for whenever I see one, and I'd like to extend the courtesy to my readers. So here, IDE = **I**ntegrated **D**evelopment **E**nvironment
 [^fn2]: CRUD = **C**reate, **R**ead, **U**pdate and **D**elete
-[^fn3]: The **O**rganization for the **Ad**vancement of **S**tructured **I**nformation **S**tandards
+[^fn3]: The **O**rganization for the **A**dvancement of **S**tructured **I**nformation **S**tandards
