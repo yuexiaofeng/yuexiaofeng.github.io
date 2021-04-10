@@ -29,7 +29,9 @@ Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this s
 
 So that's what I think where the noticeable differences are. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep enough to either haha.
 
-In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
+![major-roast](../assets/images/20210409/major-roast.jpg)
+
+All right. No more memes, I promise. Let's get down to business. In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
 
 ## A Guessing Game
 
@@ -175,9 +177,9 @@ Machines are machines. At the end of day, however redundant we strive to keep in
 
 Statistics can be deceptive too. Here's a classic probability calculation:
 
-*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the likelihood of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`, according to joint probability formula. So the chances of at least one server is responsive at any given time would be `1 - 1%`, which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
+*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the likelihood of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`, according to joint probability formula. So the chances of at least one server is responsive at any given time would be `1 - 1%`, which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you `99.9%`. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
 
-However, one bad launch may create a domino effect and errors will find the first chance to propagate whenever they can, so the "independent events" premise of the laws of joint probability might be violated. Although this is just me rambling here as an example of theory vs practice, in reality, there're far more stories to the high availability and other service commitments and modern systems are built with very strong robustness in mind. So don't be alarmed. :)
+However, one bad launch may create a domino effect and errors will find the first chance to propagate whenever they can, so the "independent events" premise of the laws of joint probability might be violated and there goes all the many `9`s. Although this is just me rambling here as an example of theory vs practice, in reality, there're far more stories to the high availability and other service commitments and modern systems are built with very strong robustness in mind. So don't be alarmed. :)
 
 So what's the takeaway here? Just think about the infamous Y2K bug:
 
