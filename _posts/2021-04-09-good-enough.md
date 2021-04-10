@@ -73,7 +73,7 @@ def sqrt_binary(n, epsilon=0.000001):
 
 **Let There Be Newton!**
 
-Binary search is really good and fast. In fact it's a `O(logn)` algorithm. Can we do it faster though? As we hear the jokes like:
+Binary search is really good and fast. In fact it's an `O(logn)` algorithm. Can we do it faster though? As we hear the jokes like:
 
 > Unsatisfied with constant time, Jeff Dean created the world's first O(1/N) algorithm
 
@@ -106,7 +106,7 @@ def sqrt_newton(n, epsilon=0.000001):
     guess = n
 
     while abs(guess*guess - n) > epsilon:
-        guess = guess - ((guess* guess - n)/(2*guess))
+        guess = guess - ((guess*guess - n)/(2*guess))
     return guess
 ```
 
@@ -147,7 +147,7 @@ Here are more similar efforts I pasted from online search (disclaimer: there mig
 > In 1596, Dutch mathematician Ludolph van Ceulen reached 20 digits, a record he later increased to 35 digits, using 1,073,741,824 sided polygon (as a result, π was called the "Ludolphian number" in Germany until the early 20th century).
 > Dutch scientist Willebrord Snellius reached 34 digits in 1621, and Austrian astronomer Christoph Grienberger arrived at 38 digits in 1630, which remains the most accurate approximation manually achieved using polygonal algorithms.
 
-I'd say the work must be tedious and repetitive. It took true grit and incredible attention to detail to achieve what these pioneers did. They literally dedicated years, and even decades of their lives to this cause. Respect.
+The work must be tedious and repetitive. It took true grit and incredible attention to detail to achieve what these pioneers did. They literally dedicated years, and even decades of their lives to this cause. Respect.
 
 **Newton Strikes Again**
 
