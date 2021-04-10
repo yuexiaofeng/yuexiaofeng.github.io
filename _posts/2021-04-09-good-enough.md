@@ -21,7 +21,7 @@ This reminds me an old joke on theorists:
 
 While it is not exactly Sheldon vs Howard as depicted in The Big Bang Theory, but yea, the show actually captured quite vividly about the differences between theorists and engineers.
 
-Mathematicians care more about why. They value proofs - the more, the merrier. "Why there exists a bound or a constant", "why it should be one and only one", ... those are music to their ears. How to use it in real life? Sorry, that’s like.. unimportant detail. :D
+Mathematicians care more about why. They value proofs - the more, the merrier. "Why there exists a bound or a constant", "why there should be one and only one", ... those are music to their ears. How to use it in real life? Sorry, that’s like.. unimportant detail. :D
 
 ![no-yes](../assets/images/20210409/no-yes-meme.jpeg)
 
