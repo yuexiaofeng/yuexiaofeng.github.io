@@ -15,29 +15,29 @@ I'll kick start by explaining the difference between theory and engineering fiel
 
 ## Why vs How
 
-This reminds me an old math joke:
+This reminds me an old joke on theorists:
 
 > Question: Which department is chancellor's favorite? Answer: math department. Cuz unlike other departments that keep asking for expensive equipments, all math department wanted is just pen and paper.
 
 While it is not exactly Sheldon vs Howard as depicted in The Big Bang Theory, but yea, the show actually captured quite vividly about the differences between theorists and engineers.
 
-Mathematicians care more about why. They like proofs - the more, the merrier. "Why there exists a bound or a constant", "one and only one", ... those are music to their ears. How to use it in real life? Sorry, but that’s like.. not important detail. :D
+Mathematicians care more about why. They like proofs - the more, the merrier. "Why there exists a bound or a constant", "why it should be one and only one", ... those are music to their ears. How to use it in real life? Sorry, that’s like.. unimportant detail. :D
 
 ![no-yes](../assets/images/20210409/no-yes-meme.jpeg)
 
-Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this sounds great and all. But how can we implement it to solve real world problems then? Please spare me your fancy airtight proofs - I don’t really care for them.
+Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this sounds great and all. But how can we implement it to solve real world problems? Please feel free to spare me your fancy airtight proofs.
 
-So that's what I think where the major differences are in terms of mindset. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep to either haha.
+So that's what I think where the noticeable differences are. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep enough to either haha.
 
-In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now.
+In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
 
 ## A Guessing Game
 
-Care to guess how we could calculate the irrational numbers? It is, for the lack of better words, a guessing game!
+Care to guess how we could calculate the irrational numbers? It is, for the lack of better words, a guessing game! To be consistent, I'll use square root of 2 and π as examples here.
 
 ### Square Root of 2
 
-Surprise surprise, we can actually guess the value of square root of 2 (to simply, let's just talk about the positive one here). In fact, we can only guess it to a certain precision, cuz we'll never find out its exact value.
+Surprise surprise, we can actually guess the value of square root of 2 to a certain precision (to simplify, let's just talk about the positive one here). In fact, we can only calculate it to a certain precision, cuz we'll never find out its exact value.
 
 **Guessing by Binary Search**
 
@@ -47,15 +47,15 @@ Let x denote the square root of 2, using the squeeze or sandwich approach, we ca
 
 Since we know the square root of 4 is 2, we can now say x is between 1 and 2. Whew, progress!
 
-What if we compare x against 1.5, which is half of (1+2)? We know (1.5 * 1.5 = 2.25) which is greater than 2, so now we've established that x is now between 1 and 1.5. We can then halve again the interval of `(1, 1.5)`, and repeat the process to get better results. This procedure is basically the idea of binary search.
+What if we compare x against 1.5, which is half of `(1+2)=3`? Since we know `(1.5 * 1.5 = 2.25)` which is greater than 2, so now we've established that x is between 1 and 1.5. We can then halve again the interval of `(1, 1.5)`, and repeat the process to get better results. This procedure is basically the idea of binary search algorithm. Does this sound like what contestants would do on The Price Is Right game show?
 
-Here's a quick code snippet I wrote:
+Here's a quick code snippet I wrote to automate this process (n = 2 in our case):
 
 ```python
 def sqrt_binary(n, epsilon=0.000001):
     """ We only consider the positive sqrt here """
 
-    # the ones that returns itself: if n in (0, 0.0, 0, 1.0):
+    # the ones that returns itself, .i.e. n in (0, 0.0, 0, 1.0):
     if n == 0 or n == 1:
         return n
 
@@ -73,7 +73,7 @@ def sqrt_binary(n, epsilon=0.000001):
 
 **Let There Be Newton!**
 
-Binary search is really good and fast. In fact it's an `O(logn)` algorithm. Can we do it faster though? As we hear the jokes like:
+Binary search is really good and fast. In fact it's an `O(logn)` algorithm. Can we do it faster though? As we oftentimes hear jokes like:
 
 > Unsatisfied with constant time, Jeff Dean created the world's first O(1/N) algorithm
 
@@ -83,7 +83,7 @@ Joking aside, it's actually very hard to beat binary search in terms of speed. N
 
 > We can start with an initial guess which is reasonably close to the true root, then to approximate the function by its tangent line using calculus, and finally to compute the x-intercept of this tangent line by elementary algebra. This x-intercept will typically be a better approximation to the original function's root than the first guess, and the method can be iterated.
 
-The formula would be:
+The iteration formula would be:
 
 ![newton-sqrt](../assets/images/20210409/newton-sqrt.png)
 
@@ -94,7 +94,7 @@ A visualization of the iteration process would be:
 
 In this case, to get the square root of 2, we're really just letting f(x) = x<sup>2</sup> - 2, with the derivative `f'(x) = 2x`, to solve the x that makes `f(x) = 0`, . Of course, there's a twin negative square root on the other side the x axis too.
 
-Here's a short code snippet I wrote in my favorite Python:
+Here's a short code snippet I wrote in my favorite Python (n = 2 in our case):
 
 ```python
 def sqrt_newton(n, epsilon=0.000001):
@@ -122,25 +122,25 @@ Using newton approach, total rounds are: 4
 The value is: 1.4142135623746899
 ```
 
-See the difference? Amazing right?! This Newton method can be used to calculate other types of root as well, but there's a catch. Different mathematical functions yield to different curves and convergences, and the choice of pivot / starting point matters too. Of course, it's implied that it has to be differentiable functions too.
+See the difference? Amazing right?! Of course, this Newton method can be used to calculate other types of root as well. But there's a catch. Different mathematical functions yield to different curves and convergences, and the choice of pivot / starting point matters too. Of course, it's implied that it has to be differentiable functions too.
 
 ### Calculation of Pi
 
-As for π, there have been numerous efforts to calculate its value since the dawn of our civilization thousands of years ago. There were different approaches.
+As for π, there have been numerous efforts to calculate its value since the dawn of our civilization thousands of years ago. There were also different approaches.
 
 **Approximation by Hard Labor**
 
-Since we all know π is a circle's circumference to its diameter. If we can't get the exact measurement of a circle's circumference, how about a polygon inside the circle?
+Since we all know π is a circle's circumference to its diameter. If we can't get the exact measurement of a circle's circumference, how about using a polygon inside the circle as an approximation?
 
 ![hexagon](../assets/images/20210409/hexagon.png)
 
-As shown in the picture above, we have a hexagon inside the circle shares the same diameter. Let the circle's radius be `1`, we can easily calculate the hexagon's circumference is 6. And therefore the circle's circumference is at least 6, and pi is therefore at least `6 / 2 = 3`.
+As shown in the picture above, we have a hexagon inside the circle shares the same diameter. Let the circle's radius be `1`, we can easily calculate the hexagon's circumference is `6`. And therefore the circle's circumference is at least `6`, and π is therefore at least `6 / 2 = 3`.
 
-If you have a square of with each side same as the circle's diameter of 2, then we'd know the square covers the circle entirely and some. So we have an upper bound for the circle's circumference, which would the circumference of the outer square: `2 * 4 = 8`, so there we have known now π is smaller than `8 / 2 = 4`.
+If we draw a square of with each side same as the circle's diameter of `2`, then we'd know the square covers the circle entirely and some. So we now have an upper bound for the circle's circumference, which would be that of the outer square: `2 * 4 = 8`. We have now established π is smaller than `8 / 2 = 4`.
 
 Great, now we know π is between `3` and `4`. Should we add more sides to the polygon, we'd have better approximations of the circle's circumference thus π. How hard could it be right?
 
-Zu Chongzhi (Chinese: 祖冲之), an ancient Chinese scientist, was able to determine that π is between `3.1415926` and `3.1415927`. He held this record for over 900 years. To do this, he approximated a circle with a 24,576 sided polygon. Keep in mind that in his time, there was no such thing like calculators or computers. The amount of work would be insurmountable. And one little error would've thrown away years of previous work.
+Zu Chongzhi (Chinese: 祖冲之), an ancient Chinese scientist, was able to determine that π is between `3.1415926` and `3.1415927`. He held this record for over 900 years. To do this, he approximated a circle with a 24,576 sided polygon. Keep in mind that in his time, there was no such thing as calculators or computers. The amount of work would be insurmountable. And one tiny error would've thrown away years of previous work.
 
 Here are more similar efforts I pasted from online search (disclaimer: there might be different sources claiming - fact checks needed):
 
@@ -155,9 +155,9 @@ It's actually a long proof to get his formula since it's using geometry and calc
 
 ![newton-pi-formula](../assets/images/20210409/newton-pi-formula.png)
 
-Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested.
-
 All of sudden results that needed decades of hard work now can be easily achieved in days using Newton's series. So I imagine no one ever tried to set the new π records by drawing polygons again. When Newton gave you a cannon, why fight with stones still eh?
+
+Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. There're also other series formulas that yield faster convergence speeds.
 
 As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz that value should be good enough. I totes get that, why all the hassle right? :D
 
@@ -165,15 +165,19 @@ As an anecdote, once upon a time, there were some thoughtful [US lawmakers in In
 
 Epsilon, confidence level, granularity, precision, margin of error, 99.9999% SLA[^fn1].., all these fancy industry jargons, would boil down to this `good enough`.
 
-The beautiful digital photos you took with your most expensive cameras - they still have fixed resolutions. That's right, it's clearer than those from cheaper models cuz it contains more pixels. If you zoom in hard enough, you'll notice it gets blurry eventually. The movies and TV shows - they're really just pictures moving in 24 frames per second[^fn2] so human eyes are tricked to believe it's motional. On that note, human desires are really just insatiable. Back in the days, I was perfectly contented with 720p, and would be thrilled for 1080p. But now that I'm shopping for a new TV, 4K becomes a minimal requirement. Call me old school, but I don't really know why we'd want something like 8K?
+To calculate the area of a circle given a radius, `3.14` is probably `good enough` to represent the value of π. This is especially the case when we computerize it - cuz we can't keep endless decimals in the finite and precious bits, so we have to make a call on what's `good enough`.
 
-Machines are machines. At the end of day, however redundant we want to keep in the systems, we still have a finite amount of hardware resources. Sure, there’re automatically scalable services like [Azure Virtual Machines](https://azure.microsoft.com/en-ca/services/virtual-machines/) or AWS EC2, but what if 90% tenants are scaling up at the same time, or surges emerge due to traffic load balancing caused by temporary partial regional failures. Then we’d have outage declares, angry customers demanding heads must be rolling, and panicking on-call engineers who’d start worrying about mortgage payments. :(
+You bought `3.1` pounds of stuff priced at `2.99` per pound? Well we'll probably round it up to the nearest penny or quarter, cuz just for us to complete this transaction, that should be `good enough`.
 
-Numbers can be deceptive too. Here's a classic probability calculation:
+The beautiful digital photos you took with your most expensive cameras - they have fixed resolutions that are `good enough`. That's right, it's clearer than those from cheaper models cuz it contains more pixels. If you zoom in hard enough, you'll notice it gets blurry eventually. The movies and TV shows - they're really just pictures moving in 24 frames per second[^fn2] so human eyes are tricked to believe it's motional. Although on that note, human desires are really just insatiable - the threshold of `good enough` is ever-growing. Back in the days, I was perfectly contented with 720p, and would be thrilled for 1080p. But now that I'm shopping for a new TV, 4K becomes a minimal requirement. Call me old school, but I don't really know why we'd want something like 8K?
 
-*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the chances of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`. So the chances of at least one server is responsive is, `1 - 1%` which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
+Machines are machines. At the end of day, however redundant we strive to keep in our systems, we still have a finite amount of hardware resources. Sure, there’re automatically scalable services like [Azure Virtual Machines](https://azure.microsoft.com/en-ca/services/virtual-machines/) or AWS EC2, but what if 90% tenants are scaling up at the same time, or surges emerge due to traffic load balancing caused by temporary partial regional failures? Then we’d have outage declarations, angry customers demanding heads must be rolling, and panicking on-call engineers who may start worrying about mortgage payments. :(
 
-In reality, there're far more stories to the high availability. And oftentimes, one bad launch may create a domino effect and errors will find the first chance to propagate when they can.
+Statistics can be deceptive too. Here's a classic probability calculation:
+
+*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the likelihood of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`, according to joint probability formula. So the chances of at least one server is responsive is, `1 - 1%` which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
+
+However, one bad launch may create a domino effect and errors will find the first chance to propagate whenever they can, so the "independent events" premise of the laws of joint probability might be violated. Although this is just me rambling here as an example of theory vs practice, in reality, there're far more stories to the high availability and other service commitments and modern systems are built with very strong robustness in mind. So don't be alarmed. :)
 
 So what's the takeaway here? Just think about the infamous Y2K bug:
 
