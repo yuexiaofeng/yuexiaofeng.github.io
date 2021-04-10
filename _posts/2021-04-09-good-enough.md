@@ -29,9 +29,7 @@ Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this s
 
 So that's what I think where the noticeable differences are. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep enough to either haha.
 
-![major-roast](../assets/images/20210409/major-roast.jpg)
-
-All right. No more memes, I promise. Let's get down to business. In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
+In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
 
 ## A Guessing Game
 
@@ -112,7 +110,7 @@ def sqrt_newton(n, epsilon=0.000001):
     return guess
 ```
 
-As for speed comparisons, I did a quick run of both code snippets, with added counters. So for the given precision (epsilon) of `0.000001`, the binary approach looped `22` times before converging, while newton one finished in just `4` loops:
+As for speed comparisons, I did a quick run of both code snippets, with counters added. So for the given precision (epsilon) of `0.000001`, the binary approach looped `22` times before converging, while newton one finished in just `4` loops:
 
 ```
 For the square root of 2, with precision of 0.000001
