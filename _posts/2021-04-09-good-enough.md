@@ -21,11 +21,11 @@ This reminds me an old joke on theorists:
 
 While it is not exactly Sheldon vs Howard as depicted in The Big Bang Theory, but yea, the show actually captured quite vividly about the differences between theorists and engineers.
 
-Mathematicians care more about why. They like proofs - the more, the merrier. "Why there exists a bound or a constant", "why it should be one and only one", ... those are music to their ears. How to use it in real life? Sorry, that’s like.. unimportant detail. :D
+Mathematicians care more about why. They value proofs - the more, the merrier. "Why there exists a bound or a constant", "why it should be one and only one", ... those are music to their ears. How to use it in real life? Sorry, that’s like.. unimportant detail. :D
 
 ![no-yes](../assets/images/20210409/no-yes-meme.jpeg)
 
-Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this sounds great and all. But how can we implement it to solve real world problems? Please feel free to spare me your fancy airtight proofs.
+Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this sounds great and all. But how can we implement it to solve real world problems? Please feel free to spare me your fancy airtight proofs, cuz knowing it works might be `good enough` for the time being.
 
 So that's what I think where the noticeable differences are. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep enough to either haha.
 
@@ -53,7 +53,7 @@ Here's a quick code snippet I wrote to automate this process (n = 2 in our case)
 
 ```python
 def sqrt_binary(n, epsilon=0.000001):
-    """ We only consider the positive sqrt here """
+    """ We only consider the non-negative square root here """
 
     # the ones that returns itself, .i.e. n in (0, 0.0, 0, 1.0):
     if n == 0 or n == 1:
@@ -159,7 +159,7 @@ All of sudden results that needed decades of hard work now can be easily achieve
 
 Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slow to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
 
-As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz that value should be good enough. I totes get that, why all the hassle right? :D
+As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz they must've believed the value of `3.2` should be good enough. I totes get that, why all the hassle right? :D
 
 ## So What Is Good Enough
 
@@ -167,7 +167,7 @@ Epsilon, confidence level, granularity, precision, margin of error, 99.9999% SLA
 
 To calculate the area of a circle given a radius in our daily work, `3.14` is probably `good enough` to represent the value of π. This is especially the case when we computerize it - cuz we can't keep endless decimals in the finite and precious bits, so we have to make a call on what's `good enough`. In order to send out probes and slingshot them accurately throughout the solar system, NASA needs to use only 15 decimal places[^fn2]. And let's not forget they were able to send human to the moon half a century ago!
 
-You bought `3.1` pounds of stuff priced at `2.99` per pound? Well we'll probably round it up to the nearest penny or quarter, cuz just for us to complete this transaction, that should be `good enough`.
+You are buying `3.1` pounds of carrots priced at `2.99` per pound? Well we'll probably round it up to the nearest penny or quarter instead of `9.269` dollars, cuz just for us to complete this transaction, that should be `good enough`.
 
 The beautiful digital photos you took with your most expensive cameras - they have fixed resolutions that are `good enough`. That's right, it's clearer than those from cheaper models cuz it contains more pixels. If you zoom in hard enough, you'll notice it gets blurry eventually. The movies and TV shows - they're really just pictures moving in 24 frames per second[^fn3] so human eyes are tricked to believe it's motional. Although on that note, human desires are really just insatiable - the threshold of `good enough` is ever-growing. Back in the days, I was perfectly contented with 720p, and would be thrilled for 1080p. But now that I'm shopping for a new TV, 4K becomes a minimal requirement. Call me old school, but I don't really know why we'd want something like 8K?
 
@@ -175,7 +175,7 @@ Machines are machines. At the end of day, however redundant we strive to keep in
 
 Statistics can be deceptive too. Here's a classic probability calculation:
 
-*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the likelihood of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`, according to joint probability formula. So the chances of at least one server is responsive is, `1 - 1%` which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
+*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the likelihood of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`, according to joint probability formula. So the chances of at least one server is responsive at any given time would be `1 - 1%`, which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
 
 However, one bad launch may create a domino effect and errors will find the first chance to propagate whenever they can, so the "independent events" premise of the laws of joint probability might be violated. Although this is just me rambling here as an example of theory vs practice, in reality, there're far more stories to the high availability and other service commitments and modern systems are built with very strong robustness in mind. So don't be alarmed. :)
 
@@ -185,7 +185,7 @@ So what's the takeaway here? Just think about the infamous Y2K bug:
 
 But here we are, in the year of 2021 and we still managed to survive (some people may say it's debatable. Ask me again when covid is over). Although I can almost forsee there might be a Y10K problem on January 1, 10000. But I trust our future generations can handle this just fine!
 
-Just like the value of irrational numbers, there’s no end in the pursuit of perfection. It may be hard for us to wait until 100% SLA to ship a service or roll out an update; we can only make the `good enough` decisions to the best of our knowledge, within timeframe and resource restraints, while always keep in mind that this is actually not good enough. And when there's a problem, we will find a solution, always. Growth mindset, folks!
+Just like the value of irrational numbers, there’s no end in the pursuit of perfection. It may be hard for us to wait until 100% SLA to ship a service or roll out an update; we can only make the `good enough` decisions to the best of our knowledge, within timeframe and resource restraints, while always keep in mind that this is actually not good enough. And when there's a problem, we will find a solution, **always**. Growth mindset, folks!
 
 ---
 
