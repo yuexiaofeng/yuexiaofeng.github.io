@@ -169,9 +169,9 @@ The beautiful digital photos you took with your most expensive cameras - they st
 
 Machines are machines. At the end of day, however redundant we want to keep in the systems, we still have a finite amount of hardware resources. Sure, there’re automatically scalable services like [Azure Virtual Machines](https://azure.microsoft.com/en-ca/services/virtual-machines/) or AWS EC2, but what if 90% tenants are scaling up at the same time, or surges emerge due to traffic load balancing caused by temporary partial regional failures. Then we’d have outage declares, angry customers demanding heads must be rolling, and panicking on-call engineers who’d start worrying about mortgage payments. :(
 
-Numbers can be deceptive too. Here's a classic probability calculation.
+Numbers can be deceptive too. Here's a classic probability calculation:
 
-*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it on 2 servers? The math is, the chances of both servers are down is, `(1-90%) * (1-90%)` that equals to `1%`, so the chances of at least one server is responsive is, `1 - 1%` which is a whopping `99%`. If we further do the math, three servers would give you 99.9%. Ditto for four, five,... and more. Modern server farms usually have dozens to millions of nodes deployed!*
+*If a service only has 90% reliability on a single instance on 1 server. What's the overall reliability if we deploy it to 2 servers? The math for the chances of both servers are down would be, `(1-90%) * (1-90%)` that equals to `1%`. So the chances of at least one server is responsive is, `1 - 1%` which is a whopping `99%`. We can further do the math by adding more, e.g. three servers would give you 99.9%. Ditto for four, five,... and beyond. Modern server farms usually have dozens to millions of nodes deployed!*
 
 In reality, there're far more stories to the high availability. And oftentimes, one bad launch may create a domino effect and errors will find the first chance to propagate when they can.
 
@@ -179,7 +179,7 @@ So what's the takeaway here? Just think about the infamous Y2K bug:
 
 > Until the 1990s many computer programs (especially those written in the early days of computers) were designed to abbreviate four-digit years as two digits in order to save memory space. These computers could recognize “98” as “1998” but would be unable to recognize “00” as “2000,” perhaps interpreting it to mean 1900. Many feared that when the clocks struck midnight on January 1, 2000, many affected computers would be using an incorrect date and thus fail to operate properly unless the computers’ software was repaired or replaced before that date.
 
-But here we are, in the year of 2021 and we managed to survive (some people may say it's debatable. Ask me again when covid is over). Although I can almost forsee there might be a Y10K problem on January 1, 10000. But I trust our future generations can handle this just fine!
+But here we are, in the year of 2021 and we still managed to survive (some people may say it's debatable. Ask me again when covid is over). Although I can almost forsee there might be a Y10K problem on January 1, 10000. But I trust our future generations can handle this just fine!
 
 Just like the value of irrational numbers, there’s no end in the pursuit of perfection. It'd be hard for us to wait until 100% SLA to ship a service or roll out an update; we can only make the `good enough` decisions to the best of our knowledge, within timeframe and resource restraints, while always keep in mind that this is actually not good enough. And when there's a problem, we will find a solution, always. Growth mindset, folks!
 
