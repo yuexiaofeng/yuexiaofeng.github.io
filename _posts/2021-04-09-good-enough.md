@@ -157,7 +157,7 @@ It's actually a long proof to get his formula since it's using geometry and calc
 
 All of sudden results that needed decades of hard work now can be easily achieved in days using Newton's series. So I imagine no one ever tried to set the new π records by drawing polygons again. When Newton gave you a cannon, why fight with stones still eh?
 
-Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones were too slow to converge. Nowadays there're also other series formulas that yield faster convergence performance than his.
+Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slow to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
 
 As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz that value should be good enough. I totes get that, why all the hassle right? :D
 
@@ -185,7 +185,7 @@ So what's the takeaway here? Just think about the infamous Y2K bug:
 
 But here we are, in the year of 2021 and we still managed to survive (some people may say it's debatable. Ask me again when covid is over). Although I can almost forsee there might be a Y10K problem on January 1, 10000. But I trust our future generations can handle this just fine!
 
-Just like the value of irrational numbers, there’s no end in the pursuit of perfection. It'd be hard for us to wait until 100% SLA to ship a service or roll out an update; we can only make the `good enough` decisions to the best of our knowledge, within timeframe and resource restraints, while always keep in mind that this is actually not good enough. And when there's a problem, we will find a solution, always. Growth mindset, folks!
+Just like the value of irrational numbers, there’s no end in the pursuit of perfection. It may be hard for us to wait until 100% SLA to ship a service or roll out an update; we can only make the `good enough` decisions to the best of our knowledge, within timeframe and resource restraints, while always keep in mind that this is actually not good enough. And when there's a problem, we will find a solution, always. Growth mindset, folks!
 
 ---
 
