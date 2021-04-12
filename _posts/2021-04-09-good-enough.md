@@ -157,7 +157,7 @@ It's actually a long proof to get his formula since it's using geometry and calc
 
 All of sudden results that needed decades of hard work now can be easily achieved in days using Newton's series. So I imagine no one ever tried to set the new π records by drawing polygons again. When Newton gave you a cannon, why fight with stones still eh?
 
-Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slow to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
+Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slowly to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
 
 As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz they must've believed the value of `3.2` should be good enough. I totes get that, why all the hassle right? :D
 
