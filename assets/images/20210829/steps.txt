@@ -1,0 +1,37 @@
+title Home Purchasing Happy Path - Buyer's Perspective
+
+participant Buyer
+participant Bank
+participant Buyer's Realtor
+participant Seller's Realtor
+participant Seller
+participant Lawyer
+
+Buyer->Bank:What's my borrowing power?
+Bank->Buyer: Base on your income and credit history etc, we assess\nyou have a potential borrowing limit of xxx dollars
+Buyer->Buyer: Calculates the affordable range of total home price, \nfactoring in down payment capability
+Buyer->Buyer's Realtor: Yo, pls find me some candidates in \nneighborhood(s) within my budget
+Buyer's Realtor->Buyer: There you go. Wanna pay a visit?
+Buyer->Buyer's Realtor: Sure! 
+Buyer->Buyer: Decides on a suitable home candidate 
+Buyer->Buyer's Realtor: Here's an offer. Let's do this thing
+Buyer's Realtor->Seller's Realtor: Please foward this
+Seller's Realtor->Seller: Another offer! 
+Seller->Seller's Realtor: I like this one.\nGonna accept
+Seller's Realtor->Buyer's Realtor: Good news!
+Buyer's Realtor->Buyer: Congrats! Now we have a binding contract
+Buyer->Buyer's Realtor: Here's a deposit as a token of commitment
+Buyer's Realtor->Buyer: Deposit escrowed. Time to sort out the financing
+Buyer->Buyer: Arranges down payment
+Buyer->Bank: Hey, I have an accepted offer. Can you process my financing
+Bank->Seller: Sure, but need to send an agent to appraise first
+Seller->Bank: Appraisal done and looks legit
+Bank->Buyer: OK, we're committed to your actual financing of xxx dollars
+Buyer->Lawyer: Paperwork is yours now
+note over Bank: Funds released near closing date
+Lawyer->Buyer: It's time. Now cut me a bank draft with down payment, misec credit adjustments, and my fees
+Buyer->Lawyer: Sure, why not. Here's my life savings
+Lawyer->Buyer: The deed is done. You will get your official title in a few months. But the property is legally yours now
+Buyer->Buyer's Realtor: Please get my keys
+note over Buyer's Realtor: Completion day arrives
+Buyer's Realtor->Buyer: Your keys are here!! \nFeel free to move in any time now
