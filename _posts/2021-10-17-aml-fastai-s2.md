@@ -9,7 +9,7 @@ Before I realized it, it's ~~September~~ October already! We all know what that 
 
 Back in this January, I made some simplified resolution items - usually the new year resolutions don't make it through February, but possibly due to the pandemic house arrest this year, I actually made some meaningful headways this time. I hereby share them and where they are as follows:
 
-1. Become a reader and read more books: I've finished reading 10 books this year to date! I'm in the progress of reading another one called *Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets*.
+1. Become a reader and read more books: I've finished reading 10 books this year to date! I'm currently in the progress of reading another one called *Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets*.
 2. Become a runner and lose some pounds: The running part didn't happen as much as I hoped (Part of me blame the "Raincouver" weather :D). But I did lose quite a bit over 10 pounds so far since January, mostly due to low glycemic dieting as suggested by my doctor.
 3. Start a pet project in AI field: This is yet to happen..
 
@@ -57,7 +57,7 @@ Since I already had a personal Azure account with an active subscription, so her
 
 It's fairly easy, after logging into [Azure portal](https://portal.azure.com), type Machine Learning in the search bar and hit Enter, select Create then Next.
 
-A couple of mandatory fields I had to fill out or create, but it was straightforward and there were tooltip hints too. Advanced configurations like network was possible too but I was feeling lazy and just went with defaults. Here's a redacted snapshot for the creation page:
+A couple of mandatory fields I had to fill out or create resources for, but it was straightforward and there were tooltip hints too. Advanced configurations like network were possible too but I was feeling lazy and just went with defaults. Here's a redacted snapshot for the creation page:
 
 ![ws_creation](../assets/images/20211017/ws_creation.png)
 
@@ -65,13 +65,13 @@ Just like that, within a few minutes, I got myself a machine learning workspace!
 
 ### Get A New Notebook and Test with A Python Helloworld
 
-Think of a notebook as an online UI for your ML IDE. Again there are great step-by-step [instructions](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world) on Microsoft docs, but it's even easier than it sounds.
+Think of a notebook as an online UI for your ML IDE. Again there are great step-by-step online [instructions](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world) on Microsoft docs, but it's even easier than it sounds.
 
 Simply log into AzureML [studio portal](https://ml.azure.com), and pick the workspace created earlier. Then on the left sidebar, click on the Notebooks, create a new folder under Users/yourusername, then right click on the folder, select "Create a new file" from the context menu, choose file format as Python. That's it.
 
 ![notebook](../assets/images/20211017/notebook.png)
 
-Oh actually that's not it, to run it, you'll need to create a Compute instance. As shown in the picture above, I created one called myworkhorse. It was a CPU virtual machine, with measly 4 cores, 14G RAM, 28GB storage but that sufficed my need and was relatively cheaper.
+Oh actually that's not it haha, to be able to run it, you'd need to create a Compute instance. As shown in the picture above, I created one called myworkhorse. It was a CPU virtual machine, with measly 4 cores, 14G RAM, 28GB storage but that sufficed my need and was budget friendly.
 
 ## Here Comes FastAI
 
@@ -150,7 +150,7 @@ As you can see from the example above, to get a classifier working, I barely had
 
 I've recently started working on systems engineering for AI projects and have been exposed to the concept of Software 2.0[^fn3], or Data-centric AI as other people like to put it. While I don't necessarily work on the specific AI parts directly atm, I find the concept refreshing.
 
-In a Youtube [talk](https://youtu.be/06-AZXmwHjo), Andrew Ng mentioned:
+In a YouTube [talk](https://youtu.be/06-AZXmwHjo) earlier this year, Andrew Ng mentioned:
 
 > AI System = Code (model/algorithm) + Data
 
