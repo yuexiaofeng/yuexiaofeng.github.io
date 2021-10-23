@@ -116,7 +116,7 @@ learn = cnn_learner(dls, resnet34, metrics=error_rate)
 learn.fine_tune(1)
 ```
 
-There we have it. The entire training took ~15 minutes.
+There we have it. The training didn't take very long:
 ![training](../assets/images/20211017/training.PNG)
 
 Let's see how it'd do:
