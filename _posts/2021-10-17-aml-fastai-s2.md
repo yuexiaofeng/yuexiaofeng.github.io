@@ -13,7 +13,7 @@ Back in this January, I made some simplified resolution items - usually the new 
 2. Become a runner and lose some pounds: The running part didn't happen as much as I hoped (Part of me blame the "Raincouver" weather :D). But I did lose quite a bit over 10 pounds so far since January, mostly due to low glycemic dieting as suggested by my doctor.
 3. Start a pet project in AI field: This is yet to happen..
 
-After finally finishing up playing the most awesome video game ever otherwise known as Red Dead Redemption 2, and binge-watching Squid Game, I had come to conclusion that it's high tme to get the ball rolling on my AI pet project. That, plus in the spirit of Microsoft FHL (Fix, Hack, Learn, i.e. Hackathon) week, I decided to carve out some time to try AzureML (Machine Learning) offering and poke around with it. Just a disclaimer in case any of our corporate lawyers stumbled upon this:
+After finally finishing up playing the most awesome video game ever otherwise known as Red Dead Redemption 2, and binge-watching Squid Game, I had come to the conclusion that it's high time to get the ball rolling on my AI pet project. That, plus in the spirit of Microsoft FHL (Fix, Hack, Learn, i.e. Hackathon) week, I decided to carve out some time to try out AzureML (Machine Learning) offering and poke around with it. Just a disclaimer in case any of our corporate lawyers stumbled upon this:
 
 >I trained the models after hours from my own personal Azure account (although as a full-time Microsoft employee, I do enjoy some perks like receiving a monthly Azure credit worth a few hundred bucks. So thanks Uncle MS!).
 
