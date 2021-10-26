@@ -12,9 +12,9 @@ Xiaofeng here. I'm a software engineer based in the beautiful city that's called
 
 As for my name "Xiaofeng" - it's pronounced very similar to SHAW-phone. It came from the combination of two Chinese characters romanized by pinyin (literally means "spelled sounds"). So in this case, it's xiào (4th tone i.e. falling tone) + fēng (1st tone i.e. flat tone) = Xiaofeng.
 
-But for those who are not familiar with the Chinese language system, here's a mnemonic recursive acronym (think GNU) I made up to help with the spelling (I thought it'd be cool and fun; but keep in mind it's totes not related to the actual origin! :D):
+But for those who are not familiar with the Chinese language system, here's a GNU-flavored mnemonic recursive acronym that I totes made up to help with the spelling (just for geeky fun, it's certainly not an acronym!):
 
-> **X**iaofeng **i**s **a**n **o**pen-source **f**riendly **eng**ineer
+>**X**iaofeng **i**s **a**n **o**ld-**f**ashioned **eng**ineer
 
 Some fun facts about myself:
  
@@ -29,4 +29,3 @@ This is a space for me to ramble about random stuff, most likely on the areas of
 PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffic or comments. But if you would like to reach out, feel free to hunt me down on my [LinkedIn](https://www.linkedin.com/in/xiaofengyue/). 
 
 Peace! 
-
