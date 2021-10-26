@@ -119,7 +119,7 @@ learn.fine_tune(1)
 There we have it. The training didn't take very long:
 ![training](../assets/images/20211017/training.PNG)
 
-Let's see how it'd do:
+Let's find out how it'd do:
 
 ```python
 # False -> Dog; True -> Cat
@@ -128,7 +128,7 @@ learn.show_results()
 
 ![results](../assets/images/20211017/results.jpg)
 
-Can it predict whether the image in files[0] is a dog or cat?
+Now, can it predict whether the image in files[0] is a dog or cat?
 
 ```python
 learn.predict(files[0])
