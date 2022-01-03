@@ -8,7 +8,7 @@ permalink: /about/
 
 Yo! 
 
-Xiaofeng here. I'm a software engineer based in the beautiful city that's called Vancouver (the Canadian one). I was also working and living in Shanghai for quite a few years before relocating in 2018.
+Xiaofeng here. I'm a software engineer based in the beautiful city that's called Vancouver (the Canadian one). I also worked and lived in Shanghai for quite a few years before relocating in 2018.
 
 As for my name "Xiaofeng" - it's pronounced very similar to SHAW-phone. It came from the combination of two Chinese characters romanized by pinyin (literally means "spelled sounds"). So in this case, it's xiào (4th tone i.e. falling tone) + fēng (1st tone i.e. flat tone) = Xiaofeng. But for those who are not familiar with the Chinese language system, here's a GNU-flavored mnemonic recursive acronym that I totes made up to help with the spelling (just to clarify, I don't think the acronym XIAOFENG exists for reals):
 
