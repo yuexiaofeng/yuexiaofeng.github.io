@@ -2,12 +2,13 @@
 layout: post
 title: "What Is Good Enough"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Random, Tech]
 ---
 
 > Good, is simply not good enough.
 
-You might hear people say this every now and then. But much less often, they would actually tell you what `good enough` is.
+You might hear people say this every now and then. But much less often, they would actually tell you what `good enough` is. <!--more-->
 
 This post was initially intended as a sequel to my previous [Life of Pi, and.. Infinity](https://xiaofengyue.com/2021-03-14/life-of-pi) piece, but was also inspired later on by recent Azure outage news.
 

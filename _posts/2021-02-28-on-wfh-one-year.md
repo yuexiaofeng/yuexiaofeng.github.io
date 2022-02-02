@@ -2,10 +2,11 @@
 layout: post
 title: "The Year of WFH"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Random, Book]
 ---
 
-> It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
+> It was the best of times, it was the worst of times <!--more-->, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
 
 Couldn’t find a more fitting quote than what Dickens put in A Tale of Two Cities, to describe what had gone down in the past 12 months. As the day of one year ~~WTF~~ WFH[^fn1] anniversary approaches, I felt compelled to write down something. I think I’ll ramble more than just work though.
 

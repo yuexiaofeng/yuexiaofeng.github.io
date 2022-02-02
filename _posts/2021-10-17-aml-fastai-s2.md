@@ -2,10 +2,11 @@
 layout: post
 title: "FastAI on AzureML and Software 2.0"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Tech]
 ---
 
-Before I realized it, it's ~~September~~ October already! We all know what that means - 2021 is almost gone! Can't really say I'm sad that it's gonna be over soon-ish, but am getting a bit sentimental for sure. Yet another year of WFH! Hopefully this situation will be improved soon and we can get back to the previous mundane civilization.
+Before I realized it, it's October already! We all know what that means - <!--more--> 2021 is almost gone! Can't really say I'm sad that it's gonna be over soon-ish, but am getting a bit sentimental for sure. Yet another year of WFH! Hopefully this situation will be improved soon and we can get back to the previous mundane civilization.
 
 Back in this January, I made some simplified resolution items - usually the new year resolutions don't make it through February, but possibly due to the pandemic house arrest this year, I actually made some meaningful headways this time. I hereby share them and where they are as follows:
 

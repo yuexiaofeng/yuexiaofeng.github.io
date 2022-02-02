@@ -2,12 +2,15 @@
 layout: post
 title: "Greed... Is Good - A Tale of GitHub Pages Migration"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Tech]
 ---
 
-In the great movie [Wall Street (1987)](https://www.imdb.com/title/tt0094291/), Mr. Gekko said the following famous quote: 
+In the great movie [Wall Street](https://www.imdb.com/title/tt0094291/), Mr. Gekko said the following famous quote:
 
 > Greed, for lack of a better word, is good.
+
+<!--more-->
 
 Since I went with GoDaddy instead of Namecheap to get this domain, it'd be a crime to pay another dime for hosting eh? Luckily, nowadays there're free and decent hosting services available, from vendors like GitHub and GitLab. Out of complete 100% objectivity (has nothing to do with me currently working for Microsoft), I decided to try on GitHub Pages. :)  
 

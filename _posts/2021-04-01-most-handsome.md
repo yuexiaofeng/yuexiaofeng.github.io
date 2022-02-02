@@ -2,10 +2,11 @@
 layout: post
 title: "The Most Handsome Man Alive"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Random]
 ---
 
-I did a quick search today, since we all know Google doesn't lie, so this must be true then:
+I did a quick search today, since we all know Google doesn't lie.. <!--more--> so this must be true then:
 
 ![search](../assets/images/20210401/search.jpg)
 
