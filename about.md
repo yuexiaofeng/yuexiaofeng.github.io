@@ -22,8 +22,8 @@ Some fun facts about myself:
 4. I’m not saying my name is unique but according to the Ministry of Public Security of China, as of February 2021, there’re exactly 18 other people in China share the same full name as mine
 5. I used to study in Harbin, a city in Northern China that's close to Russia. Winter there can be -30C degrees (sounds familiar eh?)
 
-This is a space for me to ramble about random stuff, most likely on the areas of Tech, Books, and Movies (I love old ones!), etc - should be categorized in Tags. I'll refrain from talking about politics of any kind, in case I need to run for office one day. :)
+This is a space for me to ramble about random stuff, most likely on the areas of Tech, Books, and Movies (I love old ones!), etc - should be categorized in <a href="/tags">Tags</a>. I'll refrain from talking about politics of any kind, in case I need to run for office one day. :)
 
-PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffic or comments, and that I'd like to keep it Web 1.0, at least for now. But if you would like to reach out, feel free to hunt me down on my [LinkedIn](https://www.linkedin.com/in/xiaofengyue/).
+PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffic or comments, and that I'd like to keep it Web 1.0, at least for the time being. But if you would like to reach out, feel free to hunt me down on my [LinkedIn](https://www.linkedin.com/in/xiaofengyue/).
 
 Peace! 
