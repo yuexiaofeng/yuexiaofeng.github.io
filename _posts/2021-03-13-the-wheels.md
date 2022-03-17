@@ -2,12 +2,13 @@
 layout: post
 title: "The Good, The Bad, and The Wheels"
 author: "Xiaofeng"
+excerpt_separator: <!--more-->
 tags: [Tech]
 ---
 
 ![dogfood](../assets/images/20210313/dogfood.jpg)
 
-At where I work, we have a dogfood culture. For those who aren't in tech, here's a [wiki](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) on "eating your own dog food". In short:
+At where I work, we have a dogfood culture. <!--more--> For those who aren't in tech, here's a [wiki](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) on "eating your own dog food". In short:
 
 > Eating your own dog food or dogfooding is the practice of an organization using its own product. This can be a way for an organization to test its products in real-world usage. Hence dogfooding can act as quality control, and eventually a kind of testimonial advertising. Once in the market, dogfooding demonstrates confidence in the developers' own products.
 
