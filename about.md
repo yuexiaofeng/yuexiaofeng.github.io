@@ -16,11 +16,11 @@ As for my name `Xiaofeng` - it's pronounced very similar to SHAW-phone. It came 
 
 Some fun facts about myself:
 
-1. My last name `Yue` means Great Mountain in Chinese, although I do need to hike a lot more in BC. `Yue` (4th tone i.e. falling tone) in written Chinese is `岳` - since it's a pictogram language, a few thousands years ago, it was scripted on oracle bones to resemble mountains before it evolved to its modern form on the right: ![yue](../assets/images/yue_oracle.png)
-1. Part of my first name `feng` (Chinese character: `峰`) means Peak in Chinese.. IKR? In a parallel universe, there must be a great explorer and mountaineer Xiaofeng Yue who's our Edmund Hillary equivalent
-1. I’m not saying my name is unique but based on a query to a central government database, as of February 2021, there were exactly 18 other people in China shared the same full name as mine
-1. I am a huge fan of Rick and Morty. Do yourself a favor, watch it if you haven't
-1. I used to study in Harbin, a city in Northern China that's not far from Siberia. Winter there can be -30C degrees (sounds familiar eh?)
+1. My family name `Yue` means Great Mountain in Chinese, although I should probably hike a lot more to live up to the name! `Yue` (4th tone i.e. falling tone) in written Chinese is `岳` - since Chinese is a pictogram language, a few thousands years ago, the character was scripted on oracle bones to resemble mountains before it evolved to its modern form on the right: ![yue](../assets/images/yue_oracle.png)
+2. Part of my first name, `feng` (Chinese character: `峰`; similar etymology as my surname `岳`, shares the same building component `山` that hints a character is mountain-related), means Peak in Chinese.. IKR? In a parallel universe, there must be a great explorer and mountaineer Xiaofeng Yue who's our Edmund Hillary equivalent
+3. I’m not saying my name is unique but based on a query to a central government database, as of February 2021, there were exactly 18 other people in China shared the same full name as mine
+4. I am a huge fan of Rick and Morty. Do yourself a favor, watch it if you haven't
+5. I used to study in Harbin, a city in Northern China that's not far from Siberia. Winter there can be -30C degrees (sounds familiar eh?)
 
 This is a space for me to ramble about random stuff, most likely on the areas of Tech, Books, and Movies (I love old ones!), etc - should be categorized in <a href="/tags">Tags</a>. I'll refrain from talking about politics of any kind, in case I need to run for office one day. :)
 
