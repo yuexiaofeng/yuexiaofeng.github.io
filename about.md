@@ -4,7 +4,7 @@ layout: post
 title: About
 permalink: /about/
 ---
-![me](../assets/images/xf_hengdian_2019.jpg)
+![me](../assets/images/moi.jpg)
 
 Yo! 
 
