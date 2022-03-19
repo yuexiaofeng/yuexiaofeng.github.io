@@ -17,8 +17,8 @@ As for my name `Xiaofeng` - it's pronounced very similar to SHAW-phone. It came 
 Some fun facts about myself:
  
 1. I am a huge fan of Rick and Morty. Do yourself a favor, watch it if you haven't
-2. My last name `Yue` (Chinese character: 岳) means Great Mountain in Chinese, although I haven't hiked a lot in BC yet..
-3. Part of my first name `feng` (Chinese character: 峰) means Peak in Chinese.. IKR? In a parallel universe, there must be a great explorer and mountaineer Xiaofeng Yue who's our Edmund Hillary equivalent
+2. My last name `Yue` means Great Mountain in Chinese, although I do need to hike a lot more in BC. `Yue` (4th tone i.e. falling tone) in written Chinese is `岳` - since it's a pictogram language, a few thousands years ago, it was scripted on oracle bones to resemble mountains before it evolved to its modern form on the right: ![yue](../assets/images/yue_oracle.png) 
+3. Part of my first name `feng` (Chinese character: `峰`) means Peak in Chinese.. IKR? In a parallel universe, there must be a great explorer and mountaineer Xiaofeng Yue who's our Edmund Hillary equivalent
 4. I’m not saying my name is unique but based on a query to a central government database, as of February 2021, there were exactly 18 other people in China shared the same full name as mine
 5. I used to study in Harbin, a city in Northern China that's not far from Siberia. Winter there can be -30C degrees (sounds familiar eh?)
 
