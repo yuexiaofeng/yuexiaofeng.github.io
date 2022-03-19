@@ -10,7 +10,7 @@ tags: [Random, Tech]
 
 You might hear people say this every now and then. But much less often, they would actually tell you what `good enough` is. <!--more-->
 
-This post was initially intended as a sequel to my previous [Life of Pi, and.. Infinity](https://xiaofengyue.com/2021-03-14/life-of-pi) piece, but was also inspired later on by recent Azure outage news.
+This post was initially intended as a sequel to my previous [Life of Pi, and.. Infinity]({% post_url 2021-03-14-life-of-pi %}) piece, but was also inspired later on by recent Azure outage news.
 
 I'll kick start by explaining the difference between theory and engineering fields.
 

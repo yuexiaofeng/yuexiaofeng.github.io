@@ -3,7 +3,7 @@ layout: post
 title: "FastAI on AzureML and Software 2.0"
 author: "Xiaofeng"
 excerpt_separator: <!--more-->
-tags: [Tech]
+tags: [AI]
 ---
 
 Before I realized it, it's October already! We all know what that means - <!--more--> 2021 is almost gone! Can't really say I'm sad that it's gonna be over soon-ish, but am getting a bit sentimental for sure. Yet another year of WFH! Hopefully this situation will be improved soon and we can get back to the previous mundane civilization.

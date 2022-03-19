@@ -2,7 +2,7 @@
 layout: post
 title: "Well, There Is A First Time for Everything"
 author: "Xiaofeng"
-tags: [Random, Tech]
+tags: [Random]
 ---
 
 ![beachmac](../assets/images/beachmac.webp)
