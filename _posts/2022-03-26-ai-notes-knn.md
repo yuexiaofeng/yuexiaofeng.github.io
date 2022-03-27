@@ -196,7 +196,7 @@ with open('data/iris.data') as f:
         if not line or line == '\n':
             continue
         sl, sw, pl, pw, label = line.rstrip().split(',')
-        features.append([float(sl),float(sw),float(pl), float(pw)])
+        features.append([float(sl), float(sw), float(pl), float(pw)])
         labels.append(label)
 ```
 
