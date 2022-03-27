@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "AI Notes: KNN"
-author: "Xiaofeng"
+author: "Χiαoƒϵng"
 excerpt_separator: <!--more-->
 tags: [AI]
 ---
 
 > Corporate drone by day, renegade techie by night. <!--more--> Too old for theatre, and too bored for anything else, Xiaofeng was looking for a challenge. And in the AI project he found it.
 
-Well, those are definitely not the exact quotes from Meryl Streep's great movie [Julie & Julia](https://www.imdb.com/title/tt1135503/). And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
+Well, those are definitely not the exact quotes from Amy Adams and Meryl Streep's great movie [Julie & Julia](https://www.imdb.com/title/tt1135503/). And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
 
 What I'd like to cover:
 
@@ -35,10 +35,10 @@ As the inaugural post, I do feel obligated to cover a bit context so it's not to
 
 ### What's AI
 
-If you follow tech newsletters, you'll hear an ocean of buzzwords like AI, ML, Deep Learning, Data Science.. but what are they really? There are many versions of definitions too. I have to admit that, these still baffle me as I think their boundaries are not as clear-cut.
+If you follow tech newsletters, you'll hear an ocean of buzzwords like AI, ML, Deep Learning, Data Science.. but what are they really? To make it worse, there seems to be many versions of definitions too. I have to admit that, these still baffle me as I think their boundaries are not as clear-cut. Here's a drawing I dug out on the internet I thought might be good to show their relations:
 
 ![ai-ml-ds](../assets/images/20220326/ai-ml-ds.png)
-*A diagram showing the relationships between AI, ML, deep learning, and data science. Credit: [Jen Looper](https://twitter.com/jenlooper)*
+*Credit: [Jen Looper](https://twitter.com/jenlooper)*
 
 *What is AI (artificial intelligence)?*[^fn2]
 
@@ -68,7 +68,7 @@ As you can see, it's basically a rule-based machine with lots of nested **if**s.
 
 ![rick-ai](../assets/images/20220326/rick-ai.jpeg)
 
-While I won't disagree that a rule machine is indeed *smart*, it needs human to teach *knowledge* to it constantly and thus isn't intelligent or flexible enough. A system that can only deduce won't suffice in our needs of AI. That's where the part ML comes in, as we'd want the system to possess *knowledge* and *learn* to improve itself - hence Machine Learning.
+While I won't disagree that a rule machine is indeed *smart*, it needs human to teach *knowledge* to it constantly and thus isn't intelligent or flexible enough yet. A system that can only deduce won't suffice in our needs of AI. That's where the part ML comes in, as we'd want the system to possess *knowledge* and *learn* to improve itself - hence Machine Learning.
 
 ### Why AI Is Interesting
 
@@ -92,7 +92,7 @@ Of course, in some great TV series too. Such as:
 
 The list goes on!
 
-As a newly-minted gamer, I also enjoyed *Detroit: Become Human* and how the endings vary based on different life choices (don't you just wish you could just go back in time and retry a different choice?). I have yet to play through *Cyberpunk 2077* as I'm saving it for a longer vacation to binge (probably on a long weekend!). Aside from the games themed in androids and cyborgs, the NPCs (non-player character) are AI based too (I hated the zombies in *Last of Us* so much). It's also interesting to picture what if NPCs become sentient - a possibility discussed in the 2021 movie *Free Guy*.
+As a newly-minted gamer, I also enjoyed *Detroit: Become Human* and how the many endings vary based on different choices (don't you wish you could just go back in time and retry a different life choice too?). I have yet to play through *Cyberpunk 2077* as I'm saving it for a longer vacation to binge (probably on a long weekend!). Aside from the games themed in androids and cyborgs, the NPCs (non-player character) are AI based too (I hated the zombies in *Last of Us* so much). It's also interesting to picture what if NPCs become sentient - a possibility discussed in the 2021 movie *Free Guy*.
 
 As for engineers, whether not in this AI field specifically, I'd say it's much beneficial to know more about AI in general. Personally, I like how AI abstracts real-world problems via mathematical modeling and (lots of) trade-offs.
 
