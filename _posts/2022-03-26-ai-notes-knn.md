@@ -15,7 +15,7 @@ What I'd like to cover:
 1. What I have learnt in the field. This series will be literally digitizing my notes
 2. While it's AI series, it'd be mostly about ML (Machine Learning). I'll explain later
 3. What I think I understood (naturally it could be inaccurate, so take it with a grain of salt), and my own explanations
-4. What "recipe" I have tried, along with thoughts (Of course, my opinions are just mine, especially the good ones!)
+4. What *recipe* I have tried, along with thoughts (Of course, my opinions are just mine, especially the good ones!)
 5. Random AI-related ramblings, cuz sometimes I do have attention deficits and may lose my train of thoughts - But I'm guessing there is a reason why people host their own sites..
 
 What I probably won't do:
@@ -24,9 +24,9 @@ What I probably won't do:
 2. A history of AI development. Perhaps not even a brief one as this ain't a paper!
 3. Add lots of mathematical formulas and deductions. I'll refrain from doing too much of it, mostly cuz it's a bit time-consuming typing them (definitely not cuz it might be too complicated to pick up and explain. :D)
 
-This new blog series will get a prefix of "AI Notes", and "AI" in <a href="/tags">Tags</a>. I intend to update this intermittently as I have time and am in the mood :). Hopefully it'd be useful to my readers, and I do hope so - as people oftentimes say, if you can't explain something well, maybe you didn't understand it that well!
+This new blog series will get a prefix of `AI Notes`, and `AI` in <a href="/tags">Tags</a>. I intend to update this intermittently as I have time and am in the mood :). Hopefully it'd be useful to my readers, and I do hope so - as people oftentimes say, if you can't explain something well, maybe you didn't understand it that well!
 
-As the inaugural post, I do feel obligated to cover a bit context so it's not too abrupt. I'll pick a lower hanging fruit, KNN (k-nearest neighbors), as the first recipe to talk about. Here's a table of content since AI is an intimidating topic in general:
+As the inaugural post, I do feel obligated to cover a bit context so it's not too abrupt. I'll pick a lower hanging fruit, KNN (K-Nearest Neighbors), as the first recipe to talk about. Here's a table of content since AI is an intimidating topic in general:
 
 * TOC
 {:toc}
@@ -68,7 +68,7 @@ As you can see, it's basically a rule-based machine with lots of nested **if**s.
 
 ![rick-ai](../assets/images/20220326/rick-ai.jpeg)
 
-While I won't disagree that a rule machine is indeed "smart", it needs human to teach "knowledge" to it constantly and thus isn't intelligent or flexible enough. A system that can only deduce won't suffice in our needs of AI. That's where the part ML comes in, as we'd want the system to possess "knowledge" and "learn" to improve itself - hence Machine Learning.
+While I won't disagree that a rule machine is indeed *smart*, it needs human to teach *knowledge* to it constantly and thus isn't intelligent or flexible enough. A system that can only deduce won't suffice in our needs of AI. That's where the part ML comes in, as we'd want the system to possess *knowledge* and *learn* to improve itself - hence Machine Learning.
 
 ### Why AI Is Interesting
 
@@ -88,7 +88,7 @@ And if you too are a movie junkie like me, likely you've already met AI in:
 Of course, in some great TV series too. Such as:
 
 * The Machine in *Person of Interest*
-* Let's not forget all the "hosts" in *Westworld*
+* Let's not forget all the hosts in *Westworld*
 
 The list goes on!
 
@@ -115,7 +115,7 @@ So:
 * A trait such as sepal length, is called a feature or attribute
 * The value of a feature is called attribute value
 * The space that contains all the attributes is called attribute space, or sample space.
-* The process of obtaining "model" from dataset is called learning or training
+* The process of obtaining *model* from dataset is called learning or training
 
 To classify AI from the angle of the problems it tries to solve, we'd have:
 
@@ -232,7 +232,7 @@ topK = [labels[i] for i in nearest_neighbors[:k]]
 Let's check if the results match our expectations:
 ![hard-result](../assets/images/20220326/hard-result.png)
 
-So among the 10 nearest neighbors, 8 of them were marked as "Iris-virginica". We can then "predict" that there's a 80% chance this new data point belongs to "Iris-virginica". Of course, we know the new data point maps to the last entry of the labels, so we can reveal that it's actually indeed "Iris-virginica"! Ta-da!
+So among the 10 nearest neighbors, 8 of them were marked as *Iris-virginica*. We can then *predict* that there's a 80% chance this new data point belongs to *Iris-virginica*. Of course, we know the new data point maps to the last entry of the labels, so we can reveal that it's actually indeed *Iris-virginica*! Ta-da!
 
 ### The Wheels
 
@@ -271,7 +271,7 @@ iris_data = datasets.load_iris()
 
 This post actually took me much more after hours to wrap up than I initially estimated. I mean the experiments and learnings were done quite a long time ago. I thought hey why not digitize the notes and write about it - this oughta be quick (famous last words!).
 
-This KNN is a fine example of how the AI data training process goes. Although there's one thing very special about this KNN in particular that I liked, it's the data is the model here, as we're just calculating a new data point's distance against our dataset on the fly. In the `classifier.fit(...)` routine above, we're not actually saving the returned "model" while we should've in other AI algorithms.
+This KNN is a fine example of how the AI data training process goes. Although there's one thing very special about this KNN in particular that I liked, it's the data is the model here, as we're just calculating a new data point's distance against our dataset on the fly. In the `classifier.fit(...)` routine above, we're not actually saving the returned *model* while we should've in other AI algorithms.
 
 As mentioned in my previous FastAI/Software 2.0 [post]({%post_url 2021-10-17-aml-fastai-s2%}), there's already this new trend called Data-centric AI, which emphasizes the importance of good data. In our KNN example, a good dataset is everything. But other algorithms are also heavily dependent on the shape of the data too. In the somewhat counter-intuitive Microsoft paper *Scaling to Very Very Large Corpora for Natural Language Disambiguation*[^fn3] in 2001, it stated that the size of the dataset used to train the model mattered far more than the choice of ML approach. And, the performance differences between the models became very small as the dataset grew large [^fn4]. As shown here:
 
