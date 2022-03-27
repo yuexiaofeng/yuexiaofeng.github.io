@@ -26,7 +26,7 @@ What I probably won't do:
 
 This new blog series will get a prefix of `AI Notes`, and `AI` in <a href="/tags">Tags</a>. I intend to update this intermittently as I have time and am in the mood :). Hopefully it'd be useful to my readers, and I do hope so - as people oftentimes say, if you can't explain something well, maybe you didn't understand it that well!
 
-As the inaugural post, I do feel obligated to cover a bit context so it's not too abrupt. I'll pick a lower hanging fruit, KNN (K-Nearest Neighbors), as the first recipe to talk about. Here's a table of content since AI is an intimidating topic in general:
+As the inaugural post, I do feel obligated to cover a bit context so it's not too abrupt. I'll pick a lower hanging fruit, KNN (**K**-**N**earest **N**eighbors algorithm), as the first recipe to talk about. Here's a table of content since AI is an intimidating topic in general:
 
 * TOC
 {:toc}
@@ -131,7 +131,7 @@ Does this labeling sound fancy? Well it isn't at all. In fact, you might've done
 
 ### The Problem
 
-KNN (K-Nearest Neighbors algorithm) is a type of supervised learning that could be used in classification. Due to its simplicity, lots of textbooks use it as an introductory example.
+KNN (**K**-**N**earest **N**eighbors algorithm) is a type of supervised learning that could be used in classification. Due to its simplicity, lots of textbooks use it as an introductory example.
 
 The ask is: given a labeled dataset and a new data point, find out K closest data points (nearest neighbors) to this new data point. We can then draw insights / conclusions based on the labels of these K neighbors, e.g. if more than K/2 neighbors belong to the same label, then the new data point is predicted to likely (>50% chance) belong to this label/category too. That's right - you know what people oftentimes say, a man is judged by the company he keeps! Here's an visual, for 2D data points, i.e. (x, y):
 
@@ -291,5 +291,5 @@ Data!!!
 ---
 [^fn1]: There are literally tons of materials online, such as the [ML for Beginners](https://github.com/microsoft/ML-For-Beginners) by Microsoft.
 [^fn2]: Courtesy of [Microsoft Docs](https://azure.microsoft.com/en-ca/overview/artificial-intelligence-ai-vs-machine-learning/#capabilities).
-[^fn3]: Scaling to Very Very Large Corpora for Natural Language Disambiguation; [paper](https://dl.acm.org/doi/pdf/10.3115/1073012.1073017) hosted on ACM.
-[^fn4]: There's also this NFL (No Free Lunch, not the one with great Super Bowl half-time show and epic commercials!) Theorem: through rigorous mathematical proof, Wolpert and Macready indicated in their [paper](https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf): "..that any two optimization algorithms are equivalent when their performance is averaged across all possible problems".
+[^fn3]: *Scaling to Very Very Large Corpora for Natural Language Disambiguation*: [paper](https://dl.acm.org/doi/pdf/10.3115/1073012.1073017) hosted on ACM.
+[^fn4]: There's also this *NFL* (**N**o **F**ree **L**unch, not the one with great Super Bowl half-time show and epic commercials!) Theorem: through rigorous mathematical proof, Wolpert and Macready indicated in their [paper](https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf): "..that any two optimization algorithms are equivalent when their performance is averaged across all possible problems".
