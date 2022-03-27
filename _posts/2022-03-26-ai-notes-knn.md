@@ -256,9 +256,9 @@ classifer.predict(unknown.reshape(1, -1))
 Let's see how it did:
 ![sk-result](../assets/images/20220326/sk-result.png)
 
-Look, same result as the hard way above, with few lines of code! But you don't need to know how to calculate the distances or get the predictions. It's probably faster too. :(
+Look, same result as the hard way above, with few lines of code! But you don't need to know the nitty-gritty implementation details like calculating distances and predictions. It's probably faster to run too. :(
 
-As for this particular Iris data, you don't even to need to port the data like I did. It could be just two lines and you're done with it:
+Better yet, for this particular Iris data, you don't even to need to port the data like I did. It could be just two lines and you're done with it:
 
 ```python
 from sklearn import datasets
