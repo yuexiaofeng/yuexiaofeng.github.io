@@ -203,7 +203,7 @@ with open('data/iris.data') as f:
 A snapshot of the training data:
 ![training-data](../assets/images/20220326/training-data.png)
 
-I should do a proper randomized training/test data split, but I'm feeling lazy. So I'm using the last feature -> label (150th) as the sole test data point/mapping here.
+I should do a proper randomized training/test data split, but I'm feeling lazy. So I'm using the last feature -> label (150<sup>th</sup>) as the sole test data point / mapping here.
 
 ```python
 # TODO: proper train/test cut, instead of just taking the first 149 here to train.
