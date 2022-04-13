@@ -24,7 +24,7 @@ What I probably won't do:
 2. A history of AI development. Perhaps not even a brief one as this ain't a paper!
 3. Add lots of mathematical formulas and deductions. I'll refrain from doing too much of it, mostly cuz it's a bit time-consuming typing them (definitely not cuz it might be too complicated to pick up and explain. :D)
 
-This new blog series will get a prefix of `AI Notes`, and `AI` in <a href="/tags">Tags</a>. I intend to update this intermittently as I have time and am in the mood :). Hopefully it'd be useful to my readers, and I do hope so - as people oftentimes say, if you can't explain something well, maybe you didn't understand it that well!
+This new blog series will receive a prefix of `AI Notes`, and `AI` in <a href="/tags">Tags</a>. I intend to update this intermittently as I have time and am in the mood :). Hopefully it'd be useful to my readers, and I do hope so - as people oftentimes say, if you can't explain something well, maybe you didn't understand it that well!
 
 As the inaugural post, I do feel obligated to cover a bit context so it's not too abrupt. I'll pick a lower hanging fruit, KNN (**K**-**N**earest **N**eighbors algorithm), as the first recipe to talk about. Here's a table of content since AI is an intimidating topic in general:
 
@@ -133,7 +133,7 @@ Does this labeling sound fancy? Well it isn't at all. In fact, you might've done
 
 KNN (**K**-**N**earest **N**eighbors algorithm) is a type of supervised learning that could be used in classification. Due to its simplicity, lots of textbooks use it as an introductory example.
 
-The ask is: given a labeled dataset and a new data point, find out K closest data points (nearest neighbors) to this new data point. We can then draw insights / conclusions based on the labels of these K neighbors, e.g. if more than K/2 neighbors belong to the same label, then the new data point is predicted to likely (>50% chance) belong to this label/category too. That's right - you know what people oftentimes say, a man is judged by the company he keeps! Here's an visual, for 2D data points, i.e. (x, y):
+The ask is: given a labeled dataset and a new data point, find out K closest data points (nearest neighbors) to this new data point. We can then draw insights / conclusions based on the labels of these K neighbors, e.g. if more than K/2 neighbors belong to the same label, then the new data point is predicted to likely (>50% chance) belong to this label/category too. That's right - you know what people oftentimes say, a man is judged by the company he keeps! Here's a visual, for 2D data points, i.e. (x, y):
 
 ![knn-visual](../assets/images/20220326/knn-visual.png)
 *Image Credit: [DataCamp](https://twitter.com/DataCamp/status/1037324501757976577)*
@@ -271,9 +271,9 @@ iris_data = datasets.load_iris()
 
 This post actually took me much more after hours to wrap up than I initially estimated. I mean the experiments and learnings were done quite a long time ago. I thought hey why not digitize the notes and write about it - this oughta be quick (famous last words!).
 
-This KNN is a fine example of how the AI data training process goes. Although there's one thing very special about this KNN in particular that I liked, it's the data is the model here, as we're just calculating a new data point's distance against our dataset on the fly. In the `classifier.fit(...)` routine above, we're not actually saving the returned *model* while we should've in other AI algorithms.
+This KNN is a fine example of how the AI data training process goes. Although there's one thing very special about this KNN that stood out - the data is the model here, as we're just calculating a new data point's distance against our dataset on the fly. In the `classifier.fit(...)` routine above, we're not actually saving the returned *model* while we should've in other AI algorithms.
 
-As mentioned in my previous FastAI/Software 2.0 [post]({%post_url 2021-10-17-aml-fastai-s2%}), there's already this new trend called Data-centric AI, which emphasizes the importance of good data. In our KNN example, a good dataset is everything. But other algorithms are also heavily dependent on the shape of the data too. In the somewhat counter-intuitive Microsoft paper *Scaling to Very Very Large Corpora for Natural Language Disambiguation*[^fn3] in 2001, it stated that the size of the dataset used to train the model mattered far more than the choice of ML approach. And, the performance differences between the models became very small as the dataset grew large [^fn4]. As shown here:
+As mentioned in my previous FastAI/Software 2.0 [post]({%post_url 2021-10-17-aml-fastai-s2%}), there's already this new trend called Data-centric AI, which emphasizes the importance of good data. In our KNN example, a good dataset is everything. But other algorithms are heavily dependent on the shape of the data too. In the somewhat counter-intuitive Microsoft paper *Scaling to Very Very Large Corpora for Natural Language Disambiguation*[^fn3] in 2001, it stated that the size of the dataset used to train the model mattered far more than the choice of ML approach. And, the performance differences between the models became very small as the dataset grew large [^fn4]. As shown here:
 
 ![ms-paper-2001](../assets/images/20220326/ms-paper-2001.png)
 
