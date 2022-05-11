@@ -8,7 +8,7 @@ tags: [AI]
 
 Since when productions of 90-min movies had become a crime? <!--more-->
 
-It was a Friday night - the feeling of starting a weekend was simply great, especially cuz I'd been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [*Jungle Cruise*](https://www.imdb.com/title/tt0870154/) at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old-fashioned 90 minutes frame? I get that with the inflation and all, producers may want the viewers to get the money's worth. But IMO, quality matters more than quantity here.
+It was a Friday night - the feeling of starting a weekend was simply great, especially cuz I'd been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [*Jungle Cruise*](https://www.imdb.com/title/tt0870154/) at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old-fashioned 90 minutes frame? I get that with the inflation and all, producers want us viewers to get our money's worth. But IMO, quality matters more than quantity here.
 
 I'm sure the original film rolls added up to way more than 120 minutes' worth, so with a little further editing of the no-so-important scenes, we could get roughly the same watching experience in 90mins, without losing much of the storyline (imagine the accumulated time it'd save for humanity. Ahem, Disney, take a moment!). That editing process, would be somewhat resonating with what I wanted to ramble today: **P**rincipal **C**omponent **A**nalysis (PCA), an algorithm that's widely used in AI and statistics.
 
@@ -16,7 +16,7 @@ I'm sure the original film rolls added up to way more than 120 minutes' worth, s
 
 So what is PCA? Why would we need it?
 
-Before answering these, let's recap what features are. As mentioned in the previous Iris flower example, a trait such as sepal length, is called a feature or attribute. In the original dataset in KNN [post]({%post_url 2022-03-26-ai-notes-knn%}), we were tracking 4 features, namely sepal length, sepal width, petal length and petal width. If we say each feature is a dimension, then this Iris dataset would be a 4-dimensional one.
+Before answering these, let's recap what features are. As mentioned in the previous Iris flower example, a trait such as sepal length, is called a feature or attribute. In the dataset in my previous KNN [post]({%post_url 2022-03-26-ai-notes-knn%}), we were tracking 4 features, namely sepal length, sepal width, petal length and petal width. If we say each feature is a dimension, then this Iris dataset would be a 4-dimensional one.
 
 But that's a lot of data to compute when you have many entries, what if we can distill out a smaller dataset, without losing too much characteristics/representation of the data? Or as what Bezos might better put, how do we accomplish ~~more~~ roughly-the-same with less (#frugality)?
 
@@ -37,7 +37,7 @@ As I kept saying, visualizing a 4-dimensional dataset/space can be a little hard
 
 As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will "fall" on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this "fall" experience a "projection".
 
-If we follow the ideas of the previous x/y axis projections, but instead find a new axis (line) for all the data points to project to, in a way that the maximum diversity / representation of the datasets is met - an example would be the blue line in the visual above. Then we've reduced the data dimensionality from 2D -> 1D, cuz we can then use 1 axis instead of 2 to represent. Similarly, we could reduce N-dimensional datasets to N-1 ones.
+If we follow the ideas of the previous x/y axis projections, but instead find a new axis (line) for all the data points to project to, in a way that the maximum diversity / representation of the datasets is preserved - an example would be the blue line in the visual above. Then we've reduced the data dimensionality from 2D -> 1D, cuz we can then use 1 axis instead of 2 to represent. Similarly, we could reduce N-dimensional datasets to N-1 ones.
 
 Note that this particular 2D visual looks awfully like a linear regression problem but it's actually very different. In linear regression, the y-axis would be the function value instead of a peer feature. It's an entirely different scenario.
 
@@ -47,7 +47,7 @@ In math, we use variance to denote the diversity of the data:
 
 where μ denotes the average of the data. If we do a "demean" process that normalizes the data, then μ would become 0. So the variance formula could be even simpler to compute.
 
-In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be equivalent to a 2D vector from the origin (0,0) after "demean". Then all of the data, after projection to this new `w` axis, with a splash of some vector calculation, we'd end up a target function to maximize:
+In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be equivalent to a 2D vector from the origin (0, 0) after "demean". Then all of the data, after projection to this new `w` axis, with a splash of some vector calculation, we'd end up a target function to maximize:
 
 ![var_w](../assets/images/20220507/var_w.png)
 
