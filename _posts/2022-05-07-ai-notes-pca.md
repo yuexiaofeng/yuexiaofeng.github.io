@@ -8,7 +8,7 @@ tags: [AI]
 
 Since when productions of 90-min movies had become a crime? <!--more-->
 
-No time beats Friday nights! The feeling of starting a weekend is simply great, especially cuz I've been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [Jungle Cruise](https://www.imdb.com/title/tt0870154/) at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old fashioned 90 minutes frame? I get that with the inflation and all, producers may want the viewers to get the money's worth. But IMO, quality matters more than quantity here.
+It was a Friday night - the feeling of starting a weekend is simply great, especially cuz I'd been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [*Jungle Cruise*](https://www.imdb.com/title/tt0870154/) at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old-fashioned 90 minutes frame? I get that with the inflation and all, producers may want the viewers to get the money's worth. But IMO, quality matters more than quantity here.
 
 I'm sure the original film rolls added up to way more than 120 minutes' worth, so with a little further editing of the no-so-important scenes, we could get roughly the same watching experience in 90mins, without losing much of the storyline (imagine the accumulated time it'd save for humanity. Ahem, Disney, take a moment!). That editing process, would be somewhat resonating with what I wanted to ramble today: **P**rincipal **C**omponent **A**nalysis(PCA), an algorithm that's widely used in AI and statistics.
 
@@ -18,7 +18,7 @@ So what is PCA? Why would we need it?
 
 Before answering these, let's recap what features are. As mentioned in the previous Iris flower example, a trait such as sepal length, is called a feature or attribute. In the original dataset in KNN [post]({%post_url 2022-03-26-ai-notes-knn%}), we were tracking 4 features, namely sepal length, sepal width, petal length and petal width. If we say each feature is a dimension, then this Iris dataset is a 4-dimensional one.
 
-But that's a lot of data to compute when you have many entries, what if we can distill out a smaller datasets, without losing too much characteristics/representation of the data? Or as what Bezos might better put, how do we accomplish ~~more~~ roughly-the-same with less (#frugality)?
+But that's a lot of data to compute when you have many entries, what if we can distill out a smaller dataset, without losing too much characteristics/representation of the data? Or as what Bezos might better put, how do we accomplish ~~more~~ roughly-the-same with less (#frugality)?
 
 The most naive way to do it, is simply dropping one of the dimensions entirely, say we decide not to care about petal width for the flowers, then this Iris dataset would have been reduced to a 3-dimensional one. But, we'd lose track of that trait entirely and this is a pure loss that'll impact hugely on the classifier accuracy. Can we do better?
 
@@ -30,16 +30,16 @@ Let's dive into it.
 
 ## The Math
 
-As I kept saying, visualizing a 4 dimensional dataset can be a little hard given we can only perceive a 3D one (and.. we live in a 3D world). So to help with the explanation, let's try a 2D one for a dataset with 2 features:
+As I kept saying, visualizing a 4-dimensional dataset/space can be a little hard given we live in a 3D world. So to help with the explanation, let's try a 2D one for a dataset with 2 features:
 
 ![pca-line](../assets/images/20220507/pca_line.png)
 *Credit: [OpenCV.org](https://docs.opencv.org/3.4/d1/dee/tutorial_introduction_to_pca.html)*
 
-As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) axis for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will "fall" on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this "fall" experience a "projection".
+As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will "fall" on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this "fall" experience a "projection".
 
 The trick is, should we continue on the previous x/y axis projections, what if we find a new axis (line) for all the data points to project to, in a way that the maximum diversity / representation of the datasets is met? If we succeed in finding such a line as shown in the visual above, then we've reduced the data dimensionality from 2D -> 1D, cuz we can then use 1 axis instead of 2 to represent. Similarly, we could reduce N-dimensional datasets to N-1 ones.
 
-Note that this particular 2D visual looks awfully like a linear regression but it is actually very different. In linear regression, the y-axis would be the function value instead of a peer feature. It's an entirely different scenario.
+Note that this particular 2D visual looks awfully like a linear regression problem but it is actually very different. In linear regression, the y-axis would be the function value instead of a peer feature. It's an entirely different scenario.
 
 In math, we use variance to denote the diversity of the data:
 
@@ -51,7 +51,7 @@ In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we
 
 ![var_w](../assets/images/20220507/var_w.png)
 
-In this 2D case, `w` only has 2 coordinates. But if we expand `w` to N, then we'd have
+In this 2D case, `w` only has 2 coordinates. But if we expand `w` to n-dimensional, we'd have
 
 ![var_wn](../assets/images/20220507/var_wn.png)
 
@@ -61,7 +61,7 @@ To solve this, we'd need to employ a technique called gradient ascent, but I pro
 
 Luckily this has been shipped out of the box by many libraries, such as our beloved scikit-learn. I'm just gonna save a day's sweat implementing it from scratch (life is hard enough, let's not do everything the hard way..), and simply call the APIs for a demo.
 
-I'll piggyback on my previous AzureML setup (local environments should work too), and load the Iris dataset with an one-liner:
+I'll piggyback on my previous AzureML setup (local environments should work just the same), and load the Iris dataset with an one-liner:
 
 ```python
 from sklearn import datasets
@@ -153,7 +153,7 @@ Lots of people go further than that, like when reading an end-user license agree
 
 Aside from the visual perceptions, human brains have this similar ignoring mechanism for sounds too. MP3, for one, would be an algorithm that took advantage of this.
 
-Since my team work on audio AI, I have been diving a bit deeper into the audio encoding realm, which reminded me that I had this ancient MP3 player I bought eons ago. I managed to dig it out from our home vault this weekend. Surprisingly, with my constant relocations after college, it still has not lost (who knows, it might become a family heirloom!):
+Since my team works on audio AI, I have been diving a bit deeper into the audio encoding realm, which reminded me that I had this ancient MP3 player I bought eons ago. I managed to dig it out from our home vault this weekend. Surprisingly, with my constant relocations after college, it still has not lost (who knows, it might become a family heirloom!):
 
 ![mp3-player](../assets/images/20220507/old_mp3_player.jpg)
 
@@ -163,7 +163,7 @@ The reason why MP3 is not longer as popular cuz the underlying algorithm is a lo
 
 ## To Wrap up
 
-As much as I'm all for the morale of PCA, first thing first, cutting down to the chase and all in general, I still find it's a bit too much to say one has "seen" a movie after watching a 5-min short video explained by some YouTuber or Tik Tok influencer (my wife does that from time to time, and we'd bicker over it). There are also online book clubs in China, where someone'd pick a book, read it, abstract out the gist and then explain to the followers in merely 30mins or less, so now one can claim he/she has "read" a book without having to actually read it - I think this is, just like the 4-dimensional digits example above, "PCA" went too far. Call me old school, but I'm just not really a big fan of this fast-food'ing movement. :)
+As much as I'm all for the morale of PCA, first thing first, cutting down to the chase and all in general, I still find it's a bit too much to say one has "seen" a movie after watching a 5-min short video explained by some YouTuber or Tik Tok influencer (my wife does that from time to time, and we'd bicker over it). There are also online book clubs in China, where someone'd pick a book, read it, abstract out the gist and then explain to the followers in merely 30mins or less, so now one can claim he/she has "read" a book without having to actually read it - I think that's, just like the 2-dimensional digits example above, "PCA" went too far. Call me old school, but I'm just not really a big fan of this fast-food'ing movement. :)
 
 With that, I conclude my ranting today. Until next time!
 
