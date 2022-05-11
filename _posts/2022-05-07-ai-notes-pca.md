@@ -47,7 +47,7 @@ In math, we use variance to denote the diversity of the data:
 
 where μ denotes the average of the data. If we do a "demean" process that normalizes the data, then μ would become 0. So the variance formula could be even simpler to compute.
 
-In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be a 2D vector. Then all of the data, after projection to this new `w` axis, together with the "demean" operation and some vector calculation, we'd end up a target function to maximize:
+In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be equivalent to a 2D vector from the origin (0,0) after "demean". Then all of the data, after projection to this new `w` axis, with a splash of some vector calculation, we'd end up a target function to maximize:
 
 ![var_w](../assets/images/20220507/var_w.png)
 
