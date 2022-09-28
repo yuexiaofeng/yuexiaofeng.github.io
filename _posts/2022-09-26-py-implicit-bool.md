@@ -107,7 +107,7 @@ obj = Dummy()
 check_bool(obj)
 ```
 
-This turned out to be True aka not empty, which is a bit counter-intuitive. That's cuz when it's evaluated for booleaness, Python would do `bool(obj)` which then triggers the built-in magic method `__bool__` if available. So if we do the following instead:
+This turned out to be True aka not empty, which is a bit counter-intuitive. That's cuz when it's evaluated for booleaness, Python would do `bool(obj)` which then triggers the built-in magic method `__bool__()` if available. So if we do the following instead:
 
 ```python
 class BoolDummy(Dummy):
@@ -123,7 +123,7 @@ check_bool(obj)
 
 Then this new dummy object would now be evaluated as false.
 
-But just having `__bool__` return True/False outright seems a bit arbitrary. We could take a step further and tie it to the emptiness, as shown in the homemade list container/collection example below (obviously there could be other boolean check use cases as well):
+But just having `__bool__()` return True/False outright seems a bit arbitrary. We could take a step further and tie it to the emptiness, as shown in the homemade list container/collection example below (obviously there could be other boolean check use cases as well):
 
 ```python
 class ContainerBase:
