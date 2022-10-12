@@ -26,7 +26,7 @@ As much as I want to believe these rules are coherent, they can be conflicting w
 
 In full disclosure, I have played with this quite some time ago but recently encountered again, so I decided to ramble a bit in a post. Here it goes.
 
-Say if you want to check if an abject is exhausted/empty or true/false to trigger some logic, it'd be naturally to do any of the following:
+Say if you want to check if an abject is depleted/empty or true/false to trigger some logic, it'd be naturally to do any of the following:
 
 ```python
 #!/usr/bin/env python3
