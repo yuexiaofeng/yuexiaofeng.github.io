@@ -35,9 +35,9 @@ As I kept saying, visualizing a 4-dimensional dataset/space can be a little hard
 ![pca-line](../assets/images/20220507/pca_line.png)
 *Credit: [OpenCV.org](https://docs.opencv.org/3.4/d1/dee/tutorial_introduction_to_pca.html)*
 
-As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will "fall" on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this "fall" experience a "projection".
+As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will *fall* on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this *fall* experience a *projection*.
 
-If we follow the ideas of the previous x/y axis projections, but instead find a new axis (line) for all the data points to project to, in a way that the maximum diversity / representation of the datasets is preserved - an example would be the blue line in the visual above. Then we've reduced the data dimensionality from 2D -> 1D, cuz we can then use 1 axis instead of 2 to represent. Similarly, we could reduce N-dimensional datasets to N-1 ones.
+If we follow the ideas of the previous x/y axis projections, but instead find a new axis (line) for all the data points to project to, in a way that the maximum diversity / representation of the datasets is preserved - an example would be the blue line in the visual above. Then we've reduced the data dimensionality from 2D -> 1D, cuz we can then use 1 axis instead of 2 to represent. Similarly, we could reduce N-dimensional datasets to N-1 ones by transforming with only first N-1 principal components.
 
 Note that this particular 2D visual looks awfully like a linear regression problem but it's actually very different. In linear regression, the y-axis would be the function value instead of a peer feature. It's an entirely different scenario.
 
@@ -45,9 +45,9 @@ In math, we use variance to denote the diversity of the data:
 
 ![variance](../assets/images/20220507/var.png)
 
-where μ denotes the average of the data. If we do a "demean" process that normalizes the data, then μ would become 0. So the variance formula could be even simpler to compute.
+where μ denotes the average of the data. If we do a *demean* process that normalizes the data, then μ would become 0. So the variance formula could be even simpler to compute.
 
-In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be equivalent to a 2D vector from the origin (0, 0) after "demean". Then all of the data, after projection to this new `w` axis, with a splash of some vector calculation, we'd end up a target function to maximize:
+In this 2D example, if we denote `X` as the dataset, and `w` as the line/axis we so desire to find, which in this case would be equivalent to a 2D vector from the origin (0, 0) after demean. Then all of the data, after projection to this new `w` axis, with a splash of some vector calculation, we'd end up a target function to maximize:
 
 ![var_w](../assets/images/20220507/var_w.png)
 
@@ -55,7 +55,7 @@ In this 2D case, `w` only has 2 coordinates. But if we expand `w` to n-dimension
 
 ![var_wn](../assets/images/20220507/var_wn.png)
 
-To solve this, we'd need to employ a technique called gradient ascent. Since I promised not to talk too much on mathematical formulas, I'll stop here (citing Fermat's famous words here again: *I had a proof that was too large to fit in the margin.* :D).
+Many approaches are available to solve this, for example, we could either employ a technique called gradient ascent, or eigenvalues / eigenvectors. Since I promised not to talk too much on mathematical formulas, I'll stop here (citing Fermat's famous words here again: *I had a proof that was too large to fit in the margin.* :D).
 
 ## The Wheel
 
