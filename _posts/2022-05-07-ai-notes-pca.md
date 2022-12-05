@@ -163,7 +163,7 @@ The reason why MP3 is not longer as popular cuz the underlying algorithm is a lo
 
 ## To Wrap up
 
-As much as I'm all for the morale of PCA, first thing first, cutting down to the chase and all in general, I still find it's a bit too much to say one has "seen" a movie after watching a 5-minute short video explained by some YouTuber or Tik Tok influencer (my wife does that from time to time, and we'd bicker over it). There are also online book clubs in China, where someone'd pick a book, read it, abstract out the gist and then explain to the followers in merely 30 minutes or less, so now one can claim he/she has "read" a book without having to actually read it - I think that's, just like the 2-dimensional digits example above, "PCA" went too far. Call me old school, but I'm just not really a big fan of this fast-food'ing movement. :)
+As much as I'm all for the morale of PCA, first thing first, cutting down to the chase and all in general, I still find it's a bit too much to say one has "seen" a movie after watching a 5-minute short video explained by some YouTuber or Tik Tok influencer (my wife does that from time to time, and we'd bicker over it). There are also online book clubs in China, where someone'd pick a book, read it, abstract out the gist and then explain to the followers in merely 30 minutes or less, so now one can claim he/she has "read" a book without having to actually read it - I think that's, just like the 2-dimensional digits example above, "PCA" went too far. Call me old school, but I'm just not really a big fan of this fast-food'ing movement - I know Soylent probably provides the same amount of nutrition with much less hassle, but I still want a good steak instead.
 
 With that, I conclude my ranting today. Until next time!
 
