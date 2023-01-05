@@ -46,8 +46,8 @@ while len(obj) > 0:
     pass
 
 while len(obj):
-    # Implies len(obj) is not 0, which is same as len(obj) > 0,
-    # which reminds me of the good times of ancient C, we'd actually -
+    # Implies len(obj) is not 0, which is a broader case of len(obj) > 0.
+    # This reminds me of the good times of ancient C, we'd actually -
     # use 0 to represent False cuz the lack of good boolean support
     pass
 
