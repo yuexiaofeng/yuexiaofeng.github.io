@@ -4,8 +4,6 @@ layout: post
 title: About
 permalink: /about/
 ---
-![me](../assets/images/moi.jpg)
-
 Yo! 
 
 Xiaofeng here. I'm a software engineer based in the beautiful city that's called Vancouver (the Canadian one). I also worked and lived in Shanghai for quite a few years before relocating in 2018.
