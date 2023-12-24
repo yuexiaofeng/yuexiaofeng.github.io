@@ -78,7 +78,7 @@ Then we'd have `P(A|B)` as follows:
 
 > P(A\|B) = P(B\|A) * P(A) / P(B) = 0.99 * 0.9 / 0.951 = 0.937
 
-That is, after seeing the first qualified product, our confidence, aka posterior probability of the machine's fine-tuned, is now boosted to 93.7%, from our initial prior belief of 90%.
+That is, after seeing the first qualified product, our confidence, aka posterior probability of the machine's fine-tuned, has now been boosted to 93.7%, from our initial prior belief of 90%.
 
 So back to our Nigerian email, how do we determine the likelihood of it being a spam? As the laws of Bayes asked, we'd need to set up some initial beliefs first. We can establish them by tallying up existing emails and labeling them in accordingly, i.e. preparing training data, as what we call it in AI or machine learning(ML). Say:
 
@@ -123,4 +123,4 @@ We human use this try/error Bayesian approach all the time. Bayes is all about u
 
 ---
 [^fn1]: The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy, by Sharon Bertsch McGrayne. I have to say it's a quite text-heavy book, nevertheless with many riveting stories and caveats.
-[^fn2]: The half-life of knowledge [wiki](https://en.wikipedia.org/wiki/Half-life_of_knowledge){:target="_blank"}
+[^fn2]: The half-life of knowledge [wiki](https://en.wikipedia.org/wiki/Half-life_of_knowledge){:target="_blank"}.
