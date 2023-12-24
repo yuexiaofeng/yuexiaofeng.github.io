@@ -31,7 +31,7 @@ I’m not saying sandwich feedbacks are harmful, but they sure can backfire. In 
 
 In the meanwhile, some cultures just like more direct communications. Explicit expressions and concise words are used at most times, hence the low context.
 
-Honestly I think either style works. But expectations should be established properly at the beginning. Some people prefer have it direct, while others may appreciate a bit subtlety. It takes time to align the communication styles.
+Honestly I think either style works. But expectations should be established properly at the beginning. Some people prefer cutting to the chase; but others may appreciate a bit subtlety. It takes time to align the communication styles.
 
 ### Social and Organizational Hierarchy
 
