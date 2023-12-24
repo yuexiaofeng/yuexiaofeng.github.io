@@ -70,17 +70,17 @@ It's a simple but powerful idea. Let's work on an example to get acquainted:
 
 If we let A denote the event of machine is fine-tuned, and let B denote the event of qualified products being produced. Then in this case, we're really looking for `P(A|B)`. We'd have:
 
-* P(A) = 0.9, which is the initial prior belief.
-* P(B\|A) = 0.99, which is the conditional belief that B given the event of A.
-* P(B) is trickier as it's not given out of the box. But we can derive it indirectly by P(B) = P(B\|A)P(A) + P(B\|-A)P(-A), where -A denotes the event of A not happening. So we'd have P(B) = 0.99 * 0.9 + 0.6 * (1 - 0.9) = 0.951.
+* P(A) = 0.9, which is the initial prior belief
+* P(B\|A) = 0.99, which is the conditional belief that B given the event of A
+* P(B) is trickier as it's not given out of the box. But we can derive it indirectly by P(B) = P(B\|A)P(A) + P(B\|-A)P(-A), where -A denotes the event of A not happening. So we'd have P(B) = 0.99 * 0.9 + 0.6 * (1 - 0.9) = 0.951
 
 Then we'd have `P(A|B)` as follows:
 
 > P(A\|B) = P(B\|A) * P(A) / P(B) = 0.99 * 0.9 / 0.951 = 0.937
 
-That is, after seeing the first qualified product, our confidence, aka posterior probability of the machine's fine-tuned is now boosted to 93.7%, from our initial prior belief of 90%.
+That is, after seeing the first qualified product, our confidence, aka posterior probability of the machine's fine-tuned, is now boosted to 93.7%, from our initial prior belief of 90%.
 
-So back to our Nigerian email, how do we determine the likelihood of it being spam? As the laws of Bayes asked, we'd need to set up some initial beliefs first. We can establish them by tallying up existing emails and labeling them in accordingly, i.e. preparing training data, as what we call it in AI or machine learning(ML). Say:
+So back to our Nigerian email, how do we determine the likelihood of it being a spam? As the laws of Bayes asked, we'd need to set up some initial beliefs first. We can establish them by tallying up existing emails and labeling them in accordingly, i.e. preparing training data, as what we call it in AI or machine learning(ML). Say:
 
 1. Out of 100 spam emails, the word `password` appears in 90 of them, and `commission` appears in 60
 2. Out of 100 normal emails (or what we'd like to call ham as compared to spam), the word `password` appears in 5 of them (could be legit emails like when you ask to reset your password cuz you forgot it), and `commission` appears in 30 (let's say this dataset is taken from a salesperson's inbox)
@@ -105,15 +105,15 @@ By the power vested by Bayes formula, we then arrive at:
 
 ![bayes_spam](../assets/images/20231112/bayes_spam.png)
 
-There you go, initially we give the benefit of doubt to any new email with half/half chance of spam. But after seeing both words of `password` and `commission`, the chance of it being spam is now 97%! Magic, isn't it? What we just did would basically be a back-of-the-envelope Naive Bayer email spam filter / classifier.
+There you go, initially we give the benefit of doubt to any new email with half/half chance of spam. But after seeing both words of `password` and `commission`, the chance of it being a spam is now 97%! Magic, isn't it? What we just did would basically be a back-of-the-envelope Naive Bayer email spam filter / classifier.
 
 But what about the 3% that might be legit emails? Well, we call them false positives. We can mitigate it by setting a threshold, say only when the likelihood exceeds 99%, we determine this is a spam email. We can also add more evidences and parameters in the training datasets, e.g. with more keywords.
 
-That, in a nutshell, is how your spam folder accepts new tenants. And yes, your emails do get scanned by service providers, although not just for spams, but for personalized ads too (kinda scary isn't it? but that's how the big bucks are made).
+That, in a nutshell, is how your spam folder accepts new tenants. And yes, your emails do get scanned by service providers, although not just for spams, but for the purposing of displaying personalized ads too (kinda scary isn't it? but that's how the big bucks are made).
 
 To keep the system effective, the training dataset must be updated periodically and frequently, after all, the half-life of knowledge[^fn2] is getting shorter and shorter. Data is everything in the age of AI. But with the rising of the generative AI, I think it's becoming hard to get more man-made real data to feed them. Soon enough, we might be running of real data for AI to train!
 
-However, in the Nigerian prince hustle, why do they still use the same old script that was from decades ago? Can't they improve on it - I mean some of them even have overt typos and syntax errors, let alone the ALL CAPS. Moreover, why do people still fall for it? The answer is simple: it's a two-way street. While the recipients are filtering their emails, the senders are also "filtering" their targeted audiences by sending the blatant scam emails in massive scale - if you fall for it hook, then very likely line and sinker ensue; and you'll end up giving them a pay day. Otherwise, it's no use to further engage.
+Although, in the Nigerian prince hustle, why do they still use the same old script that was from decades ago? Can't they improve on it - I mean some of them even have overt typos and syntax errors, let alone the ALL CAPS. Moreover, why do people still fall for it? The answer is simple: it's a two-way street. While the recipients are filtering their emails, the senders are also "filtering" their targeted audiences by sending the blatant scam emails in massive scale - if you fall for it hook, then very likely line and sinker ensue; and you'll end up giving them a pay day. Otherwise, it's no use to further engage.
 
 ## Epilog
 
