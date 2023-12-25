@@ -107,7 +107,7 @@ By the power vested by Bayes formula, we then arrive at:
 
 There you go, initially we give the benefit of doubt to any new email with half/half chance of spam. But after seeing both words of `password` and `commission`, the chance of it being a spam is now 97%! Magic, isn't it? What we just did would basically be a back-of-the-envelope Naive Bayer email spam filter / classifier.
 
-But what about the 3% that might be legit emails? Well, we call them false positives. We can mitigate it by setting a threshold, say only when the likelihood exceeds 99%, we determine this is a spam email. We can also add more evidences and parameters in the training datasets, e.g. with more keywords.
+But what about the 3% that might be legit emails? Well, we call them false positives. We can mitigate it by setting a threshold, say only when the likelihood exceeds 99%, we determine this is a spam email. We can also add more evidences and parameters in the training datasets, e.g. with more keywords. There are also advanced variants of this technique that'd do a better job.
 
 That, in a nutshell, is how your spam folder accepts new tenants. And yes, your emails do get scanned by service providers, although not just for spams, but for the purposing of displaying personalized ads too (kinda scary isn't it? but that's how the big bucks are made).
 
@@ -117,7 +117,7 @@ Although, in the Nigerian prince hustle, why do they still use the same old scri
 
 ## Epilog
 
-We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop and how we learn from more experience. But hey, AI/ML seem to do it a lot faster than us[^fn3]:
+We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop and how we learn from more experience. But hey, AI/ML seems to do it a lot faster than us[^fn3]:
 
 ![Fast enough](../assets/images/20231112/ml_fast_enough.png)
 
