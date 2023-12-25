@@ -39,7 +39,7 @@ SO what is Bayes rule? In essence,
 Here's the formula:
 
 ![Bayes formula](../assets/images/20231112/bayes_neon.jpeg)
-*Photo Credit: [Matt Buck](https://www.flickr.com/photos/mattbuck007/3676624894)*
+*Photo Credit: [Matt Buck](https://www.flickr.com/photos/mattbuck007/3676624894){:target="_blank"}*
 
 In which:
 
