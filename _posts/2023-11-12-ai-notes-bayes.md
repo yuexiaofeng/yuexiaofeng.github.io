@@ -52,7 +52,7 @@ The deduction of this theorem is actually pretty straightforward. Let `P(AB)` de
 
 > P(AB) = P(B\|A)P(A)
 
-But also,
+But also:
 
 > P(AB) = P(A\|B)P(B)
 
@@ -117,7 +117,7 @@ Although, in the Nigerian prince hustle, why do they still use the same old scri
 
 ## Epilog
 
-We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop and how we learn from more experience. But hey, AI/ML seems to do it a lot faster than us[^fn3]:
+We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop from seemingly uncertain or random starting points, and how we learn from more experience. But hey, AI/ML seems to do it a lot faster than us[^fn3]:
 
 ![Fast enough](../assets/images/20231112/ml_fast_enough.png)
 
