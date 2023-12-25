@@ -111,7 +111,7 @@ But what about the 3% that might be legit emails? Well, we call them false posit
 
 That, in a nutshell, is how your spam folder accepts new tenants. And yes, your emails do get scanned by service providers, although not just for spams, but for the purposing of displaying personalized ads too (kinda scary isn't it? but that's how the big bucks are made).
 
-To keep the system effective, the training dataset must be updated periodically and frequently, after all, the half-life of knowledge[^fn2] is getting shorter and shorter. Data is everything in the age of AI. But with the rising of the generative AI, I think it's becoming hard to get more man-made real data to feed them. Soon enough, we might be running of real data for AI to train!
+To keep the system effective, the training dataset must be updated periodically and frequently, after all, the half-life of knowledge[^fn2] is getting shorter and shorter. Data is everything in the age of AI. But with the rising of the generative AI, I think it's becoming harder to get more man-made real data to feed them. Soon enough, we might be running of real data for AI to train!
 
 Although, in the Nigerian prince hustle, why do they still use the same old script that was from decades ago? Can't they improve on it - I mean some of them even have overt typos and syntax errors, let alone the ALL CAPS. Moreover, why do people still fall for it? The answer is simple: it's a two-way street. While the recipients are filtering their emails, the senders are also "filtering" their targeted audiences by sending the blatant scam emails in massive scale - if you fall for it hook, then very likely line and sinker ensue; and you'll end up giving them a pay day. Otherwise, it's no use to further engage.
 
