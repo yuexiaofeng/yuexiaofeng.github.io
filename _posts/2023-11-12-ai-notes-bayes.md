@@ -86,7 +86,7 @@ So back to our Nigerian email, how do we determine the likelihood of it being a 
 2. Out of 100 normal emails (or what we'd like to call ham as compared to spam), the word `password` appears in 5 of them (could be legit emails like when you ask to reset your password cuz you forgot it), and `commission` appears in 30 (let's say this dataset is taken from a salesperson's inbox)
 3. Assuming initially, we have equal chances of getting spam and ham emails. i.e. P(spam) = P(ham) = 0.5
 
-So in the Nigerian email above, the question becomes, what is the likelihood of this email being a spam given we found out that it contains both the words `password` and `commission`, i.e. `P(spam|password,commission)`. Let's get to it - we already know:
+So in the Nigerian email above, the question becomes, what is the likelihood of this email being a spam given we found out that it contains both the words `password` and `commission`, i.e. `P(spam|password,commission)`. Let's get to it! Based on training data, we already know:
 
 * P(password\|spam) = 90/100 = 0.9
 * P(commission\|spam) = 0.6
@@ -117,7 +117,7 @@ Although, in the Nigerian prince hustle, why do they still use the same old scri
 
 ## Epilog
 
-We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop from seemingly uncertain or random starting points, and how we learn from more experience. But hey, AI/ML seems to do it a lot faster than us[^fn3]:
+We human use this try/error Bayesian approach all the time. Bayes is all about updating beliefs. We modify our opinions with objective information: Initial Beliefs + Recent Objective Data = A New and Improved Belief. That's how we build our positive feedback loop from seemingly arbitrary starting points, and how we learn from more experience. But hey, AI/ML seems to do it a lot faster than us[^fn3]:
 
 ![Fast enough](../assets/images/20231112/ml_fast_enough.png)
 
