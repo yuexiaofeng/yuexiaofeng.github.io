@@ -25,7 +25,7 @@ I don’t play this card a lot but English is actually not my first language. Th
 * I see what you're saying, but I disagree. ...
 * I'm not sure that I agree with those findings.
 
-Later on I learnt more on why people like to go with all these politer versions as I lived longer in Canada. Get this, there's even a thing called sandwich feedbacks. That is, the intended true negative feedback is wrapped between two positive ones, to ease the impact. It's probably not uncommon in Canada, as people are just too polite to give constructive feedbacks, let alone issuing disagreements - after all, this is a country where "sorry" does not necessarily constitute an admission of guilt in the eyes of the law[^fn2] cuz people say that way too often.
+Later on I learnt more on why people like to go with all these politer versions as I lived longer in Canada. Get this, there's even a thing called sandwich feedbacks. That is, the intended true negative feedback is wrapped between two positive ones, to ease the impact. It's probably not uncommon in Canada (or Minnesota[^fn2]), as people are just too polite to give constructive feedbacks, let alone issuing disagreements - after all, this is a country where "sorry" does not necessarily constitute an admission of guilt in the eyes of the law[^fn3] cuz people say that way too often.
 
 I’m not saying sandwich feedbacks are harmful, but they sure can backfire. In the event of a sandwich feedback, to correctly decode it, the receiver would perhaps need to rely on other non-verbal contexts or cues (read the between the lines), or even gestures (read the room). After all, I was taught that `2 > 1` - with all things being equal, 2 positives plus 1 negative should still be positive right? But who knows all that is just an elaborated effort in telling the one negative in the middle. I'd say this would be an example of high context.
 
@@ -70,7 +70,7 @@ We hear "agree to disagree" a lot, but as a team, we should do more than that. A
 
 I have to come clean that I first heard about all these from a recruiter when I began job hunting in Canada in 2018, as I did end up getting invited to an onsite interview at Amazon's Vancouver office. I didn't even know LeetCode was a thing back then (but now I can write a LRU cache in two different languages before my toaster finishes the bread. :D jk. I don't own a toaster). I also made the rookie mistake of using C++ for programming challenges. Anyways, you probably guessed what results would come out from the big day already. Nevertheless, as a byproduct of the preparation, this particular leadership principle kinda stuck in my mind. I stand by it:
 
-> Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly[^fn3].
+> Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly[^fn4].
 
 It’s worth noting that not just managers and principal engineers are leaders - every one in the team, can demonstrate and exercise leadership.
 
@@ -78,5 +78,6 @@ One shall not hesitate to just say `I disagree` when needed. But as a team, we a
 
 ---
 [^fn1]: [Nine (Fluent) Ways](https://languagetool.org/insights/post/i-disagree-synonyms){:target="_blank"} To Say "I Disagree".
-[^fn2]: Ontario [Bill 108](https://www.ola.org/en/legislative-business/bills/parliament-39/session-1/bill-108){:target="_blank"}, Apology Act, 2009.
-[^fn3]: Amazon Leadership [Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles){:target="_blank"}.
+[^fn2]: If you saw Fargo, you might've heard something called [Minnesota nice](https://en.wikipedia.org/wiki/Minnesota_nice){:target="_blank"} - a cultural stereotype applied to the behavior of people from Minnesota, implying residents are unusually courteous, reserved, and mild-mannered compared to people from other states and more akin to their Canadian neighbors in Northern Ontario. It also implies polite friendliness, an aversion to open confrontation, a tendency toward understatement, a disinclination to make a direct fuss or stand out, apparent emotional restraint, and self-deprecation.
+[^fn3]: Ontario [Bill 108](https://www.ola.org/en/legislative-business/bills/parliament-39/session-1/bill-108){:target="_blank"}, Apology Act, 2009.
+[^fn4]: Amazon Leadership [Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles){:target="_blank"}.
