@@ -24,7 +24,7 @@ Some fun facts about myself:
 
 This is my corner of the web, and is an uncensored personal space - I am the self-appointed [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life){:target="_blank"} here. I like to ramble about random stuff, most likely on the areas of Tech, Books, and Movies (I love old ones!), which should be categorized in <a href="/tags">Tags</a>. I'll refrain from talking about politics of any kind, in case I need to run for office one day!
 
-PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffic or comments, and that I'd like to keep it Web 1.0, at least for the time being. But if you would like to reach out, feel free to hunt me down on my [LinkedIn](https://www.linkedin.com/in/xiaofengyue/){:target="_blank"}.
+PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffic or comments, and that I'd like to keep it Web 1.0, at least for the time being. But if you would like to reach out, feel free to message me on [LinkedIn](https://www.linkedin.com/in/xiaofengyue/){:target="_blank"}.
 
 PPS. It goes without saying - yet I probably should say it anyways: The opinions expressed in this blog are my own views and not those of my employer.
 
