@@ -80,7 +80,7 @@ Then we'd have `P(A|B)` as follows:
 
 That is, after seeing the first qualified product, our confidence, aka posterior probability of the machine's fine-tuned, has now been boosted to 93.7%, from our initial prior belief of 90%.
 
-So back to our Nigerian email, how do we determine the likelihood of it being a spam? As the laws of Bayes asked, we'd need to set up some initial beliefs first. We can establish them by tallying up existing emails and labeling them in accordingly, i.e. preparing training data, as what we call it in AI or machine learning(ML). Say:
+So back to our Nigerian email, how do we determine the likelihood of it being a spam? As the laws of Bayes asked, we'd need to set up some initial beliefs first. We can establish them by tallying up existing emails and labeling them in accordingly, i.e. preparing training data, as what we call it in AI or machine learning (ML). Say:
 
 1. Out of 100 spam emails, the word `password` appears in 90 of them, and `commission` appears in 60
 2. Out of 100 normal emails (or what we'd like to call ham as compared to spam), the word `password` appears in 5 of them (could be legit emails like when you ask to reset your password cuz you forgot it), and `commission` appears in 30 (let's say this dataset is taken from a salesperson's inbox)
