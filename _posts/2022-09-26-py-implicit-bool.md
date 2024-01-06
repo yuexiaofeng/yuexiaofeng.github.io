@@ -7,9 +7,9 @@ tags: [Tech]
 ---
 
 > Beautiful is better<!--more--> than ugly.
-> 
+>
 > Explicit is better than implicit.
-> 
+>
 > ...
 
 If that isn't the quote from the famous `The Zen of Python`, by Tim Peters. You can see the full commandments if you type:
@@ -192,4 +192,4 @@ Now we can totes do shorthands like `if obj` with it! Not half bad eh?
 While you can get away with overriding either `__bool__()` or `__len__()`, there's absolutely no harm in doing both (I'd argue `len` is actually quite useful). Why not get the best of both worlds when you can! :D
 
 ---
-[^fn1]: Python [doc](https://docs.python.org/3/library/stdtypes.html#truth-value-testing) on Truth Value Testing
+[^fn1]: Python [doc](https://docs.python.org/3/library/stdtypes.html#truth-value-testing){:target="_blank"} on Truth Value Testing.
