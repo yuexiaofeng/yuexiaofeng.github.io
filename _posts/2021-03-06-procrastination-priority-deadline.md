@@ -14,7 +14,7 @@ But why? Why would any one procrastinate, knowing it's such a bad thing to do? S
 ## The Pang Tong Effect  
 
 ![pangtong](../assets/images/20210306/PangTong.jpg)
-*(image credit: [Wikipedia](https://en.wikipedia.org/wiki/File:PangTong.jpg){:target="_blank"})*
+*(Image Credit: [Wikipedia](https://en.wikipedia.org/wiki/File:PangTong.jpg){:target="_blank"})*
 
 At the risk of sounding narcissistic, I'd like to tell the tale of the great Pang Tong, as an effort to illustrate an example of an ancient procrastinator.
 
@@ -38,12 +38,12 @@ I can't agree with Greg more on this. Whenever asked about multi-tasking, I alwa
 
 There're many ways of prioritizing work. I have learnt The Eisenhower Matrix, since my very first job. It categorizes your todo things into four quadrants:  
 
-![matrix](../assets/images/20210306/matrix.webp) 
-*(image credit: [todoist.com](https://todoist.com/productivity-methods/eisenhower-matrix){:target="_blank"})*
+![matrix](../assets/images/20210306/matrix.webp)
+*(Image Credit: [todoist.com](https://todoist.com/productivity-methods/eisenhower-matrix){:target="_blank"})*
 
 I found it pretty useful in daily works, for prioritizing. Although, executing them might be a different story eh.  
 
-### Eat That Frog 
+### Eat That Frog
 
 In Nicolas Cage's [The Weather Man (2005)](https://www.imdb.com/title/tt0384680/){:target="_blank"}, probably the very last good movie he starred before he went on non-picky mode, his character's father Robert Spritzel was telling him this in the car:
 

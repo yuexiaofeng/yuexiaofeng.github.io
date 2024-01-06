@@ -92,7 +92,7 @@ Of course, in some great TV series too. Such as:
 
 The list goes on!
 
-As a newly-minted gamer, I also enjoyed *Detroit: Become Human* and how the many endings vary based on different choices (don't you wish you could just go back in time and retry a different life choice too?). I have yet to play through *Cyberpunk 2077* as I'm saving it for a longer vacation to binge (probably on a long weekend!). Aside from the games themed in androids and cyborgs, the NPCs (non-player character) are AI based too (I hated the zombies in *Last of Us* so much). It's also interesting to picture what if NPCs become sentient - a possibility discussed in the 2021 movie *Free Guy*.
+As a newly-minted gamer, I also enjoyed *Detroit: Become Human* and how the many endings vary based on different choices (don't you wish you could just go back in time and retry a different life choice too?). I have yet to play through *Cyberpunk 2077* as I'm saving it for a longer vacation to binge. Aside from the games themed in androids and cyborgs, the NPCs (non-player character) are AI based too (I hated the zombies in *Last of Us* so much). It's also interesting to picture what if NPCs become sentient - a possibility discussed in the 2021 movie *[Free Guy](https://www.imdb.com/title/tt6264654/){:target="_blank"}*.
 
 As for engineers, whether not in this AI field specifically, I'd say it's much beneficial to know more about AI in general. Personally, I like how AI abstracts real-world problems via mathematical modeling and (lots of) trade-offs.
 
