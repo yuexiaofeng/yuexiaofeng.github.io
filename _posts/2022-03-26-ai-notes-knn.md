@@ -8,7 +8,7 @@ tags: [AI]
 
 > Corporate drone by day, renegade techie by night. <!--more--> Too old for theatre, and too bored for anything else, Xiaofeng was looking for a challenge. And in the AI project he found it.
 
-Well, those are definitely not the exact quotes from Amy Adams and Meryl Streep's great movie [Julie & Julia](https://www.imdb.com/title/tt1135503/). And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
+Well, those are definitely not the exact quotes from Amy Adams and Meryl Streep's great movie [Julie & Julia](https://www.imdb.com/title/tt1135503/){:target="_blank"}. And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
 
 What I'd like to cover:
 
@@ -38,9 +38,9 @@ As the inaugural post, I do feel obligated to cover a bit context so it's not to
 If you follow tech newsletters, you'll hear an ocean of buzzwords like AI, ML, Deep Learning, Data Science.. but what are they really? To make it worse, there seems to be many versions of definitions too. I have to admit that, these still baffle me as I think their boundaries are not as clear-cut. Here's a drawing I dug out on the internet I thought might be good to show their relations:
 
 ![ai-ml-ds](../assets/images/20220326/ai-ml-ds.png)
-*Credit: [Jen Looper](https://twitter.com/jenlooper)*
+*Credit: [Jen Looper](https://twitter.com/jenlooper){:target="_blank"}*
 
-*What is AI (artificial intelligence)?*[^fn2]
+*What is AI (artificial intelligence[^fn2])?*
 
 > Artificial intelligence is the capability of a computer system to mimic human cognitive functions such as learning and problem-solving. Through AI, a computer system uses maths and logic to simulate the reasoning that people use to learn from new information and make decisions.
 
@@ -100,14 +100,14 @@ As for engineers, whether not in this AI field specifically, I'd say it's much b
 
 As an occupational hazard, I resent jargons / acronyms in general (although I'm guilty of using them frequently myself..). I'd always like to give a bit context at the beginning of the wikis and docs I author. So here's an attempt to explain some concepts first.
 
-To do AI/ML tasks, we need data first. When we have collected certain amount of data, we'd have a dataset. Take the famous [Iris flower dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) for example:
+To do AI/ML tasks, we need data first. When we have collected certain amount of data, we'd have a dataset. Take the famous [Iris flower dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set){:target="_blank"} for example:
 
 > The data set consists of 50 samples from each of three species of Iris (Iris Setosa, Iris Virginica and Iris Versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimeters.
 
 I don't think I could differentiate these Iris species in real life (they all look flower to me!). Here's an example picture I found online:
 
 ![iris-musketeers](../assets/images/20220326/iris-musketeers.png)
-*[Source](http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html); although I took the liberty of renaming the pic to iris-musketeers here. :)*
+*[Source](http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html){:target="_blank"}; although I took the liberty of renaming the pic to iris-musketeers here. :)*
 
 So:
 
@@ -136,11 +136,11 @@ KNN (**K**-**N**earest **N**eighbors algorithm) is a type of supervised learning
 The ask is: given a labeled dataset and a new data point, find out K closest data points (nearest neighbors) to this new data point. We can then draw insights / conclusions based on the labels of these K neighbors, e.g. if more than K/2 neighbors belong to the same label, then the new data point is predicted to likely (>50% chance) belong to this label/category too. That's right - you know what people oftentimes say, a man is judged by the company he keeps! Here's a visual, for 2D data points, i.e. (x, y):
 
 ![knn-visual](../assets/images/20220326/knn-visual.png)
-*Image Credit: [DataCamp](https://twitter.com/DataCamp/status/1037324501757976577)*
+*Image Credit: [DataCamp](https://twitter.com/DataCamp/status/1037324501757976577){:target="_blank"}*
 
 ### The Dataset
 
-We could continue using the Iris flower as an example for this KNN problem. There are multiple dataset examples online. I'm using the [dataset](https://archive.ics.uci.edu/ml/datasets/iris) from UC Irvine here.
+We could continue using the Iris flower as an example for this KNN problem. There are multiple dataset examples online. I'm using the [dataset](https://archive.ics.uci.edu/ml/datasets/iris){:target="_blank"} from UC Irvine here.
 
 An excerpted data dump would be:
 
@@ -236,7 +236,7 @@ So among the 10 nearest neighbors, 8 of them were marked as *Iris-virginica*. We
 
 ### The Wheels
 
-Needless to say, in reality, there's little need to re-invent the wheels. Take our beloved [scikit-learn](https://scikit-learn.org/stable/) for example, it already has this KNN algorithm implemented. It's dead simple to use:
+Needless to say, in reality, there's little need to re-invent the wheels. Take our beloved [scikit-learn](https://scikit-learn.org/stable/){:target="_blank"} for example, it already has this KNN algorithm implemented. It's dead simple to use:
 
 ```python
 from sklearn.neighbors import KNeighborsClassifier
@@ -273,7 +273,7 @@ This post actually took me much more after hours to wrap up than I initially est
 
 This KNN is a fine example of how the AI data training process goes. Although there's one thing very special about this KNN that stood out - the data is the model here, as we're just calculating a new data point's distance against our dataset on the fly. In the `classifier.fit(...)` routine above, we're not actually saving the returned *model* while we should've in other AI algorithms.
 
-As mentioned in my previous FastAI/Software 2.0 [post]({%post_url 2021-10-17-aml-fastai-s2%}), there's already this new trend called Data-centric AI, which emphasizes the importance of good data. In our KNN example, a good dataset is everything. But other algorithms are heavily dependent on the shape of the data too. In the somewhat counter-intuitive Microsoft paper *Scaling to Very Very Large Corpora for Natural Language Disambiguation*[^fn3] in 2001, it stated that the size of the dataset used to train the model mattered far more than the choice of ML approach. And, the performance differences between the models became very small as the dataset grew large [^fn4]. As shown here:
+As mentioned in my previous FastAI/Software 2.0 [post]({%post_url 2021-10-17-aml-fastai-s2%}){:target="_blank"}, there's already this new trend called Data-centric AI, which emphasizes the importance of good data. In our KNN example, a good dataset is everything. But other algorithms are heavily dependent on the shape of the data too. In the somewhat counter-intuitive Microsoft paper *Scaling to Very Very Large Corpora for Natural Language Disambiguation*[^fn3] in 2001, it stated that the size of the dataset used to train the model mattered far more than the choice of ML approach. And, the performance differences between the models became very small as the dataset grew large [^fn4]. As shown here:
 
 ![ms-paper-2001](../assets/images/20220326/ms-paper-2001.png)
 
@@ -289,7 +289,7 @@ Data!!!
 ![ballmer](../assets/images/20220326/ballmer.gif)
 
 ---
-[^fn1]: There are literally tons of materials online, such as the [ML for Beginners](https://github.com/microsoft/ML-For-Beginners) by Microsoft.
-[^fn2]: Courtesy of [Microsoft Docs](https://azure.microsoft.com/en-ca/overview/artificial-intelligence-ai-vs-machine-learning/#capabilities).
-[^fn3]: *Scaling to Very Very Large Corpora for Natural Language Disambiguation*: [paper](https://dl.acm.org/doi/pdf/10.3115/1073012.1073017) hosted on ACM.
-[^fn4]: There's also this *NFL* (**N**o **F**ree **L**unch, not the one with great Super Bowl half-time show and epic commercials!) Theorem: through rigorous mathematical proof, Wolpert and Macready indicated in their [paper](https://ti.arc.nasa.gov/m/profile/dhw/papers/78.pdf): "..that any two optimization algorithms are equivalent when their performance is averaged across all possible problems".
+[^fn1]: There are literally tons of materials online, such as the [ML for Beginners](https://github.com/microsoft/ML-For-Beginners){:target="_blank"} by Microsoft.
+[^fn2]: Courtesy of [Microsoft Docs](https://azure.microsoft.com/en-ca/overview/artificial-intelligence-ai-vs-machine-learning/#capabilities){:target="_blank"}.
+[^fn3]: Scaling to Very Very Large Corpora for Natural Language Disambiguation ([paper](https://dl.acm.org/doi/pdf/10.3115/1073012.1073017){:target="_blank"}), by Michele Banko and Eric Brill.
+[^fn4]: There's also this *NFL* (**N**o **F**ree **L**unch, not the one with great Super Bowl half-time show and epic commercials!) Theorem: through rigorous mathematical proof, Wolpert and Macready indicated in their [paper](https://fab.cba.mit.edu/classes/865.18/design/optimization/nfl.pdf){:target="_blank"}: "..that any two optimization algorithms are equivalent when their performance is averaged across all possible problems".
