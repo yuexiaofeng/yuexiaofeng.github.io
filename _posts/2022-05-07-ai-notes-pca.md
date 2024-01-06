@@ -8,7 +8,7 @@ tags: [AI]
 
 Since when productions of 90-min movies had become a crime? <!--more-->
 
-It was a Friday night - the feeling of starting a weekend was simply great, especially cuz I'd been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [*Jungle Cruise*](https://www.imdb.com/title/tt0870154/) at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old-fashioned 90 minutes frame? I get that with the inflation and all, producers want us viewers to get our money's worth. But IMO, quality matters more than quantity here.
+It was a Friday night - the feeling of starting a weekend was simply great, especially cuz I'd been hella busy at work. After a good 15 minutes of selecting a movie, missus and I decided to watch [*Jungle Cruise*](https://www.imdb.com/title/tt0870154/){:target="_blank"} at our home theatre, courtesy of Disney+. The movie was OK I guess, well perhaps a bit more than OK since Emily Blunt was starring. But if I were to be snarky about it, I don't think it needed 2 hours to tell this seemingly extended Disneyland commercial[^fn1]. Just since when directors suddenly couldn't tell a good story within the good, old-fashioned 90 minutes frame? I get that with the inflation and all, producers want us viewers to get our money's worth. But IMO, quality matters more than quantity here.
 
 I'm sure the original film rolls added up to way more than 120 minutes' worth, so with a little further editing of the no-so-important scenes, we could get roughly the same watching experience in 90mins, without losing much of the storyline (imagine the accumulated time it'd save for humanity. Ahem, Disney, take a moment!). That editing process, would be somewhat resonating with what I wanted to ramble today: **P**rincipal **C**omponent **A**nalysis (PCA), an algorithm that's widely used in AI and statistics.
 
@@ -16,7 +16,7 @@ I'm sure the original film rolls added up to way more than 120 minutes' worth, s
 
 So what is PCA? Why would we need it?
 
-Before answering these, let's recap what features are. As mentioned in the previous Iris flower example, a trait such as sepal length, is called a feature or attribute. In the dataset in my previous KNN [post]({%post_url 2022-03-26-ai-notes-knn%}), we were tracking 4 features, namely sepal length, sepal width, petal length and petal width. If we say each feature is a dimension, then this Iris dataset would be a 4-dimensional one.
+Before answering these, let's recap what features are. As mentioned in the previous Iris flower example, a trait such as sepal length, is called a feature or attribute. In the dataset in my previous KNN [post]({%post_url 2022-03-26-ai-notes-knn%}){:target="_blank"}, we were tracking 4 features, namely sepal length, sepal width, petal length and petal width. If we say each feature is a dimension, then this Iris dataset would be a 4-dimensional one.
 
 But that's a lot of data to compute when you have many entries, what if we can distill out a smaller dataset, without losing too much characteristics/representation of the data? Or as what Bezos might better put, how do we accomplish ~~more~~ roughly-the-same with less (#frugality)?
 
@@ -33,7 +33,7 @@ Let's dive into it.
 As I kept saying, visualizing a 4-dimensional dataset/space can be a little hard given we live in a 3D world. So to help with the explanation, let's try a 2D one for a dataset with 2 features:
 
 ![pca-line](../assets/images/20220507/pca_line.png)
-*Credit: [OpenCV.org](https://docs.opencv.org/3.4/d1/dee/tutorial_introduction_to_pca.html)*
+*Credit: [OpenCV.org](https://docs.opencv.org/3.4/d1/dee/tutorial_introduction_to_pca.html){:target="_blank"}*
 
 As such, if we denote x-axis (horizontal) for feature 1, y-axis (vertical) for feature 2, then we'd have a classic 2D Cartesian coordinate plane, with data points in the form of (x, y), for feature 1 and feature 2 values respectively. If we simply drop all the values from feature 2, then all the points will *fall* on the x-axis since we now only have values from feature 1. Vice versa for dropping all the values from feature 1. Mathematically, we call this *fall* experience a *projection*.
 
@@ -115,7 +115,7 @@ Alright, let's see if we can accomplish roughly-the-same with less resource:
 
 Whoa, same accuracy with nearly 90% less time! It's almost like.. too good to be true. Although this is a relatively smaller dataset. If we use a larger dataset, we'll see the classifier accuracy does suffer when dimensionality gets reduced by PCA.
 
-I did some quick experiments to show how the KNN classifier's performance changed with reduced dimensionality via PCA, based on the [handwritten digits recognition](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html) dataset from scikit-learn, which originally is a 64-dimensional (features) set, with 1,347 entries.
+I did some quick experiments to show how the KNN classifier's performance changed with reduced dimensionality via PCA, based on the [handwritten digits recognition](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html){:target="_blank"} dataset from scikit-learn, which originally is a 64-dimensional (features) set, with 1,347 entries.
 
 The code would be nearly identical, except at the beginning you'll need to load the digits dataset instead:
 
@@ -170,6 +170,6 @@ With that, I conclude my ranting today. Until next time!
 ---
 [^fn1]: Later I learnt it was indeed inspired by the Jungle Cruise ride, an item wasn't available in Shanghai Disneyland Resort. No wonder I had no recollection of it.
 [^fn2]: As I mentioned in my previous posts before, in the epic Chinese science fiction trilogy *Three Body*, the more advanced civilizations had achieved weaponizing the laws of mathematics and physics, one of which would be a tiny `2D/dual-vector foil`. When applied, it reduces other worlds’ dimensions, to annihilate any enemies or burgeoning civilizations that might be later threats. That's like, an entire three-dimensional star system would be flattened into a breathtakingly beautiful 2D oil paint.
-[^fn3]: Source: University of Cambridge [study](https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/).
-[^fn4]: Why reading the find prints can be [rewarding](https://www.npr.org/2019/03/08/701417140/when-not-reading-the-fine-print-can-cost-your-soul): Georgia high school teacher won a $10,000 reward after she closely read the terms and conditions that came with a travel insurance policy.
+[^fn3]: Source: University of Cambridge [study](https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/){:target="_blank"}.
+[^fn4]: Why reading the find prints can be [rewarding](https://www.npr.org/2019/03/08/701417140/when-not-reading-the-fine-print-can-cost-your-soul){:target="_blank"}: Georgia high school teacher won a $10,000 reward after she closely read the terms and conditions that came with a travel insurance policy.
 [^fn5]: This was very early times, right about when cassette players were phasing out of history, even before Apple officially entered China market I believe. I had an Aiwa during high school but I am still bitter not getting a Walkman CD Player then - it was a shiny gadget that's simply too expensive at the time. I eventually got an iPod as well, which after many years still is being used from time to time during my exercises, cuz it's just so much lighter than my iPhone.
