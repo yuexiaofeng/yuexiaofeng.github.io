@@ -50,13 +50,13 @@ Cloud providers, however, oftentimes have development environments integrated fo
 
 ## AzureML Setup
 
-Now let's get to the actual setup of AzureML. First off, kudos to the folks who authored this decent documentation on how to set up the [resources](https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources) - it was really helpful.
+Now let's get to the actual setup of AzureML. First off, kudos to the folks who authored this decent documentation on how to set up the [resources](https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources){:target="_blank"} - it was really helpful.
 
 Since I already had a personal Azure account with an active subscription, so here's what I did:
 
 ### Create A New ML Workspace
 
-It's fairly easy, after logging into [Azure portal](https://portal.azure.com), type Machine Learning in the search bar and hit Enter, select Create then Next.
+It's fairly easy, after logging into [Azure portal](https://portal.azure.com){:target="_blank"}, type Machine Learning in the search bar and hit Enter, select Create then Next.
 
 A couple of mandatory fields I had to fill out or create resources for, but it was straightforward and there were tooltip hints too. Advanced configurations like network were possible too but I was feeling lazy and just went with defaults. Here's a redacted snapshot for the creation page:
 
@@ -66,9 +66,9 @@ Just like that, within a few minutes, I got myself a machine learning workspace!
 
 ### Get A New Notebook and Test with A Python Helloworld
 
-Think of a notebook as an online UI for your ML IDE. Again there are great step-by-step online [instructions](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world) on Microsoft docs, but it's even easier than it sounds.
+Think of a notebook as an online UI for your ML IDE. Again there are great step-by-step online [instructions](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-experiment-hello-world){:target="_blank"} on Microsoft docs, but it's even easier than it sounds.
 
-Simply log into AzureML [studio portal](https://ml.azure.com), and pick the workspace created earlier. Then on the left sidebar, click on the Notebooks, create a new folder under Users/yourusername, then right click on the folder, select "Create a new file" from the context menu, choose file format as Python. That's it.
+Simply log into AzureML [studio portal](https://ml.azure.com){:target="_blank"}, and pick the workspace created earlier. Then on the left sidebar, click on the Notebooks, create a new folder under Users/yourusername, then right click on the folder, select "Create a new file" from the context menu, choose file format as Python. That's it.
 
 ![notebook](../assets/images/20211017/notebook.png)
 
@@ -76,7 +76,7 @@ Oh actually that's not it haha, to be able to run it, you'd need to create a Com
 
 ## Here Comes FastAI
 
-The reason for me to use [fastai](https://www.fast.ai/) for experiments was simple: it's simple, literally. With it, I could apply Transfer Learning technique easily.
+The reason for me to use [fast.ai](https://www.fast.ai/){:target="_blank"} for experiments was simple: it's simple, literally. With it, I could apply Transfer Learning technique easily.
 
 ### Transfer Learning
 
@@ -92,7 +92,7 @@ It's basically what Newton said about standing on the shoulder of the giants. He
 
 Similar to the Python helloworld file creation process, I created a notebook file under a new folder called dogorcat, as I was trying to build a dog/cat classifier on AzureML (It makes sense to me to use pets to get started with a pet project! Disclaimer for PETA: no dogs or cats were harmed in this experiment to the best of my knowledge!).
 
-There's a great [quickstart documentation](https://docs.fast.ai/tutorial.vision.html) offered by fastai, which I basically followed verbatim, except that somehow the pre-installed fastai by AzureML wasn't up to date, so I did have to upgrade first after hitting many errors (don't panic if you see something like "name noops is not defined"):
+There's a great [quickstart documentation](https://docs.fast.ai/tutorial.vision.html){:target="_blank"} offered by fastai, which I basically followed verbatim, except that somehow the pre-installed fastai by AzureML wasn't up to date, so I did have to upgrade first after hitting many errors (don't panic if you see something like "name noops is not defined"):
 
 > !pip install fastai --upgrade
 
@@ -151,7 +151,7 @@ As you can see from the example above, to get a classifier working, I barely had
 
 I've recently started working on systems engineering for AI projects and have been exposed to the concept of Software 2.0[^fn3], or Data-centric AI as other people like to put it. While I don't necessarily work on the specific AI parts directly atm, I find the concept refreshing.
 
-In a YouTube [talk](https://youtu.be/06-AZXmwHjo) earlier this year, Andrew Ng mentioned:
+In a YouTube [talk](https://youtu.be/06-AZXmwHjo){:target="_blank"} earlier this year, Andrew Ng mentioned:
 
 > AI System = Code (model/algorithm) + Data
 
@@ -168,6 +168,6 @@ Oh, one more thing, a pro tip: don't forget to shut down the compute instance wh
 Until next time! Ciao.
 
 ---
-[^fn1]: A [Gentle Introduction](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) to Transfer Learning for Deep Learning by Jason Brownlee.
-[^fn2]: [ImageNet](https://www.image-net.org/) is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images. The project has been instrumental in advancing computer vision and deep learning research. The data is available for free to researchers for non-commercial use.
-[^fn3]: A great [article](https://karpathy.medium.com/software-2-0-a64152b37c35) on Software 2.0 by Andrej Karpathy,  director of AI at Tesla.
+[^fn1]: A [Gentle Introduction](https://machinelearningmastery.com/transfer-learning-for-deep-learning/){:target="_blank"} to Transfer Learning for Deep Learning by Jason Brownlee.
+[^fn2]: [ImageNet](https://www.image-net.org/){:target="_blank"} is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images. The project has been instrumental in advancing computer vision and deep learning research. The data is available for free to researchers for non-commercial use.
+[^fn3]: A great [article](https://karpathy.medium.com/software-2-0-a64152b37c35){:target="_blank"} on Software 2.0 by Andrej Karpathy,  director of AI at Tesla.
