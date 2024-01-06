@@ -8,7 +8,7 @@ tags: [AI]
 
 > Corporate drone by day, renegade techie by night. <!--more--> Too old for theatre, and too bored for anything else, Xiaofeng was looking for a challenge. And in the AI project he found it.
 
-Well, those are definitely not the exact quotes from Amy Adams and Meryl Streep's great movie [Julie & Julia](https://www.imdb.com/title/tt1135503/){:target="_blank"}. And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
+Well, those are definitely not the exact quotes from Amy Adams and Meryl Streep's great movie *[Julie & Julia](https://www.imdb.com/title/tt1135503/){:target="_blank"}*. And unlike Julie, I don't have Julia Child's 524 recipes to reference from either (I sure won't update that many episodes!). Instead, I'll use this new AI (Artificial Intelligence) blog series as notes for my learnings from various sources. As mentioned in my previous posts, I have been playing around with AI pet projects after hours when I'm not entirely immersed in video games, so it's high time that I jotted more stuff down.
 
 What I'd like to cover:
 
