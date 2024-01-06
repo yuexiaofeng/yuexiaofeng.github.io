@@ -30,7 +30,7 @@ Engineers, on the other hand, focus more on how. It'd be like: Sure sure, this s
 
 So that's what I think where the noticeable differences are. Speaking of which, this sounds eons ago to me, but my graduate school major was actually an unkosher hybrid one called computational mathematics. It dabbles a bit of both why and how, but.. of course, perhaps not diving deep enough to either haha.
 
-In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number), I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
+In my previous article on [irrational number](https://xiaofengyue.com/2021-03-14/life-of-pi#irrational-number){:target="_blank"}, I only gave the `Why`. Allow me to demo the `How` here now. There are, of course, many different ways, but I won't be enumerating them all here.
 
 ## A Guessing Game
 
@@ -91,7 +91,7 @@ The iteration formula would be:
 A visualization of the iteration process would be:
 
 ![newton-iteration](../assets/images/20210409/newton_iteration.gif)
-*Credit: [Ralf Pfeifer](https://en.wikipedia.org/wiki/Newton%27s_method#/media/File:NewtonIteration_Ani.gif). My German is a bit rusty, but I'm gonna guess `Funktion` is "function", and `Tangente` is "tangent"*
+*Credit: [Ralf Pfeifer](https://en.wikipedia.org/wiki/Newton%27s_method#/media/File:NewtonIteration_Ani.gif){:target="_blank"}. My German is a bit rusty, but I'm gonna guess `Funktion` is "function", and `Tangente` is "tangent"*
 
 In this case, to get the square root of 2, we're really just letting f(x) = x<sup>2</sup> - 2, with the derivative `f'(x) = 2x`, to solve the x that makes `f(x) = 0`, . Of course, there's a twin negative square root on the other side the x axis too.
 
@@ -158,9 +158,9 @@ It's actually a long proof to get his formula since it's using geometry and calc
 
 All of sudden results that needed decades of hard work now can be easily achieved in days using Newton's series. So I imagine no one ever tried to set the new π records by drawing polygons again. When Newton gave you a cannon, why fight with stones still eh?
 
-Here's a [read](https://egyptonline.tripod.com/newton.htm) on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slowly to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
+Here's a [read](https://egyptonline.tripod.com/newton.htm){:target="_blank"} on the proof in case you're interested. It's also worth noting that Newton wasn't the first one who tried to represent π in infinite series, but the earlier ones converge too slowly to be practically useful. Nowadays there're also other series formulas that yield faster convergence performance than his.
 
-As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32) who tried to make our lives easier by mandating the value of π to be `3.2`, cuz they must've believed the value of `3.2` should be good enough. I totes get that, why all the hassle right? :D
+As an anecdote, once upon a time, there were some thoughtful [US lawmakers in Indiana](https://www.mentalfloss.com/article/30214/new-math-time-indiana-tried-change-pi-32){:target="_blank"} who tried to make our lives easier by mandating the value of π to be `3.2`, cuz they must've believed the value of `3.2` should be good enough. I totes get that, why all the hassle right? :D
 
 ## So What Is Good Enough
 
@@ -172,7 +172,7 @@ You are buying `3.1` pounds of carrots priced at `2.99` per pound? Well we'll pr
 
 The beautiful digital photos you took with your most expensive cameras - they have fixed resolutions that are `good enough`. That's right, it's clearer than those from cheaper models cuz it contains more pixels. If you zoom in hard enough, you'll notice it gets blurry eventually. The movies and TV shows - they're really just pictures moving in 24 frames per second[^fn3] so human eyes are tricked to believe it's motional. Although on that note, human desires are really just insatiable - the threshold of `good enough` is ever-growing. Back in the days, I was perfectly contented with 720p, and would be thrilled for 1080p. But now that I'm shopping for a new TV, 4K becomes a minimal requirement. Call me old school, but I don't really know why we'd want something like 8K?
 
-Machines are machines. At the end of day, however redundant we strive to keep in our systems, we still have a finite amount of hardware resources. Sure, there’re automatically scalable services like [Azure Virtual Machines](https://azure.microsoft.com/en-ca/services/virtual-machines/) or AWS EC2, but what if 90% tenants are scaling up at the same time, or surges emerge due to traffic load balancing caused by temporary partial regional failures? Then we’d have outage declarations, angry customers demanding heads must be rolling, and panicking on-call engineers who may start worrying about mortgage payments. :(
+Machines are machines. At the end of day, however redundant we strive to keep in our systems, we still have a finite amount of hardware resources. Sure, there’re automatically scalable services like AWS EC2, but what if 90% tenants are scaling up at the same time, or surges emerge due to traffic load balancing caused by temporary partial regional failures? Then we’d have outage declarations, angry customers demanding heads must be rolling, and panicking on-call engineers who may start worrying about mortgage payments. :(
 
 Statistics can be deceptive too. Here's a classic probability calculation:
 
@@ -192,6 +192,6 @@ Just like the value of irrational numbers, there’s no end in the pursuit of pe
 
 [^fn1]: A service-level agreement (SLA) is a commitment between a service provider and a client.
 
-[^fn2]: Source [here](https://kottke.org/16/03/how-many-digits-of-pi-does-nasa-use). Quoted: "The most distant spacecraft from Earth is Voyager 1. It is about 12.5 billion miles away. Let's say we have a circle with a radius of exactly that size (or 25 billion miles in diameter) and we want to calculate the circumference, which is pi times the radius times 2. Using pi rounded to the 15th decimal, as I gave above, that comes out to a little more than 78 billion miles. We don't need to be concerned here with exactly what the value is (you can multiply it out if you like) but rather what the error in the value is by not using more digits of pi. In other words, by cutting pi off at the 15th decimal point, we would calculate a circumference for that circle that is very slightly off. It turns out that our calculated circumference of the 25 billion mile diameter circle would be wrong by 1.5 inches. Think about that. We have a circle more than 78 billion miles around, and our calculation of that distance would be off by perhaps less than the length of your little finger."
+[^fn2]: Source [here](https://kottke.org/16/03/how-many-digits-of-pi-does-nasa-use){:target="_blank"}. Quoted: "The most distant spacecraft from Earth is Voyager 1. It is about 12.5 billion miles away. Let's say we have a circle with a radius of exactly that size (or 25 billion miles in diameter) and we want to calculate the circumference, which is pi times the radius times 2. Using pi rounded to the 15th decimal, as I gave above, that comes out to a little more than 78 billion miles. We don't need to be concerned here with exactly what the value is (you can multiply it out if you like) but rather what the error in the value is by not using more digits of pi. In other words, by cutting pi off at the 15th decimal point, we would calculate a circumference for that circle that is very slightly off. It turns out that our calculated circumference of the 25 billion mile diameter circle would be wrong by 1.5 inches. Think about that. We have a circle more than 78 billion miles around, and our calculation of that distance would be off by perhaps less than the length of your little finger."
 
-[^fn3]: There're movies with higher frame rates like 120FPS (frame per second), like Ang Lee's recent [Gemini Man (2019)](https://www.imdb.com/title/tt1025100/) (I watched it, the plot is .. a bit underwhelming).
+[^fn3]: There're movies with higher frame rates like 120FPS (frame per second), like Ang Lee's recent [Gemini Man (2019)](https://www.imdb.com/title/tt1025100/){:target="_blank"} (I watched it, the plot is .. a bit underwhelming).
