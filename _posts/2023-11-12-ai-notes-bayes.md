@@ -26,7 +26,7 @@ This is something that I've been wanting to write for a long time now. It's simp
 >
 > PRINCE ALYBAS ISLASSGIBFOREALS
 
-Back in the days, I used to receive quite a few greetings (and urgent) business proposals from quite a few different Nigerian princes who needed my help with large sums of funds transfer, citing the technical difficulties they were facing as former royal family members. However, to my regret, I unfortunately didn't act on them in time. Had I taken up on the offer, I probably won't have to work for a living!
+Back in the days, I used to receive quite a few greetings and (urgent) business proposals from quite a few different Nigerian princes who needed my help with large sums of funds transfer, citing the technical difficulties they were facing as former royal family members. However, to my regret, I unfortunately didn't act on them in time. Had I taken up on the offer, I probably won't have to work for a living!
 
 Joking aside, we all know by now it's very much likely a scamming effort and thus is a spam email (they even come with other languages now, badly translated by AI tools judging by the look). Most modern email services will be able to automatically identify them and put them directly into Spam or Junk folders. But how do they determine the likelihood of an email being a spam? To answer that, we'd enter one of the most fundamental theories that our modern AI relies upon, the Bayes theories, which is named after the statistician Thomas Bayes.
 
