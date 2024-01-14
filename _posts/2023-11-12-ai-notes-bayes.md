@@ -124,4 +124,4 @@ We human use this try/error Bayesian approach all the time. Bayes is all about u
 ---
 [^fn1]: The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy, by Sharon Bertsch McGrayne. I have to say it's a quite text-heavy book, nevertheless with many riveting stories and anecdotes. I also borrowed the equation from it: Initial Beliefs + Recent Objective Data = A New and Improved Belief.
 [^fn2]: The half-life of knowledge [wiki](https://en.wikipedia.org/wiki/Half-life_of_knowledge){:target="_blank"}.
-[^fn3]: I've seen it in different occasions. Not sure who it should be credited to, but here's [one](https://sprignaturemoves.com/machine-learning-2/){:target="_blank"}.
+[^fn3]: I've seen it in different occasions. Not sure whom it should be credited to, but here's [one](https://sprignaturemoves.com/machine-learning-2/){:target="_blank"}.
