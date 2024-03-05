@@ -18,7 +18,11 @@ This part is mostly excerpted and paraphrased from Andrej Karpathy's recent 1hr 
 
 Although personally, I don't think "lazy" is necessarily a bad word - it's at least neutral if not positive already. It could be a strategic move to be "lazy" at times. For instance, when I was a kid, my father used to ask me to help set the table, and he'd say "no one likes a diligent boy". That is, if I only got the chopsticks I was told to get, instead of bringing other utensils and dinnerware too, then I'd have to come back to kitchen again and again, which may have given me the appearance of being "diligent". But really, a "lazy" boy would have thought through, and brought everything in one trip without having to be told multiple times.
 
-So, to me, being "lazy" is about efficiency, which I think is one of the main drives of our society's innovations thus far. Imagine if people were content with horse wagons and didn't want to get "lazy" with a machine that doesn't eat or poop but simply moves much faster (we call it automobile or car nowadays). This is especially true for us fellow software engineers - whenever there's an opportunity to automate stuff or reduce repeating codes / efforts, we feel the urge to take it.
+So, to me, being "lazy" is about efficiency, which I think is one of the main drives of our society's innovations thus far. Imagine if people were content with horse wagons and didn't want to get "lazy" with a machine that doesn't eat or poop but simply moves much faster (we call it automobile or car nowadays). This is especially true for us fellow software engineers - whenever there's an opportunity to automate stuff or reduce repeating codes / efforts, we feel the urge to take it. I'm even willing to make the bold claim here:
+
+> Lazy, for lack of a better word, is good.
+
+If an industry guru like Andrej is kind enough to offer us a crash course, we take it with gratitude! If that makes us "lazy", so be it.
 
 Alright enough vamping, let's get to it. Without further ado, introducing LLM (Keep in mind that, this is mostly my notes as per my own understanding. And it's hardly a primer.).
 
