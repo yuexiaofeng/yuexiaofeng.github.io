@@ -38,7 +38,7 @@ Andrej had boiled a LLM model down to this in his talk:
 
 ![what-is-llm](../assets/images/20240303/what_is_llm.png)
 
-This would be the renowned open-sourced LLama 2 from Meta[^fn2] (Why not use ChatGPT's model as an example, you ask. Well probably cuz it's not open-sourced yet..). In it:
+This would be the renowned open-sourced Llama 2 from Meta[^fn2] (Why not use ChatGPT's model as an example, you ask. Well probably cuz it's not open-sourced yet..). In it:
 
 1. `parameters` would be the "brain" here, i.e., the weights and parameters of the language model.
 2. `run.c` is the symbolic driver code that runs the model. It doesn't have to be in written in C.
@@ -49,7 +49,7 @@ That's all there is. `run.c` contains the code that operates the model with infe
 
 ### How to Train Your LLM
 
-Much like what's showed in [*How to Train Your Dragon*](https://www.imdb.com/title/tt0892769/){:target="_blank"} (For the record, Andrej didn't quote this reference. I did. :D), training a LLM like llama-2-70b is an incredibly difficult and expensive task. Take the llama-2-70b model for example, it took 6000 GPUs to run continuously for 12 days, to zip the internet's knowledge from ~10TB of text, to a ~140GB file. The process costed roughly 2 million US Dollars (good luck getting your university lab to sign off a run like this!).
+Much like what's showed in [*How to Train Your Dragon*](https://www.imdb.com/title/tt0892769/){:target="_blank"} (For the record, Andrej didn't quote this reference. I did. :D), training a LLM like llama-2-70b is an incredibly difficult and expensive task. Take the llama-2-70b model for example, it took 6000 GPUs to run continuously for 12 days, to compress the internet's knowledge from ~10TB of text, into a ~140GB file. The process costed roughly 2 million US Dollars (good luck getting your university lab to sign off a run like this!).
 
 And that's not even considered a really "large" LLM. ChatGPT's training costed probably much more than this.
 
@@ -70,7 +70,7 @@ It's less costly compared to the training of the base model (please, help yourse
 
 ### How Chatting Works
 
-Much like how human chat with each other, the sentences from chatbots are formed word by word. But since LLM can't really think on its own (yet), it's essentially "predicting" the next word based on probabilities. In this example,
+Much like how human chat with each other, the sentences from chatbots are formed word by word. But since a LLM can't really think on its own (yet), it's essentially "predicting" the next word based on probabilities. In this example,
 
 ![nn-word-prediction](../assets/images/20240303/nn_word_prediction.png)
 
@@ -78,7 +78,7 @@ Given the context of 4 words, "cat", "sat", "on", and "a", it's thus calculated 
 
 ### Other Miscellaneous
 
-Andrej also covered lots of other topics such as Transformer (not what you might think), Reinforcement Learning from Human Feedback (RLHF), Security and other stuff. I'm not gonna re-iterate all of them here (TBH some of them I don't quite understand well enough to paraphrase yet). Still worth diving deeper into though if you're interested. Maybe I'll write about them too when I have more time and deeper understanding.
+Andrej also covered lots of other topics such as Transformer (not what you might think), Reinforcement Learning from Human Feedback (RLHF), security and other stuff. I'm not gonna re-iterate all of them here (TBH some of them I don't quite understand well enough to write anything yet). Still worth diving deeper into though if you're interested. Maybe I'll write about them too when I have more time and deeper understanding.
 
 ## Bring Your Own ChatBot
 
@@ -97,7 +97,7 @@ See? Now I can talk to my own chatty bot for as long as I please to, and don't h
 
 Call me hidebound, but even today I still prefer search engines over various chatbots to get my answers to stuff. But who knows, maybe I'll change my mind soon.
 
-At the beginning of all the ChatGPT news, I wasn't sure if it's just a hype or the beginning of a new era. But with 20% of computer science students who graduated with PhD degrees specialized in AI[^fn3], I feel that the advancement of AI can only be even faster. Heck, maybe just like what Singaporean government recently proposed[^fn4], every now and then, we all ought to refresh and re-educate ourselves for the new AI knowledge nowadays, whether or not we're directly in this line of work. In the near future, maybe AI would become an essential skill like typing for us just to remain employable in workforce.
+At the beginning of all the ChatGPT news, I wasn't sure if it's just a hype or the beginning of a new era. But with 20% of computer science students who graduated with PhD degrees specialized in AI[^fn3], I feel that the advancement of AI can only be even faster. Heck, maybe just like what Singaporean government recently proposed[^fn4], every now and then, we all ought to refresh and re-educate ourselves for the new AI knowledge nowadays, whether or not we're directly in this line of work. In the near future, maybe AI would become an essential skill like typing for us just to remain employable in the workforce.
 
 And without a doubt, the rising of AI is indeed happening at a faster velocity than ever before. The recent news of OpenAI's Sora was also pretty mind-blowing.
 
