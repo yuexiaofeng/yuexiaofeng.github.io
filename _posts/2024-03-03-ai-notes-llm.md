@@ -10,7 +10,7 @@ I promise ChatGPT was not used in the writing of this article<!--more-->. If you
 
 ![have_you_heard](../assets/images/20240303/robertd.jpg)
 
-It's getting certainly harder to manually type words and write something down nowadays! Generative AIs (GenAI) like ChatGPT have really started to discourage bloggers eh. But anyhow, before I run out things that I want to ramble, I'd like to share some learnings of LLM, aka Large Language Model, the technology behind the current buzzword of GenAI, along with a little experiments of using them locally.
+It's certainly getting harder to manually type words and write something down nowadays! Generative AIs (GenAI) like ChatGPT have really started to discourage bloggers eh. But anyhow, before I run out things that I want to ramble, I'd like to share some learnings of LLM, aka Large Language Model, the technology behind the current buzzword of GenAI, along with a little experiments of using them locally.
 
 ## The Lazy Person's Intro to LLMs
 
