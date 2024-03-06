@@ -57,7 +57,7 @@ Much like what's showed in [*How to Train Your Dragon*](https://www.imdb.com/tit
 
 And that's not even considered a really "large" LLM. ChatGPT's training costed probably much more than this.
 
-Anyways, at this point, you would be able to get yours hands on what's called a `base model`.
+Anyways, at this point, you would be able to get your hands on what's called a `base model`.
 
 ### Fine-tuning the Base Model
 
