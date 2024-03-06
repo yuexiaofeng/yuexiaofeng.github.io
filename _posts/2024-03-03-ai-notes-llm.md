@@ -101,7 +101,7 @@ See? Now I can talk to my own chatty bot for as long as I please to, and don't h
 
 Call me hidebound, but even today I still prefer search engines over various chatbots to get my answers to stuff. But who knows, maybe I'll change my mind soon.
 
-At the beginning of all the ChatGPT news, I wasn't sure if it's just a hype or the beginning of a new era. But with 20% of computer science students who graduated with PhD degrees specialized in AI[^fn3], I feel that the advancement of AI can only be even faster. Heck, maybe just like what Singaporean government recently proposed[^fn4], every now and then, we all ought to refresh and re-educate ourselves for the new AI knowledge nowadays, whether or not we're directly in this line of work. In the near future, maybe AI would become an essential skill like typing for us just to remain employable in the workforce.
+At the beginning of all the ChatGPT news, I wasn't sure if it's just a hype or the beginning of a new era. But with 20% of computer science students who graduated with PhD degrees specialized in AI[^fn3], I feel that the advancement of AI can only be even faster. Heck, maybe just like what Singaporean government recently proposed[^fn4], every now and then, we all ought to refresh and re-educate ourselves for the new AI knowledge nowadays, whether or not we're directly in this line of work. In the near future, maybe AI would become an essential skill like typing for us just to remain employable in the workforce (or AI does all the work already, and most of us would just be happily collecting UBI cheques!).
 
 And without a doubt, the rising of AI is indeed happening at a faster velocity than ever before. The recent news of OpenAI's Sora was also pretty mind-blowing.
 
@@ -113,7 +113,7 @@ Quoting *Three Body*, one of my all-time favorite sci-fi novels, when people on 
 
 There are, of course, resistance forces among humanity.
 
-In a sense, AI, in this case, could it be the overlord that is destined to rule humanity perhaps decades (or years) from now? If so, how should we decide on our stances towards thy (we shouldn't probably take lord's name in vain..)? On the side of caution, I am probably leaning towards being a Survivor (definitely not a Luddite)..
+In a sense, AI, in this case, could it be the overlord that is destined to rule humanity perhaps decades (or years) from now? If so, how should we decide on our stances[^fn5] towards thy (we shouldn't probably take lord's name in vain..)? On the side of caution, I am probably leaning towards being a Survivor (definitely not a Luddite)..
 
 ## Temet Nosce
 
@@ -138,7 +138,7 @@ text or voice commands. I can perform a variety of tasks, including:
 I'm constantly learning and improving, so my abilities are always expanding! Is there anything else you'd like to know or discuss?
 ```
 
-So looks like AI hasn't really achieved self-awareness yet and is pretty harmless (or maybe it's just good at concealing itself..). We are (probably) safe from Skynet or other forms of super intelligent AGI[^fn5], at least for now!
+So looks like AI hasn't really achieved self-awareness yet and is pretty harmless (or maybe it's just good at concealing itself..). We are (probably) safe from Skynet or other forms of super intelligent AGI[^fn6], at least for now!
 
 ![temet_nosce](../assets/images/20240303/matrix_temet_nosce.webp)
 
@@ -147,4 +147,5 @@ So looks like AI hasn't really achieved self-awareness yet and is pretty harmles
 [^fn2]:[Llama 2](https://llama.meta.com/llama2){:target="_blank"} is the 2nd generation of LLaMA, which stands for Large Language Model Meta AI (kinda genius wordplay. I love it!).
 [^fn3]:Based on Stanford's [Artificial Intelligence Index Report 2022](https://aiindex.stanford.edu/wp-content/uploads/2022/03/2022-AI-Index-Report_Master.pdf){:target="_blank"}, In 2020, 1 in every 5 CS students who graduated with PhD degrees specialized in artificial intelligence / machine learning, the most popular specialty in the past decade. From 2010 to 2020, the majority of AI PhDs in the United States headed to industry while a small fraction took government jobs.
 [^fn4]: Singapore is offering [subsidies](https://www.skillsfuture.gov.sg/initiatives/mid-career/credit#:~:text=From%201%20May%202024%2C%20Singaporeans,the%20SkillsFuture%20Level%2DUp%20Programme.){:target="_blank"} for citizens over 40 to pursue further education and learn new skills, starting from May 2024.
-[^fn5]:[Artificial general intelligence](https://aws.amazon.com/what-is/artificial-general-intelligence/){:target="_blank"} (AGI) is a field of theoretical AI research that attempts to create software with human-like intelligence and the ability to self-teach. The aim is for the software to be able to perform tasks that it is not necessarily trained or developed for.
+[^fn5]: Interestingly, just like the factions in *Three Body*, we also have different (perhaps debatable too) movements and philosophies towards AI, noticeably E/acc (effective accelerationist), and OpenAI's [Superalignment](https://openai.com/blog/introducing-superalignment){:target="_blank"} etc.
+[^fn6]:[Artificial general intelligence](https://aws.amazon.com/what-is/artificial-general-intelligence/){:target="_blank"} (AGI) is a field of theoretical AI research that attempts to create software with human-like intelligence and the ability to self-teach. The aim is for the software to be able to perform tasks that it is not necessarily trained or developed for.
