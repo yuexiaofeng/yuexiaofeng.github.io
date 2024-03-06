@@ -78,7 +78,7 @@ Much like how human chat with each other, the sentences from chatbots are formed
 
 ![nn-word-prediction](../assets/images/20240303/nn_word_prediction.png)
 
-Given the context of 4 words, "cat", "sat", "on", and "a", it's thus calculated the predicted next word is "mat" with a probability of 97%. If you used ChatGPT, you'll probably notice the responses are sending back to you word by word, as if a real human was actually typing on the other side. This is would be the "generative" part, which starts with one predicted word - one word leads to another, and ends up with a long response or an article that reads very much like a human would say or write, and probably even makes a lot sense!
+Given the context of 4 words, "cat", "sat", "on", and "a", it's thus calculated the predicted next word is "mat" with a probability of 97%. If you used ChatGPT, you'll probably notice the responses are sending back to you word by word, as if a real human was actually typing on the other side. This would be the *generative* (puts the G in ChatGPT) part, which starts with one predicted word - then one word leads to another, and ends up with a long response or an article that reads very much like a human would say or write, and probably even makes a lot sense!
 
 ### Other Miscellaneous
 
