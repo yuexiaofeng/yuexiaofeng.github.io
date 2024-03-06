@@ -105,7 +105,7 @@ At the beginning of all the ChatGPT news, I wasn't sure if it's just a hype or t
 
 And without a doubt, the rising of AI is indeed happening at a faster velocity than ever before. The recent news of OpenAI's Sora was also pretty mind-blowing.
 
-Quoting *Three Body*, one of my all-time favorite sci-fi novels, when people on the earth (let's call us Earthians since we're now talking on a galactic scale) learned the inevitable upcoming invasion of Trisolaris aliens (or simply [Trisolarans](https://aliens.fandom.com/wiki/Trisolaran){:target="_blank"}), who evidently are in possession of a much superior civilization and unstoppable weapons, have divided to different factions:
+Quoting *Three Body*, one of my all-time favorite sci-fi novels, when people on the earth (let's call us Earthians since we're now talking on a galactic scale) learned the inevitable upcoming invasion from Trisolaris aliens (or simply [Trisolarans](https://aliens.fandom.com/wiki/Trisolaran){:target="_blank"}), who evidently are in possession of a much superior civilization and unstoppable weapons, have divided to different factions:
 
 1. The Adventists, who wish Trisolarans would reform and improve Earthians as a civilization. But deep down, they actually loathe human beings deeply beyond salvageable, and thus simply want us wiped out from earth.
 2. The Redemptionists, who sympathize and worship the Trisolarans, and therefore want to save them from their harsh native inhabitant environment (as their planet's name suggests, they have 3 suns, resulting in a wildly unstable climate).
