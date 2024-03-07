@@ -86,14 +86,14 @@ Andrej also covered lots of other topics such as Transformer (not what you might
 
 ## Bring Your Own ChatBot
 
-As dauntingly large as the LLM models can be, I'm still very much tempted to try it on my own. There are many ways of deploying LLM models locally to your consumer-grade personal computers. But they usually involve hours of battling with dependencies etc. I recently discovered a docker-like containerized [ollma](https://github.com/ollama/ollama){:target="_blank"}, and it's just dead simple to use. Here is what I did, in order, on my ancient, pre-apple silicon MacBook Pro 2015, with a meager 16G RAM (it was actually considered pretty generous back in the days alas):
+As dauntingly large as the LLM models can be, I'm still very much tempted to try it on my own. There are many ways of deploying LLM models locally to your consumer-grade personal computers. But they usually involve hours of battling with dependencies etc. I recently discovered a docker-like containerized [ollama](https://github.com/ollama/ollama){:target="_blank"}, and it's just dead simple to use. Here is what I did, in order, on my ancient, pre-apple silicon MacBook Pro 2015, with a meager 16G RAM (it was actually considered pretty generous back in the days alas):
 
-1. [Download](https://ollama.com/download){:target="_blank"} an Ollma binary.
+1. [Download](https://ollama.com/download){:target="_blank"} an Ollama binary.
 2. Run on the terminal a command `ollama run model_name`, from any supported models in the [library](https://ollama.com/library){:target="_blank"}. In this case, I picked the aforementioned llama 2 (but ollama watered it down a bit from 70 billion parameters to 7 billion, or fine-tuned already).
 
 That's it. That's all I had to do! And it ran without a hitch. Here's a snapshot.
 
-![ollma](../assets/images/20240303/ollama.jpeg)
+![ollama](../assets/images/20240303/ollama.jpeg)
 
 See? Now I can talk to my own chatty bot for as long as I please to, and don't have to pay $20 a month for the premium access (yes, a more usable UI interface other than command lines would be nice to have though)!
 
