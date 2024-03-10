@@ -63,12 +63,13 @@ Anyways, at this point, you would be able to get your hands on what's called a `
 
 A base model is crucial but unfortunately not immediately usable. Andrej explained the nextsteps:
 
-1. Write labeling instructions
+1. Write labeling instructions.
 2. Hire people, collect 100K high quality ideal Q&A responses, and/or comparisons.
-3. Finetune base model on this data, wait ~1 day. 4. Obtain assistant model.
-4. Run a lot of evaluations.
-5. Deploy.
-6. Monitor, collect misbehaviors, go to step 1.
+3. Fine-tune base model on this data, wait ~1 day.
+4. Obtain assistant model.
+5. Run a lot of evaluations.
+6. Deploy.
+7. Monitor, collect misbehaviors, go to step 1.
 
 It's less costly compared to the training of the base model (please, help yourself with a free one!), and is a necessary step to create your own LLM chatbot.
 
