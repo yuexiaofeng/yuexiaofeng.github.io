@@ -138,7 +138,7 @@ text or voice commands. I can perform a variety of tasks, including:
 I'm constantly learning and improving, so my abilities are always expanding! Is there anything else you'd like to know or discuss?
 ```
 
-So looks like AI hasn't really achieved self-awareness yet and is pretty harmless (or maybe it's just good at concealing itself..). We are (probably) safe from Skynet or any other forms of sentient super intelligent AGI[^fn6], at least for now!
+So looks like AI hasn't really achieved self-awareness yet and is pretty harmless (or maybe it's just good at concealing itself..). We are (probably) safe from Skynet or other forms of sentient super intelligent AGI[^fn6], at least for now!
 
 ![temet_nosce](../assets/images/20240303/matrix_temet_nosce.webp)
 
