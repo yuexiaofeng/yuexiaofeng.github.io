@@ -29,6 +29,3 @@ PS. I turned off Disqus for this site, mostly cuz I don't expect a lot of traffi
 PPS. It goes without saying - yet I probably should say it anyways: The opinions expressed in this blog are my own views and not those of my employer.
 
 Peace!
-
---
-[^fn1]:
