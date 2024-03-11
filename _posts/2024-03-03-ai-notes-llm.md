@@ -24,7 +24,7 @@ So, to me, being "lazy" is about efficiency, which I think is one of the main dr
 
 If an industry guru like Andrej is kind enough to offer us a crash course, we take it with gratitude! If that makes us "lazy", so be it.
 
-Alright enough vamping, let's get to it. Without further ado, introducing LLM (Keep in mind that, this is mostly my notes as per my own understanding. And it's hardly a primer.).
+Alright enough vamping, let's get to it. Without further ado, introducing LLM (Keep in mind that, this is mostly my notes along with some of my own understanding. It's hardly a proper primer.).
 
 ### Large Language Model
 
