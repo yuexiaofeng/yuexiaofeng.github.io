@@ -8,7 +8,7 @@ tags: [Book]
 
 > One will not read a book unless it's borrowed<!--more-->.
 
-That's a quote[^fn1] from an essay written by Mei Yuan (袁枚)[^fn2], a Chinese poet from a few centuries ago. It was part of my literature curriculum back in China during high school (or junior high? It's a really long time ago anyways). I remember the pain of having to recite the whole piece and have definitely forgotten most of them, with the exception of this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought back in the years that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
+That's a quote[^fn1] from an essay written by Mei Yuan (袁枚)[^fn2], a Chinese poet from a few centuries ago. It was part of my literature curriculum during high school (or junior high? It's a really long time ago anyways). I remember the pain of having to recite the whole piece and have definitely forgotten most of them, with the exception of this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought back in the years that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
 
 Long story short, I figured that if a book has a return date then it's probably a good thing - I'd be forced to timebox the reading. Granted, extensions are allowed; local libraries here are just too kind to even have overdue penalities, but I do want to honor the timelines and would hate to inconvenience library staff and people on the waiting list. So there you go, another book crossed off the reading list!
 
@@ -36,13 +36,13 @@ The merchant, Fuwaad ibn Abbas, who lived in ancient Baghdad and traded fabric f
 
 A young man named Hassan, who worked as a rope maker, traveled to future, and discovered a hidden treasure that'd make him rich..., with the help from... wait for it... his older rich self in the future! That's pretty much the gist. The unanswered question is, however, how did his future self become rich to begin with? The same plot happened in my favorite show *Rick and Morty*, where in an episode of explaining how Rick invented the portal gun for time travel - well, it turned out that the future Rick time-traveled back and gave him the technology directly! Huh, then how did the future Rick invent the portal gun?
 
-This looks just elaborated recursion to me (if you don't know what recursion is, click here[^fn3]).
+This seems just an elaborated recursion to me (if you don't know what recursion is, click here[^fn3]).
 
 #### II. The Weaver Who Stole from Himself
 
 This is a sad story compared to Story I. Ajib, a young man who learnt the Hassan story and decided that he'd try the same. He traveled to the future, but only discovered himself living in the same house as before, without a luxury life style at all. Although he did find a chest of gold coins in the room so he decided to take it with him to his present time.
 
-He instantly started to live a luxurious life and was able to marry his sweetheart that he couldn't afford to before. Unfortunately, his sudden wealth had attracted unwanted attention and as a result, his new wife was taken by robbers as a hostage. Ajib paid the ransom with the entirety of all his new fortune and successfully got his wife back. But his wife insisted that he should pay back the fortune as Ajib claimed he was given the wealth by another man. So the couple works diligently for decades and saves by putting gold coins to a chest in their house, one piece at the time. The hardships in life have costed their affections to each other and Ajib now only awaits his younger self to travel through time and take the chest so he'd be relieved.
+He instantly started living a luxurious life and was finally able to marry his sweetheart that he couldn't afford to before. Unfortunately, his sudden wealth had attracted unwanted attention and as a result, his new wife was taken by robbers as a hostage. Ajib paid the ransom with the entirety of all his new fortune and successfully got his wife back. But his wife insisted that they should pay back the fortune, as Ajib claimed that it was given to him from another man. So the couple works diligently for decades and saves by putting gold coins to a chest in their house, one piece at the time. The hardships in life have costed their affections to each other, while Ajib now only awaits his younger self to travel through time, and take the chest so he'd find peace.
 
 This sounds yet another recursion story to me, only the results are always bad. Poor Ajib can't catch a break as Hassan!
 
@@ -96,7 +96,7 @@ I looked up the author Ted Chiang. And just as I suspected, he's actually a comp
 
 I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He also understands the art of leaving blanks[^fn6] with an exquisite minimalist taste. That said, I never fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
 
-Overall I gave this book a 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
+Overall I'd give this book a remark of 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
 
 ---
 [^fn1]: I realized I occasionally tend to borrow ideas from the writers of Criminal Minds, cuz almost every episode of it begins and ends with a quote. I hope they didn't patent this pattern and I sure don't want any legal troubles (FWIW I haven't seen any newer episodes for ages and doubt if they ever quoted this)! :D
