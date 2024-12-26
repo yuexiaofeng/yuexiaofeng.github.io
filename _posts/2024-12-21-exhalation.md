@@ -28,7 +28,7 @@ The entire book consists of nine independent stories. Some of them are longer th
 
 ### The Merchant and The Alchemist's Gate
 
-The writing style of this story reminds me of the fairy tale collections of *One Thousand and One Nights*, especially with all the storytelling to *mighty Caliph* references here and there. The whole story seems to be a letter or report to the ruler.
+The writing style of this main story reminds me of the fairy tale collections of *One Thousand and One Nights*, especially with all the storytelling to *mighty Caliph* references here and there, and the story-in-a-story unravelling like the movie [*Inception*](https://www.imdb.com/title/tt1375666/){:target="_blank"}. The whole story seems to be a letter or report to the ruler.
 
 The merchant, Fuwaad ibn Abbas, who lived in ancient Baghdad and traded fabric for a living, stumped upon a shop. The shop owner then showed him a time travel portal, i.e. a gate that was made possible by alchemy, and shared with him three related stories from the time travelers.
 
@@ -74,7 +74,7 @@ This is what it's like for everyone of us in our current universe (can't remembe
 
 ![river of life](../assets/images/20241221/river_of_life.jpeg)
 
-Don't you just want to know what your path might've been if you decided on something differently at a certain time of your life? Perhaps if you chose another major to study, or if you got on a different first job, or got a few bitcoins back when it was a dime apiece? Well, look no further, this prism device can hook you up with someone, even a different version of yourself, in another parallel universe. You can then chat and find out what your life might've been based on an event timeline. Won't that be convenient?
+Don't you just want to know what your path might've been if you decided on something differently at a certain time of your life? Perhaps if you chose another major to study, or if you got a different first job, or collected a few bitcoins back when it was a dime apiece? Well, look no further, this prism device can hook you up with someone, even a different version of yourself, in another parallel universe. You can then chat and find out what your life might've been based on an event timeline. Won't that be convenient?
 
 This is a pretty lengthy piece, with different side stories. I'll pick the Dana one since it's my favorite. So this girl Dana, had always been living with guilt for what happened to her best friend Vinessa. When they were in high school, they got busted for taking some illegal drug called Vicodin (Dr. House's favorite no less!) that Dana took from her home. In a panic, Dana chose to pin it on Vinessa instead. Since Dana was a good student back then, school took her words for it and suspended Vinessa. Vinessa then went on a downward spiral - *shoplifting, staying out all night, coming to school drunk or stoned*, and eventually became a what people might say, failure of the society. Vinessa used this event as a leverage against Dana and constantly asked for money from her by emotional blackmailing.
 
