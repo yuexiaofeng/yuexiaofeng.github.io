@@ -70,13 +70,13 @@ In an unspecified time of the future, technology had evolved so advanced that wi
 
 Based on the many worlds theory, every decision you make, as little as flipping a coin or casting a dice, will spawn off a new parallel world from you current branch.
 
-This is what it's like for everyone of us in our current universe (can't remember which I got it):
+This is what it's like for everyone of us in our current universe (can't remember where I got it):
 
 ![river of life](../assets/images/20241221/river_of_life.jpeg)
 
 Don't you just want to know what things might've been if you decided on something differently at a certain time of your life? Perhaps if you chose another major to study, or if you got on a different first job, or got a few bitcoins back when it was a dime apiece? Well, look no further, this prism device can hook you up with someone, even a different version of yourself, in another parallel universe. You can then chat and find out what your life might've been based on an event timeline. Won't that be convenient?
 
-This is a pretty long story, with different side stories and branches. I'll pick the Dana one since it's my favorite. So this girl Dana, had always been living with guilt for what happened to her best friend Vinessa. When they were in high school, they both tried some illegal drug called Vicodin (Dr. House's favorite no less!) that Dana took from her home. When they were busted, in a panic, Dana chose to pin it on Vinessa instead. Since Dana was a good student back then, school took her words for it and suspended Vinessa. Vinessa then went on a downward spiral - *shoplifting, staying out all night, coming to school drunk or stoned*, and eventually became a what people might say, a failure of the society. Vinessa also used this event as a leverage against Dana and constantly asking money from her by emotional blackmailing.
+This is a pretty lengthy piece, with different side stories. I'll pick the Dana one since it's my favorite. So this girl Dana, had always been living with guilt for what happened to her best friend Vinessa. When they were in high school, they both tried some illegal drug called Vicodin (Dr. House's favorite no less!) that Dana took from her home. When they were busted, in a panic, Dana chose to pin it on Vinessa instead. Since Dana was a good student back then, school took her words for it and suspended Vinessa. Vinessa then went on a downward spiral - *shoplifting, staying out all night, coming to school drunk or stoned*, and eventually became a what people might say, a failure of the society. Vinessa also used this event as a leverage against Dana and constantly asking money from her by emotional blackmailing.
 
 Dana can't say no to Vinessa due to her guilt and is anxious all the time, until one day she received a mail package with many videos from different parallel universes (presumably captured via prism), where the different versions of Danas would talk about their lives and the different choices they made on the Vicodin event. It turned out, no matter what she chose, Vinessa always went on a self-destruct route, and Danas always felt guilty about it.
 
