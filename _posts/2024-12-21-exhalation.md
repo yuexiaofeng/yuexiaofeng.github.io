@@ -68,7 +68,7 @@ Okay, this one is a bit warm-hearted story for a change, and is by far my most f
 
 In an unspecified time of the future, technology had evolved so advanced that with the help of the quantum physics, plus a bit computing magic, people can now talk to others in different parallel worlds or universes via a device called prism[^fn4] - this reminds possibly the most convenient deus ex machina in sci-fi movies[^fn5] nowadays.
 
-Based on the many worlds theory, every decision you make, as little as flipping a coin or casting a dice, will spawn off a new parallel world from you current branch.
+Based on the many worlds theory, every decision you make, as little as flipping a coin or casting a dice, will set off a chain reaction and spawn off a new parallel world from you current branch.
 
 This is what it's like for everyone of us in our current universe (can't remember where I got it):
 
@@ -94,7 +94,7 @@ In mathematics, optimization is a state when you can't practically improve. Sinc
 
 I looked up the author Ted Chiang. And just as I suspected, he's actually a computer science major - and yet he writes books, instead of software programs, for a living. :D
 
-I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He also understands the art of leaving blanks[^fn6] with an exquisite minimalist taste. That said, I haven't fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
+I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He seems well trained in existentialism, and also understands the art of leaving blanks[^fn6] with an exquisite minimalist taste. That said, I haven't fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
 
 Overall I'd give this book a remark of 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
 
