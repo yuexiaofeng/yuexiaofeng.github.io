@@ -54,7 +54,7 @@ To summarize the three stories, I think the idea is very similar to the [*Back t
 
 ### Exhalation
 
-This is the bespoke story of the book. Although it's actually very technical and geeky. It seems to be a log or journal written by a scientist.
+This is the bespoke story of the book. Although it's actually very technical and geeky. It seems to be a log written by a scientist.
 
 In a setup that's definitely not our world, there exist sentient robot-like beings, who can think independently. They get their air from lungs that can be swapped - just like how you'd fill up your tank at a gas station, you can get a new lung filled with air.
 
@@ -96,7 +96,7 @@ I looked up the author Ted Chiang. And just as I suspected, he's actually a comp
 
 I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He seems well trained in existentialism, and also understands the art of leaving blanks[^fn6] with an exquisite minimalist taste. That said, I haven't fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
 
-Overall I'd give this book a remark of 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
+Overall I'd give this book a mark of 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
 
 ---
 [^fn1]: I realized I occasionally tend to pay homage to the writers of Criminal Minds, cuz almost every episode of it begins and ends with a quote. I hope they didn't patent this pattern and I sure don't want any legal troubles (FWIW I haven't seen any newer episodes for ages and doubt if they ever quoted this)! :D
