@@ -11,7 +11,7 @@ That being said, I am guilty as charged, a movie junkie (or at least I used to b
 
 ![prime_oppenheimer](../assets/images/20250103/prime_oppenheimer.jpeg)
 
-Or in other occasions, it'd just show a text in the notification with something like *We think you'd like the following movies*. But when I clicked into the notifications, oftentimes only found out that the recommended movies had already been sitting on my watchlist or watched already. Well, first off, good job Prime Video for correctly predicting movies that I want to watch next. But perhaps next time, maybe consider cross-referencing my watchlist or watch history first before sending the recommendations out?
+Or in other occasions, it'd just show a text in the notification with something like *We think you'd like the following movies*. But when I clicked into the notifications, oftentimes only found out that the recommended movies had already been sitting on my watchlist or watched already. Well, first off, good job Prime Video for correctly predicting movies that I want to watch next. But perhaps next time, maybe consider cross-referencing my watchlist or watch history first before sending the recommendations out[^fn2]?
 
 I actually watched *Oppenheimer* in the movie theatre, not just cuz the sound effects and everything, but also cuz my wife always feels the obligation to provide live commentary if we watch movies at our home theatre and it bothers me a bit. Now that I've been on staycation for the holidays, I can finally catch up on some books and movies, and publish this stashed blog too!
 
@@ -19,7 +19,7 @@ Joking aside, I think this is actually a pretty good topic to ramble about. So t
 
 ## The Target Mailer
 
-As Forbes reported[^fn2] in 2012, an angry man went into a Target outside of Minneapolis, demanding to talk to a manager:
+As Forbes reported[^fn3] in 2012, an angry man went into a Target outside of Minneapolis, demanding to talk to a manager:
 
 > “My daughter got this in the mail!” he said. “She’s still in high school, and you’re sending her coupons for baby clothes and cribs? Are you trying to encourage her to get pregnant?”
 >
@@ -33,7 +33,7 @@ Well one thing we know for sure - that was indeed *targeted* ads! It's good dete
 
 In essence:
 
-> Recommendation is the task of suggesting items that might be of interest to a user, such as movies to watch, articles to read, or products to purchase. Recommendation systems are crucial to businesses, such as Amazon, Netflix, Spotify, and YouTube[^fn3].
+> Recommendation is the task of suggesting items that might be of interest to a user, such as movies to watch, articles to read, or products to purchase. Recommendation systems are crucial to businesses, such as Amazon, Netflix, Spotify, and YouTube[^fn4].
 
 It's ubiquitous nowadays with the inundation of information flows. The endless scrolling mode of TikTok or Wish wouldn't be possible without the power of the recommender engines behind the scene. I'll elaborate a bit on a common technique called Collaborative Filtering.
 
@@ -81,7 +81,7 @@ But please, do a little fine-tuning with common sense though. For example, after
 
 ## Epilog
 
-In reality, it'd be far more complicated matrix computing for both collaborative filtering algorithms, as the scores may carry different weights in similarity formulas, and users may be to the tune of many millions[^fn4], which will be very hard and expensive to compute with increased dimensions (10 million users x 100k items = 1 trillion data points in the matrix!), and may require advanced optimizations like [PCA](https://xiaofengyue.com/2022-05-07/ai-notes-pca){:target="_blank"}, etc. Recommenders also like to pre-compute instead computing on the go due the amount of workload involved.
+In reality, it'd be far more complicated matrix computing for both collaborative filtering algorithms, as the scores may carry different weights in similarity formulas, and users may be to the tune of many millions[^fn5], which will be very hard and expensive to compute with increased dimensions (10 million users x 100k items = 1 trillion data points in the matrix!), and may require advanced optimizations like [PCA](https://xiaofengyue.com/2022-05-07/ai-notes-pca){:target="_blank"}, etc. Recommenders also like to pre-compute instead computing on the go due the amount of workload involved.
 
 Besides Collaborative Filtering, there also exist many other recommendation algorithms, e.g. content discovery, user profiling, and different hybrid approaches, etc. The efficiency and efficacy metrics are also well studied (Netflix used to host a movie recommendation competition called [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize){:target="_blank"}).
 
@@ -94,7 +94,7 @@ The recommender systems work on a wide range of scenarios, not just limited to s
 * *user who bought Product A also bought Product B* (potential shared mutual product interests)
 * *people who friended Person A also friended Person B* (potential shared mutual friends)
 
-Speaking which (I guess I do tend to make more cutaways than *Family Guy*), I don't really have a big presence on social media. In fact I'm not even on Instagram, TikTok, or Snapchat[^fn5].
+Speaking which (I guess I do tend to make more cutaways than *Family Guy*), I don't really have a big presence on social media. In fact I'm not even on Instagram, TikTok, or Snapchat[^fn6].
 
 But even I know this: if two social media users who share dozens of mutual friends, and yet are still not friends, even after many repeated recommender advices like *Do you know XX?*, in an extended period of time. Well, is it possible that there was a reason for that? Like, gee, I don’t know, you wouldn't think there is a remote possibility that they know each other very well in real life but they just don’t want to friend each other? Take a hint, recommender!
 
@@ -102,7 +102,8 @@ But even I know this: if two social media users who share dozens of mutual frien
 
 ---
 [^fn1]: I realized I occasionally tend to pay homage to the writers of Criminal Minds, cuz almost every episode of it begins and ends with a quote. I hope they didn't patent this pattern and I sure don't want any legal troubles (FWIW I haven't seen any newer episodes for ages and doubt if they ever quoted this :D).
-[^fn2]: [How Target Figured Out](https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/?sh=24a72cb26668){:target="_blank"} A Teen Girl Was Pregnant Before Her Father Did.
-[^fn3]: Stanford's [Artificial Intelligence Index Report 2022](https://aiindex.stanford.edu/wp-content/uploads/2022/03/2022-AI-Index-Report_Master.pdf){:target="_blank"}.
-[^fn4]: Here's a smaller dataset example: [MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/100k/){:target="_blank"}. Stable benchmark dataset. 100,000 ratings from 1000 users on 1700 movies. Released 4/1998.
-[^fn5]: The list goes on; you may also notice there is not even a button here to like, share, follow or subscribe on this entire website (*#dinosauralert*). I haven't logged into Facebook or Twitter since forever and definitely can't remember the passwords. I firmly believe in the whole attention-is-all-you-need idea - attention is indeed too precious and social media just can't seem to take enough of them from us (also many of us may have volunteered wayyy too much personal information...).
+[^fn2]: Prime Video is the worst among the streaming platforms. It recently introduced intrusive ads, at the beginning and in the **middle** of the movies! You can buy yourself a way out by upgrading to Ad Free for an extra monthly fee (but beware they don't consider trailers as ads). I can't justify the upgrade since I rarely watch on Prime and it doesn't seem they've got lots of good contents either, so occasionally I need to put up with it. Here's a free advice to Amazon: why not take it further, e.g. deploy attention tracking systems, so if viewers so much look away or mute during ads, they will get penalized with 2x ads (next offense it'd be 4x!).
+[^fn3]: [How Target Figured Out](https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/?sh=24a72cb26668){:target="_blank"} A Teen Girl Was Pregnant Before Her Father Did.
+[^fn4]: Stanford's [Artificial Intelligence Index Report 2022](https://aiindex.stanford.edu/wp-content/uploads/2022/03/2022-AI-Index-Report_Master.pdf){:target="_blank"}.
+[^fn5]: Here's a smaller dataset example: [MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/100k/){:target="_blank"}. Stable benchmark dataset. 100,000 ratings from 1000 users on 1700 movies. Released 4/1998.
+[^fn6]: The list goes on; you may also notice there is not even a button here to like, share, follow or subscribe on this entire website (*#dinosauralert*). I haven't logged into Facebook or Twitter since forever and definitely can't remember the passwords. I firmly believe in the whole attention-is-all-you-need idea - attention is indeed too precious and social media just can't seem to take enough of them from us (also many of us may have volunteered wayyy too much personal information...).
