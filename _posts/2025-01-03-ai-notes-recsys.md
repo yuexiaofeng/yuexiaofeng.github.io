@@ -71,7 +71,7 @@ The idea of item-based filtering is similar to user-based filtering, but we flip
 If we put Alice's ratings on the x axis, and Bob's on the y axis, then we can chart the above matrix to the following:
 ![item_filtering_matrix](../assets/images/20250103/item_filtering_matrix.png)
 
-We can clearly see that, while Alice and Bob differs in their movie tastes a lot, there's a pattern for the movies of *Inception*, *Interstellar*, and *Oppenheimer* - they seem to belong the the same group (well we also know they are all works of the great Christopher Nolan). So when Charlie comes in and said he'd liked *Inception* and *Interstellar*, we can then safely predict that he might also like *Oppenheimer*.
+We can clearly see that, while Alice and Bob differs in their movie tastes a lot, there's a pattern for the movies of *Inception*, *Interstellar*, and *Oppenheimer* - they seem to belong the the same group or cohort (well we also know they all happen to be works of the great Christopher Nolan), as they are neighbors on the chart. So when Charlie comes in and said he'd liked *Inception* and *Interstellar*, we can then safely predict that he might also like *Oppenheimer*.
 
 In the Target mailer story above, the girl in high school probably purchased a series of products that other pregnant women tend to buy together or in sequence, so Target assumed this girl'd be pregnant as well and suggested more products like baby clothes and cribs by sending coupons.
 
