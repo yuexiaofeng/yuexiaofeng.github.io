@@ -8,7 +8,7 @@ tags: [Book]
 
 > One will not read a book unless it's borrowed<!--more-->.
 
-That's a quote from an essay written by Mei Yuan (袁枚), a Chinese poet from a few centuries ago. I remember the pain of having to recite the whole piece, as it was part of my literature curriculum during junior high. While I'd definitely forgotten most of them, this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought years ago that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
+That's a quote from an essay written by Mei Yuan (袁枚), a Chinese poet from a few centuries ago. I remember the pain of having to recite the whole piece, as it was part of my literature curriculum during junior high. While I'd definitely forgotten most of the essay, this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought years ago that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
 
 Long story short, I figured that if a book has a return date then it's probably a good thing - I'd be forced to timebox the reading. Granted, extensions are allowed; local libraries here are just too kind to even impose any overdue penalities, but I do want to honor the timelines and would hate to inconvenience library staff and people on the waiting list. So there you go, another book crossed off the reading list!
 
