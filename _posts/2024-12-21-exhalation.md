@@ -8,7 +8,7 @@ tags: [Book]
 
 > One will not read a book unless it's borrowed<!--more-->.
 
-That's a quote[^fn1] from an essay written by Mei Yuan (袁枚)[^fn2], a Chinese poet from a few centuries ago. It was part of my literature curriculum during high school (or junior high? It's a really long time ago anyways). I remember the pain of having to recite the whole piece and have definitely forgotten most of them, with the exception of this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought years ago that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
+That's a quote from an essay written by Mei Yuan (袁枚), a Chinese poet from a few centuries ago. I remember the pain of having to recite the whole piece, as it was part of my literature curriculum during junior high. While I'd definitely forgotten most of them, this well-known first sentence that still rings a bell today. It is so true though - I have quite a few books I bought years ago that are still collecting dusts in my bookshelf, awaiting a *right* time for me to read.
 
 Long story short, I figured that if a book has a return date then it's probably a good thing - I'd be forced to timebox the reading. Granted, extensions are allowed; local libraries here are just too kind to even impose any overdue penalities, but I do want to honor the timelines and would hate to inconvenience library staff and people on the waiting list. So there you go, another book crossed off the reading list!
 
@@ -36,7 +36,7 @@ The merchant, Fuwaad ibn Abbas, who lived in ancient Baghdad and traded fabric f
 
 A young man named Hassan, who worked as a rope maker, traveled to future, and discovered a hidden treasure that'd make him rich, with the help from... wait for it... his older rich self in the future! That's pretty much the gist put in an oneliner. The unanswered question is, however, how did his future self become rich to begin with? The same plot happened in my favorite show *Rick and Morty*, where in an episode that explains how Rick invented the portal gun for time travel - well, it turned out that the future Rick time-traveled back and gave him the technology directly! Huh, then how did the future Rick invent the portal gun?
 
-This seems just an elaborated recursion to me (if you don't know what recursion is, click here[^fn3]).
+This seems just an elaborated recursion to me (if you don't know what recursion is, click here[^fn1]).
 
 #### II. The Weaver Who Stole from Himself
 
@@ -58,7 +58,7 @@ This is the bespoke story of the book. Although it's actually very technical and
 
 In a setup that's definitely not our world, there exist sentient robot-like beings, who can think independently. They get their air from lungs that can be swapped - just like how you'd fill up your tank at a gas station, you can get a new lung filled with air.
 
-But the scientist wanted to see how their brains function and figure out why people seem to think slower over time. He made the ultimate sacrifice and dissected his own brain, and documented every step. He eventually made the discovery that the brain functions by air propagating through the gold leaves in it, and thus is subject to the atmospheric pressure. But the pressure's supply isn't eternal, and will eventually be gone as the universe slowly reaches its inevitable heat death - in the story it's called *equilibrium*, but we all know what it is as per the second law of thermodynamics.
+But the scientist wanted to see how their brains function and figure out why people seem to think slower over time. He made the ultimate sacrifice and dissected his own brain, and documented every step. He eventually made the discovery that the brain functions by air propagating through the gold leaves in it, and thus is subject to the atmospheric pressure. But the pressure's supply isn't eternal, and will eventually be gone as the universe slowly reaches its inevitable heat death, which is called *equilibrium* in the story, but we all know what it is as per the second law of thermodynamics - after all, everyone of us is at the mercy of entropy as an arrow of time.
 
 I like the story quite a bit but it's kinda hard even to paraphrase it. It's a very deep topic disguised in a sci-fi setup. I like how the author carefully framed the story via mechanical organs like lungs and brains (yes I think he might be a nerd..).
 
@@ -66,7 +66,7 @@ I like the story quite a bit but it's kinda hard even to paraphrase it. It's a v
 
 Okay, this one is a bit warm-hearted story for a change, and is by far my most favorite one in the series.
 
-In an unspecified time of the future, technology had evolved so advanced that with the help of the quantum physics, plus a bit computing magic, people can now talk to others in different parallel worlds or universes via a device called prism[^fn4] - this reminds possibly the most convenient deus ex machina in sci-fi movies[^fn5] nowadays.
+In an unspecified time of the future, technology had evolved so advanced that with the help of the quantum physics, plus a bit computing magic, people can now talk to others in different parallel worlds or universes via a device called prism[^fn2] - this reminds possibly the most convenient deus ex machina in sci-fi movies[^fn3] nowadays.
 
 Based on the many worlds theory, every decision you make, as little as flipping a coin or casting a dice, will set off a chain reaction and spawn off a new parallel world from you current branch.
 
@@ -94,14 +94,12 @@ In mathematics, optimization is a state when you can't practically improve. Sinc
 
 I looked up the author Ted Chiang. And just as I suspected, he's actually a computer science major - and yet he writes books, instead of software programs, for a living. :D
 
-I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He seems well trained in existentialism, and also understands the art of leaving blanks[^fn6] with an exquisite minimalist taste. That said, I haven't fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
+I like his writing style. It's concise, elegant, and cut-down-to-the-chase. He seems well trained in existentialism, and also understands the art of leaving blanks[^fn4] with an exquisite minimalist taste. That said, I haven't fully got his other work though, namely *Story of Your Life*, better known by its movie adaption [*Arrival*](https://www.imdb.com/title/tt2543164/){:target="_blank"} - perhaps another time!
 
 Overall I'd give this book a mark of 9.5/10, on the account that Ted is Asian not Bsian (haha jk.., it's simply a very well crafted book!). I'd highly recommend it to any serious readers.
 
 ---
-[^fn1]: I realized I occasionally tend to pay homage to the writers of Criminal Minds, cuz almost every episode of it begins and ends with a quote. I hope they didn't patent this pattern and I sure don't want any legal troubles (FWIW I haven't seen any newer episodes for ages and doubt if they ever quoted this)! :D
-[^fn2]: Mei Yuan's [Bio](https://en.wikipedia.org/wiki/Yuan_Mei){:target="_blank"} - technically wikipedia should either write his name as *Yuan, Mei* or *Mei Yuan* since Yuan is his family name.
-[^fn3]: Well, as what they say, to understand recursion, you must first understand recursion. Click for more: 👉🏽
-[^fn4]: Funny thing is I actually work with [Prism Analytics](https://www.workday.com/en-us/resources/prism-analytics/data-hub-use-cases.html){:target="_blank"} at my current job (No no no, I don't think it's the same one Snowden worked on before. :D). The *prism* mentioned in the book is a near acronym that stands for *Plaga Interworld-Signaling Mechanism*, which isn't totally made up - it's somewhat legit. I was able to track down an actual [paper](https://arxiv.org/abs/quant-ph/9510007){:target="_blank"} published in 1995, namely *Proposal for an experimental test of the many-worlds interpretation of quantum mechanics* by R. Plaga (what can I say, I like doing research!).
-[^fn5]: Here's a [meme](https://www.reddit.com/r/memes/comments/d2o0uc/quantum_meme/?rdt=45749){:target="_blank"} on reddit for the quantum reference in movies (Yes Marvel Studios, we're looking at you!).
-[^fn6]: It's hard to explain the idea of *leaving blanks* but in Chinese arts we call it 留白 (liú bái), which is *an artistic idea that teaches artists not to use any elaborate techniques to painstakingly carve out every precise detail of the desired effect, but simply to hint at it and allow the audience to experience the message in their own heads.* [Further reading](https://actavictoriana.ca/culture/the-art-of-nothingness-an-approach-to-appreciating-chinese-art/){:target="_blank"}.
+[^fn1]: Well, as what they say, to understand recursion, you must first understand recursion. Click for more: 👉🏽
+[^fn2]: Funny thing is I actually work with [Prism Analytics](https://www.workday.com/en-us/resources/prism-analytics/data-hub-use-cases.html){:target="_blank"} at my current job (No no no, I don't think it's the same one Snowden worked on before. :D). The *prism* mentioned in the book is a near acronym that stands for *Plaga Interworld-Signaling Mechanism*, which isn't totally made up - it's somewhat legit. I was able to track down an actual [paper](https://arxiv.org/abs/quant-ph/9510007){:target="_blank"} published in 1995, namely *Proposal for an experimental test of the many-worlds interpretation of quantum mechanics* by R. Plaga (what can I say, I like doing research!).
+[^fn3]: Here's a [meme](https://www.reddit.com/r/memes/comments/d2o0uc/quantum_meme/?rdt=45749){:target="_blank"} on reddit for the quantum reference in movies (Yes Marvel Studios, we're looking at you!).
+[^fn4]: It's hard to explain the idea of *leaving blanks* but in Chinese arts we call it 留白 (liú bái), which is *an artistic idea that teaches artists not to use any elaborate techniques to painstakingly carve out every precise detail of the desired effect, but simply to hint at it and allow the audience to experience the message in their own heads.* [Further reading](https://actavictoriana.ca/culture/the-art-of-nothingness-an-approach-to-appreciating-chinese-art/){:target="_blank"}.
