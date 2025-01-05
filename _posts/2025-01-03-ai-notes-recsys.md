@@ -91,6 +91,7 @@ The recommender systems work on a wide range of scenarios, not just limited to s
 
 * ...
 * *audience who liked Movie A also liked Movie B* (potential shared mutual movie tastes)
+* *customers who enjoyed Diner A also enjoyed Diner B* (potential shared mutual food tastes)
 * *user who bought Product A also bought Product B* (potential shared mutual product interests)
 * *people who friended Person A also friended Person B* (potential shared mutual friends)
 
