@@ -11,7 +11,7 @@ That being said, I am guilty as charged, a movie junkie (or at least I used to b
 
 ![prime_oppenheimer](../assets/images/20250103/prime_oppenheimer.jpeg)
 
-Or in other occasions, it'd just show a text in the notification with something like *We think you'd like the following movies*. But when I clicked into the notifications, oftentimes only found out that the recommended movies had already been sitting on my watchlist or watched already. Well, first off, good job Prime Video for correctly predicting movies that I want to watch next. But perhaps next time, maybe consider cross-referencing my watchlist or watch history first before sending the recommendations out[^fn2]?
+Or in other occasions, it'd just show a text in the notification with something like *We think you'd like the following movies*. When I clicked into the notifications, however, oftentimes I only found out that the recommended movies had already been sitting on my watchlist or watched already. Well, first off, good job Prime Video for correctly predicting movies that I want to watch next. But perhaps next time, maybe consider cross-referencing my watchlist or watch history first before sending the recommendations out[^fn2]?
 
 I actually watched *Oppenheimer* in the movie theatre, not just cuz the sound effects and everything, but also cuz my wife always feels the obligation to provide live commentary if we watch movies at our home theatre and it bothers me a bit. Now that I've been on staycation for the holidays, I can finally catch up on some books and movies, and publish this stashed blog too!
 
