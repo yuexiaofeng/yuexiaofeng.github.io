@@ -81,23 +81,23 @@ But please, do a little fine-tuning with common sense though. For example, after
 
 ## Epilog
 
-In reality, it'd be far more complicated matrix computing for both collaborative filtering algorithms, as the scores may carry different weights in similarity formulas, and users may be to the tune of many millions[^fn5], which will be very hard and expensive to compute with increased dimensions (10 million users x 100k items = 1 trillion data points in the matrix!), and may require advanced optimizations like [PCA](https://xiaofengyue.com/2022-05-07/ai-notes-pca){:target="_blank"}, etc. Recommenders also like to pre-compute instead computing on the go due the amount of workload involved.
+In reality, it'd be far more complicated matrix computing for both collaborative filtering algorithms, as the scores may carry different weights in similarity formulas, and users may be to the tune of many millions[^fn5], which will be very hard and expensive to compute with increased dimensions (10 million users x 100k items = 1 trillion data points in the matrix!), and may require advanced optimizations like [PCA](https://xiaofengyue.com/2022-05-07/ai-notes-pca){:target="_blank"}, etc. Recommenders also like to pre-compute instead computing on the go due to the amount of workload involved.
 
 Besides Collaborative Filtering, there also exist many other recommendation algorithms, e.g. content discovery, user profiling, and different hybrid approaches, etc. The efficiency and efficacy metrics are also well studied (Netflix used to host a movie recommendation competition called [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize){:target="_blank"}).
 
-But in my opinion, the key of recommender systems is, like any other AI problems, procuring the data. The recommendations are only as good as the quality of the data. Without an abundance of up-to-date data, these recommenders wouldn't be able to do the magics. There's also a cold start challenge as the algorithms would have to start with none or little data to begin with, and iterate from there - the initial recommendations wouldn't be as accurate. The more recommenders know about you (and others), the more accurate recommendations you'll get.
+But in my opinion, the key of recommender systems is, like any other AI problems, procuring the data. The recommendations are only as good as the quality of the data. Without an abundance of up-to-date data, these recommenders wouldn't be able to do the magics, which also brings a cold start challenge as the algorithms would have to start with none or little data to begin with, and iterate from there - the initial recommendations wouldn't be as accurate. The more recommenders know about you (and others), the more accurate recommendations you'll get.
 
-The recommender systems work on a wide range of scenarios, not just limited to suggesting you new movies, products or services, but also social networks, so long as you model the problem properly. In the eyes of the math and algorithms, they probably are not that different, lots of which could be abstracted to a mathematical model of *user who did something also did something else* - it could be:
+The recommender systems work on a wide range of scenarios, not just limited to suggesting you new movies, products or services, but also social networks and beyond, so long as you model the problem properly. In the eyes of the math and algorithms, they probably are not that different, lots of which could be abstracted to a mathematical model of *user who did something also did something else* - it could be:
 
 * ...
 * *audience who liked Movie A also liked Movie B* (potential shared mutual movie tastes)
 * *customers who enjoyed Diner A also enjoyed Diner B* (potential shared mutual food tastes)
-* *user who bought Product A also bought Product B* (potential shared mutual product interests)
+* *users who bought Product A also bought Product B* (potential shared mutual product interests)
 * *people who friended Person A also friended Person B* (potential shared mutual friends)
 
-Speaking which (I guess I do tend to make more cutaways than *Family Guy*), I don't really have a big presence on social media. In fact I'm not even on Instagram, TikTok, or Snapchat[^fn6].
+Speaking which (I guess I do tend to make more cutaways than *Family Guy*), I don't really have a big presence on social media other than occasionally checking LinkedIn. In fact I'm not even on Instagram, TikTok, or Snapchat[^fn6].
 
-But even I know this: if two social media users who share dozens of mutual friends, and yet are still not friends, even after many repeated recommender advices like *Do you know XX?*, in an extended period of time. Well, is it possible that there was a reason for that? Like, gee, I don’t know, you wouldn't think there is a remote possibility that they know each other very well in real life but they just don’t want to friend each other? Take a hint, recommender!
+But even I know this: if two users who share dozens of mutual friends, and yet are still not friends, even after many repeated recommender advices like *Do you know XX?*, in an extended period of time. Well, is it possible that there was a reason for that? Like, gee, I don’t know, you wouldn't think there is a remote possibility that they know each other very well in real life but they just don’t want to friend each other? Take a hint, recommender!
 
 ![chandler_meme](../assets/images/20250103/chandler_meme.jpg)
 
