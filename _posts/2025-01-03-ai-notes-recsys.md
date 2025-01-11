@@ -55,7 +55,7 @@ Say we ask different persons to rate the movies they have watched recently, with
 
 Then the idea of recommendation would be finding the similarities between users. In this case, we knew Alice liked *Inception*, *Interstellar*, and *Oppenheimer*, while Bob liked/disliked quite the contrary. Charlie is a new user who hasn't watched as many, but we can easily see he shares more similarity with Alice than Bob. Since Alice also liked *Oppenheimer*, the recommender will now suggest *Oppenheimer* to Charlie, predicting that he might also enjoy it.
 
-That would be the long and short of user-based collaborative filtering.
+That would be the long and short of user-based collaborative filtering. Although I would personally like a feature that recommends what I may dislike based on that fact that people who disliked A also disliked B. I mean, a similarity is a similarity, right? It could be a desired (and premium) feature for some people! Why leave money on the table?
 
 ### Item-Based Filtering
 
