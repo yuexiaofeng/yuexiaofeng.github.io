@@ -75,7 +75,7 @@ We can clearly see that, while Alice and Bob differs in their movie tastes a lot
 
 In the Target mailer story above, the girl in high school probably purchased a series of products that other pregnant women tend to buy together or in sequence, so Target assumed this girl'd be pregnant as well and suggested more products like baby clothes and cribs by sending coupons.
 
-In a way, it's similar to clustering algorithms like [KNN](https://xiaofengyue.com/2022-03-26/ai-notes-knn){:target="_blank"}, based on the content similarity or relevancy via distance formulas, using the user behavioral knowledge.
+In a way, it's similar to clustering algorithms like [KNN](https://xiaofengyue.com/2022-03-26/ai-notes-knn){:target="_blank"}, based on the content similarity or correlation via distance formulas, using the user behavioral knowledge.
 
 But please, do a little fine-tuning with common sense though. For example, after I bought a refrigerator, maybe don't send 30 more ads for other refrigerators - my food preserving needs are kinda limited; it could be another decade later before I want a new one.
 
