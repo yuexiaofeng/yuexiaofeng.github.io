@@ -35,7 +35,9 @@ In essence:
 
 > Recommendation is the task of suggesting items that might be of interest to a user, such as movies to watch, articles to read, or products to purchase. Recommendation systems are crucial to businesses, such as Amazon, Netflix, Spotify, and YouTube[^fn4].
 
-It's ubiquitous nowadays with the inundation of information flows. The endless scrolling mode of TikTok or Wish wouldn't be possible without the power of the recommender engines behind the scene. I'll elaborate a bit on a common technique called Collaborative Filtering.
+It's ubiquitous nowadays with the inundation of information flows. The endless scrolling mode of TikTok or Wish wouldn't be possible without the power of the recommender engines behind the scene. In fact, these algorithms are so good that sometimes before you knew it, you'd have finished viewing tons of recommended items that weren't even hand-picked by you (human agency is overrated anyways!). What a perfect way to kill time isn't it?
+
+I'll elaborate a bit on a common technique called Collaborative Filtering.
 
 ## Collaborative Filtering
 
@@ -107,4 +109,4 @@ But even I know this: if two users who share dozens of mutual friends, and yet a
 [^fn3]: [How Target Figured Out](https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/?sh=24a72cb26668){:target="_blank"} A Teen Girl Was Pregnant Before Her Father Did.
 [^fn4]: Stanford's [Artificial Intelligence Index Report 2022](https://aiindex.stanford.edu/wp-content/uploads/2022/03/2022-AI-Index-Report_Master.pdf){:target="_blank"}.
 [^fn5]: Here's a smaller dataset example: [MovieLens 100K Dataset](https://grouplens.org/datasets/movielens/100k/){:target="_blank"}. Stable benchmark dataset. 100,000 ratings from 1000 users on 1700 movies. Released 4/1998.
-[^fn6]: The list goes on; you may also notice there is not even a button here to like, share, follow or subscribe on this entire website (*#dinosauralert*). I haven't logged into Facebook or Twitter since forever and definitely can't remember the passwords - mostly cuz I find social media could be a source of information overload and thus have been making an effort to protect my attention span (albeit not always successful).
+[^fn6]: The list goes on; you may also notice there is not even a button here to like, share, follow or subscribe on this entire website (*#dinosauralert*). I haven't logged into Facebook or Twitter since forever and definitely can't remember the passwords - mostly cuz I find social media could be a source of information overload and thus have been making an effort to protect my attention span (albeit not always successful) and time, you know, from the algorithmic digital overlords.
