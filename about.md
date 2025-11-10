@@ -15,7 +15,7 @@ But for those who are not familiar with the Chinese language system, here's a GN
 
 Some fun facts about myself:
 
-1. My family name `Yue` means Great Mountain in Chinese, although I should hike a lot more to live up to the name! In the words of the old country, `Yue` is `岳` - since Chinese is a pictogram language, a few millenniums ago, the character was initially scripted on oracle bones to resemble mountains before it evolved to its modern form on the right: ![yue](../assets/images/yue_oracle.png)
+1. My family name `Yue` means Great Mountain in Chinese, although I should hike a lot more to live up to the name! In the words of the old country, `Yue` is `岳` - since Chinese is a pictogram language, a few millenniums ago, the character was initially scripted on oracle bones to resemble mountains before it evolved to its modern form on the right: ![yue](../assets/images/yue_oracle_v2.jpeg)
 2. Part of my first name, `feng` (Chinese character: `峰`; similar etymology to my surname `岳`, as they share the same building block `山` that hints a character is mountain-related), means Peak in Chinese.. IKR? In a parallel universe, there must be a great explorer and mountaineer `Xiaofeng Yue` who's our Edmund Hillary equivalent!
 3. Not to label myself (definitely not a nihilist), but I have to admit that I am a huge fan of [Rick and Morty](https://www.imdb.com/title/tt2861424/){:target="_blank"}. Do yourself a favor, watch it if you haven't.
 4. I used to study in Harbin, a city in Northern China that's not far from Siberia. Winter there can be -30 degrees Celsius (sounds familiar eh?).
