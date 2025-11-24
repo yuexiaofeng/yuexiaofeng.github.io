@@ -49,10 +49,10 @@ The most impactful event to me, however, wasn’t the pandemic. It was late June
 We did the two-week isolation at home despite neither of us had any symptoms. It aint half bad actually. I had the fridge fully stocked before her arrival. My managers Harman and Frank sent us a heart-warming welcome basket, full of "sweets" - it was very kind of them. There were also grocery delivery services available - I think it was T&T who delivered the seasonal spot prawns just in time.
 
 It was the beginning of summer, not too hot, not too cold, just about right. We enjoyed wines, books and home theatres in the evenings. Good times.
-![wine](../assets/images/20210228/wine.jpg)
+<!-- ![wine](../assets/images/20210228/wine.jpg) -->
 
 As soon as the isolation was over, we did some socially-distanced and mask-wearing downtown sightseeing, such as Steam Clock (why is that even an attraction?!), Canada Place, Stanley, Sunset Beach, all by foot since we live in Kits. I remember one day we walked 17km straight! That gal sure can walk! 
-![canada_place](../assets/images/20210228/canada_place.jpg)
+<!-- ![canada_place](../assets/images/20210228/canada_place.jpg) -->
 
 As promised, I also took her to the one and only Steveston Pizza Company. It burnt a hole in my wallet but the pizza was actually pretty tasty.
 ![pizza](../assets/images/20210228/pizza.jpg)
